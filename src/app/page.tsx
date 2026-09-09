@@ -9,6 +9,7 @@ import { Quality } from "@/components/Quality";
 import { Packaging } from "@/components/Packaging";
 import { ChoosingAndWhy } from "@/components/ChoosingAndWhy";
 import { Locations } from "@/components/Locations";
+import { Managers } from "@/components/Managers";
 import { Contact } from "@/components/Contact";
 import { Footer } from "@/components/Footer";
 
@@ -27,6 +28,7 @@ export default function Home() {
         <Quality />
         <Packaging />
         <ChoosingAndWhy />
+        <Managers/>
         <Locations />
 
         {/* Message box immediately before Footer */}

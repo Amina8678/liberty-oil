@@ -13,27 +13,22 @@ const managers = [
     name: "Seth Kwame Twum",
     title: "Director — Ghana",
     image: "/images/manager-ghana.jpg",
-
     // Replace these two with the actual contact details
-    phone: "+233 XX XXX XXXX",
-    whatsapp: "233XXXXXXXXX",
+    phone: "+233 59 953 8678",
+    whatsapp: "233599538678",
     email: "ghana@libertyhealth.com",
-
     location: "Accra, Ghana",
     address: "18 Junction, Spintex Road, opposite DSTV, Accra, Ghana",
   },
-
   {
     region: "UK",
     name: "UK Director",
     title: "Director — United Kingdom",
     image: "/images/manager-uk.jpg",
-
     // Replace these with the actual UK contact details
     phone: "+44 XX XXXX XXXX",
     whatsapp: "44XXXXXXXXXX",
     email: "uk@libertyhealth.com",
-
     location: "United Kingdom",
     address: "United Kingdom",
   },
@@ -66,7 +61,6 @@ export function Managers() {
 
         {/* DIRECTORS */}
         <div className="mt-14 grid md:grid-cols-2 gap-8">
-
           {managers.map((manager) => (
             <article
               key={manager.region}
@@ -84,7 +78,6 @@ export function Managers() {
 
               {/* INFORMATION */}
               <div className="p-7">
-
                 <p className="text-xs uppercase tracking-[0.2em] text-gold font-semibold">
                   {manager.region}
                 </p>
@@ -148,14 +141,16 @@ export function Managers() {
                 {/* CONTACT BUTTONS */}
                 <div className="mt-8 grid grid-cols-2 gap-3">
 
+                  {/* CALL DIRECTOR */}
                   <a
                     href={`tel:${manager.phone.replace(/\s/g, "")}`}
-                    className="inline-flex items-center justify-center gap-2 border border-olive-deep text-olive-deep px-4 py-3 text-sm font-medium hover:bg-olive-deep hover:text-white transition"
+                    className="inline-flex items-center justify-center gap-2 border border-olive-deep text-olive-deep px-4 py-3 text-sm font-medium"
                   >
                     <Phone size={17} />
                     Call Director
                   </a>
 
+                  {/* WHATSAPP */}
                   <a
                     href={`https://wa.me/${manager.whatsapp}`}
                     target="_blank"
@@ -167,12 +162,11 @@ export function Managers() {
                   </a>
 
                 </div>
-
               </div>
             </article>
           ))}
-
         </div>
+
       </div>
     </section>
   );
