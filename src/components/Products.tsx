@@ -10,7 +10,8 @@ const oils = [
     description:
       "Cold-extracted from the finest olives, hand-harvested in the first mid-September harvest and pressed within hours of picking. Produced in limited quantities with a rich, distinctive character.",
     image: "/images/event-olive-oil-table.jpeg",
-    uses: "Ideal for finishing dishes, dipping, salads and premium culinary applications.",
+    uses:
+      "Ideal for finishing dishes, dipping, salads and premium culinary applications.",
   },
   {
     id: 2,
@@ -19,7 +20,8 @@ const oils = [
     description:
       "A smooth and balanced extra virgin olive oil made from carefully selected olives from the Aegean coast.",
     image: "/images/event-olive-oil-hand.jpeg",
-    uses: "Excellent for everyday meals, salads, sauces and Mediterranean cooking.",
+    uses:
+      "Excellent for everyday meals, salads, sauces and Mediterranean cooking.",
   },
   {
     id: 3,
@@ -28,7 +30,8 @@ const oils = [
     description:
       "Cold-pressed to preserve its natural aroma and flavour, giving the oil a fresh and distinctive character.",
     image: "/images/event-olive-oil-table.jpeg",
-    uses: "Best enjoyed raw in dipping, drizzling, salad dressings and marinades.",
+    uses:
+      "Best enjoyed raw in dipping, drizzling, salad dressings and marinades.",
   },
   {
     id: 4,
@@ -37,7 +40,8 @@ const oils = [
     description:
       "A refined olive oil with a lighter taste and high smoke point, making it suitable for everyday cooking.",
     image: "/images/event-olive-oil-hand.jpeg",
-    uses: "Suitable for frying, cooking and other high-temperature applications.",
+    uses:
+      "Suitable for frying, cooking and other high-temperature applications.",
   },
 ];
 
@@ -86,14 +90,11 @@ export function Products() {
 
   return (
     <section
-      id="products" href="#products"
+      id="products"
       className="bg-paper py-20 md:py-28"
     >
       <div className="container-x">
-
-        {/* =====================================================
-            HEADER
-            ===================================================== */}
+        {/* HEADER */}
 
         <div className="max-w-3xl">
           <div className="mb-5 flex items-center gap-3">
@@ -120,14 +121,12 @@ export function Products() {
           </p>
         </div>
 
-        {/* =====================================================
-            FEATURED PRODUCT IMAGE
-            ===================================================== */}
+        {/* FEATURED PRODUCT IMAGE */}
 
         <div className="mt-12 overflow-hidden rounded-[2rem] bg-near-black shadow-[0_25px_80px_rgba(8,59,82,0.15)]">
           <div className="grid min-h-[540px] lg:grid-cols-2">
-
             {/* IMAGE */}
+
             <div className="relative min-h-[420px] overflow-hidden">
               <img
                 src={selectedImage}
@@ -145,8 +144,8 @@ export function Products() {
             </div>
 
             {/* CONTENT */}
-            <div className="flex flex-col justify-center p-8 text-white md:p-12 lg:p-16">
 
+            <div className="flex flex-col justify-center p-8 text-white md:p-12 lg:p-16">
               <p className="text-sm font-semibold uppercase tracking-[0.2em] text-primary-blue">
                 Our Collection
               </p>
@@ -165,13 +164,13 @@ export function Products() {
               </p>
 
               {/* IMAGE SELECTOR */}
+
               <div className="mt-8">
                 <p className="mb-3 text-xs font-semibold uppercase tracking-[0.15em] text-white/50">
                   Product images
                 </p>
 
                 <div className="flex gap-3">
-
                   <button
                     type="button"
                     onClick={() =>
@@ -215,20 +214,15 @@ export function Products() {
                       className="h-full w-full object-cover"
                     />
                   </button>
-
                 </div>
               </div>
-
             </div>
           </div>
         </div>
 
-        {/* =====================================================
-            OLIVE OIL COLLECTION
-            ===================================================== */}
+        {/* OLIVE OIL COLLECTION */}
 
         <div className="mt-20">
-
           <div className="mb-10 max-w-2xl">
             <p className="text-sm font-semibold uppercase tracking-[0.15em] text-primary-blue">
               Olive Oil Collection
@@ -245,16 +239,14 @@ export function Products() {
           </div>
 
           <div className="grid gap-7 md:grid-cols-2">
-
             {oils.map((product) => (
               <article
                 key={product.id}
                 className="group overflow-hidden rounded-[2rem] bg-white shadow-[0_15px_50px_rgba(8,59,82,0.08)] transition duration-300 hover:-translate-y-1 hover:shadow-[0_25px_70px_rgba(8,59,82,0.14)]"
               >
-
                 {/* PRODUCT IMAGE */}
-                <div className="relative h-80 overflow-hidden bg-[#eef9fd]">
 
+                <div className="relative h-80 overflow-hidden bg-[#eef9fd]">
                   <img
                     src={product.image}
                     alt={product.name}
@@ -266,12 +258,11 @@ export function Products() {
                       Event
                     </span>
                   </div>
-
                 </div>
 
                 {/* PRODUCT INFORMATION */}
-                <div className="p-7 md:p-8">
 
+                <div className="p-7 md:p-8">
                   <h4 className="font-display text-2xl font-semibold leading-tight text-near-black">
                     {product.name}
                   </h4>
@@ -293,20 +284,15 @@ export function Products() {
                       {product.uses}
                     </p>
                   </div>
-
                 </div>
               </article>
             ))}
-
           </div>
         </div>
 
-        {/* =====================================================
-            MEDITERRANEAN LARDER
-            ===================================================== */}
+        {/* MEDITERRANEAN LARDER */}
 
         <div className="mt-24">
-
           <div className="mb-10 max-w-2xl">
             <p className="text-sm font-semibold uppercase tracking-[0.15em] text-primary-blue">
               Mediterranean Larder
@@ -323,17 +309,13 @@ export function Products() {
           </div>
 
           <div className="grid gap-5 sm:grid-cols-2 lg:grid-cols-4">
-
             {larder.map((product) => (
               <article
                 key={product.name}
                 className="rounded-[1.75rem] bg-[#eef9fd] p-6 transition duration-300 hover:-translate-y-1 hover:bg-[#dff3fb]"
               >
-
                 <div className="flex h-11 w-11 items-center justify-center rounded-full bg-primary-blue text-white">
-                  <span className="text-lg">
-                    ✦
-                  </span>
+                  <span className="text-lg">✦</span>
                 </div>
 
                 <h4 className="mt-6 font-display text-xl font-semibold text-near-black">
@@ -343,21 +325,15 @@ export function Products() {
                 <p className="mt-3 text-sm leading-6 text-ink/65">
                   {product.description}
                 </p>
-
               </article>
             ))}
-
           </div>
         </div>
 
-        {/* =====================================================
-            INFORMATION NOTE
-            ===================================================== */}
+        {/* INFORMATION NOTE */}
 
         <div className="mt-16 rounded-[2rem] bg-near-black p-8 text-white md:p-10">
-
           <div className="flex flex-col gap-5 md:flex-row md:items-center md:justify-between">
-
             <div>
               <p className="text-sm font-semibold uppercase tracking-[0.15em] text-primary-blue">
                 Product Information
@@ -374,9 +350,7 @@ export function Products() {
               enquiries and availability, please contact Liberty
               Health Ltd directly.
             </p>
-
           </div>
-
         </div>
       </div>
     </section>
