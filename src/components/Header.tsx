@@ -6,10 +6,9 @@ import { Menu, X } from "lucide-react";
 const links = [
   { href: "#about", label: "About" },
   { href: "#process", label: "Grove to Bottle" },
-  { href: "/products", label: "Products" },
+  { href: "#products", label: "Products" },
   { href: "#quality", label: "Quality" },
   { href: "#locations", label: "Locations" },
-  { href: "#management", label: "Management" },
 ];
 
 export function Header() {
@@ -17,49 +16,68 @@ export function Header() {
   const [scrolled, setScrolled] = useState(false);
 
   useEffect(() => {
-    const onScroll = () => setScrolled(window.scrollY > 8);
+    const onScroll = () => {
+      setScrolled(window.scrollY > 8);
+    };
+
     onScroll();
+
     window.addEventListener("scroll", onScroll);
-    return () => window.removeEventListener("scroll", onScroll);
+
+    return () => {
+      window.removeEventListener("scroll", onScroll);
+    };
   }, []);
 
   return (
     <header
       className={`sticky top-0 z-50 transition-colors duration-300 ${
-        scrolled ? "bg-paper/95 backdrop-blur border-b border-[var(--line)]" : "bg-transparent"
+        scrolled
+          ? "bg-white/95 backdrop-blur border-b border-[#083b52]/10"
+          : "bg-transparent"
       }`}
     >
       <div className="container-x flex items-center justify-between py-4">
-        <a href="#top" className="flex items-baseline gap-2">
-          <span className="font-display text-xl tracking-tight text-olive-deep">
+
+        {/* Logo */}
+        <a
+          href="#top"
+          className="flex items-baseline gap-2"
+        >
+          <span className="font-display text-xl tracking-tight text-[#083b52]">
             Liberty Health
           </span>
-          <span className="hidden sm:inline text-[11px] text-olive-mid font-medium">
+
+          <span className="hidden text-[11px] font-medium text-[#0b526e] sm:inline">
             trading as Event
           </span>
         </a>
 
-        <nav className="hidden md:flex items-center gap-8">
-          {links.map((l) => (
+        {/* Desktop Navigation */}
+        <nav className="hidden items-center gap-8 md:flex">
+          {links.map((link) => (
             <a
-              key={l.href}
-              href={l.href}
-              className="text-sm text-ink/80 hover:text-olive-deep transition-colors"
+              key={link.href}
+              href={link.href}
+              className="text-sm text-[#083b52]/80 transition-colors hover:text-[#09b1ec]"
             >
-              {l.label}
+              {link.label}
             </a>
           ))}
+
           <a
             href="#contact"
-            className="text-sm border border-olive-deep/40 text-olive-deep px-4 py-2 hover:bg-olive-deep hover:text-limestone transition-colors"
+            className="border border-[#083b52]/30 px-4 py-2 text-sm text-[#083b52] transition-colors hover:bg-[#083b52] hover:text-white"
           >
             Get in touch
           </a>
         </nav>
 
+        {/* Mobile Menu Button */}
         <button
-          className="md:hidden p-2 text-olive-deep"
-          onClick={() => setOpen((v) => !v)}
+          type="button"
+          className="p-2 text-[#083b52] md:hidden"
+          onClick={() => setOpen((value) => !value)}
           aria-label={open ? "Close menu" : "Open menu"}
           aria-expanded={open}
         >
@@ -67,26 +85,30 @@ export function Header() {
         </button>
       </div>
 
+      {/* Mobile Navigation */}
       {open && (
-        <div className="md:hidden border-t border-[var(--line)] bg-paper">
+        <div className="border-t border-[#083b52]/10 bg-white md:hidden">
           <nav className="container-x flex flex-col py-4">
-            {links.map((l) => (
+
+            {links.map((link) => (
               <a
-                key={l.href}
-                href={l.href}
-                className="py-3 text-base text-ink/85 border-b border-[var(--line)] last:border-none"
+                key={link.href}
+                href={link.href}
+                className="border-b border-[#083b52]/10 py-3 text-base text-[#083b52]/85 last:border-none"
                 onClick={() => setOpen(false)}
               >
-                {l.label}
+                {link.label}
               </a>
             ))}
+
             <a
               href="#contact"
-              className="mt-4 text-center border border-olive-deep text-olive-deep px-4 py-3"
+              className="mt-4 border border-[#083b52] px-4 py-3 text-center text-[#083b52]"
               onClick={() => setOpen(false)}
             >
               Get in touch
             </a>
+
           </nav>
         </div>
       )}

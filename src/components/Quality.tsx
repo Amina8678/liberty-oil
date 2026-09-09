@@ -83,7 +83,7 @@ export function Quality() {
           <div className="order-1 lg:order-2">
             <div className="image-premium relative aspect-[4/5] overflow-hidden">
               <Image
-                src="/images/event-olive-oil-hand.jpg"
+                src="/images/event-olive-oil-hand.jpeg"
                 alt="Event Extra Virgin Olive Oil bottle in an olive grove"
                 fill
                 className="object-cover"

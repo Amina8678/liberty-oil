@@ -86,7 +86,7 @@ export function Products() {
 
   return (
     <section
-      id="products"
+      id="products" href="#products"
       className="bg-paper py-20 md:py-28"
     >
       <div className="container-x">
@@ -378,129 +378,6 @@ export function Products() {
           </div>
 
         </div>
-
-        {/* =====================================================
-    SIMPLE MESSAGE BOX
-    ===================================================== */}
-
-<div className="mt-20 rounded-[2rem] bg-near-black p-8 text-white md:p-10">
-  <div className="mx-auto max-w-3xl text-center">
-
-    <p className="text-sm font-semibold uppercase tracking-[0.2em] text-primary-blue">
-      Get in Touch
-    </p>
-
-    <h3 className="mt-3 font-display text-3xl font-semibold md:text-4xl">
-      Have a question about our products?
-    </h3>
-
-    <p className="mx-auto mt-4 max-w-xl text-sm leading-7 text-white/65">
-      Send us a message and our team will be happy to assist you
-      with product information and general enquiries.
-    </p>
-
-    <form
-      onSubmit={(event) => {
-        event.preventDefault();
-
-        const form = event.currentTarget;
-
-        const name = (
-          form.elements.namedItem("messageName") as HTMLInputElement
-        ).value;
-
-        const email = (
-          form.elements.namedItem("messageEmail") as HTMLInputElement
-        ).value;
-
-        const message = (
-          form.elements.namedItem("messageText") as HTMLTextAreaElement
-        ).value;
-
-        const subject = encodeURIComponent(
-          `Website enquiry from ${name}`
-        );
-
-        const body = encodeURIComponent(
-          `Name: ${name}\nEmail: ${email}\n\nMessage:\n${message}`
-        );
-
-        window.location.href =
-          `mailto:ghana@libertyhealth.com?subject=${subject}&body=${body}`;
-      }}
-      className="mx-auto mt-8 max-w-2xl space-y-4 text-left"
-    >
-
-      {/* Name */}
-      <div>
-        <label
-          htmlFor="messageName"
-          className="mb-2 block text-sm font-medium text-white/80"
-        >
-          Your Name
-        </label>
-
-        <input
-          id="messageName"
-          name="messageName"
-          type="text"
-          required
-          placeholder="Enter your name"
-          className="w-full rounded-2xl border border-white/10 bg-white/10 px-5 py-4 text-sm text-white outline-none placeholder:text-white/35 focus:border-primary-blue focus:ring-2 focus:ring-primary-blue/20"
-        />
-      </div>
-
-      {/* Email */}
-      <div>
-        <label
-          htmlFor="messageEmail"
-          className="mb-2 block text-sm font-medium text-white/80"
-        >
-          Email Address
-        </label>
-
-        <input
-          id="messageEmail"
-          name="messageEmail"
-          type="email"
-          required
-          placeholder="you@example.com"
-          className="w-full rounded-2xl border border-white/10 bg-white/10 px-5 py-4 text-sm text-white outline-none placeholder:text-white/35 focus:border-primary-blue focus:ring-2 focus:ring-primary-blue/20"
-        />
-      </div>
-
-      {/* Message */}
-      <div>
-        <label
-          htmlFor="messageText"
-          className="mb-2 block text-sm font-medium text-white/80"
-        >
-          Message
-        </label>
-
-        <textarea
-          id="messageText"
-          name="messageText"
-          rows={5}
-          required
-          placeholder="Write your message here..."
-          className="w-full resize-none rounded-2xl border border-white/10 bg-white/10 px-5 py-4 text-sm text-white outline-none placeholder:text-white/35 focus:border-primary-blue focus:ring-2 focus:ring-primary-blue/20"
-        />
-      </div>
-
-      {/* Send */}
-      <button
-        type="submit"
-        className="w-full rounded-full bg-primary-blue px-6 py-4 text-sm font-semibold text-white transition hover:opacity-90"
-      >
-        Send Message
-      </button>
-
-    </form>
-
-      </div>
-    </div>
-
       </div>
     </section>
   );
