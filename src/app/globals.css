@@ -1,43 +1,108 @@
+@import "@fontsource/fraunces/400.css";
+@import "@fontsource/fraunces/500.css";
+@import "@fontsource/fraunces/600.css";
+@import "@fontsource/fraunces/700.css";
+
+@import "@fontsource/work-sans/400.css";
+@import "@fontsource/work-sans/500.css";
+@import "@fontsource/work-sans/600.css";
+@import "@fontsource/work-sans/700.css";
+
 @import "tailwindcss";
 
 :root {
-  --limestone: #efe9d6;
-  --limestone-dim: #e6ded4;
-  --paper: #f7f4ea;
-  --ink: #22241a;
-  --olive-deep: #33402a;
-  --olive-mid: #586b3b;
-  --olive-soft: #93a374;
-  --gold: #b98a2e;
-  --gold-bright: #d3a545;
-  --dusk: #1f3541;
-  --dusk-soft: #2c4a59;
-  --near-black: #17180f;
-  --line: rgba(34, 36, 26, 0.14);
-  --line-on-dark: rgba(239, 233, 214, 0.18);
+  /* ========================================
+     BRAND BACKGROUND COLOURS
+     ======================================== */
 
-  --font-display: "Fraunces", ui-serif, Georgia, serif;
-  --font-body: "Work Sans", ui-sans-serif, system-ui, sans-serif;
+  --primary-blue: #09b1ec;
+  --secondary-blue: #65c2f5;
+
+  /* ========================================
+     LIGHT BACKGROUNDS
+     ======================================== */
+
+  --limestone: #eef9fd;
+  --limestone-dim: #dff3fb;
+  --paper: #ffffff;
+
+  /* ========================================
+     TEXT COLOURS
+     ======================================== */
+
+  --ink: #17232b;
+  --text-dark: #17232b;
+  --text-muted: #52616a;
+  --text-white: #ffffff;
+
+  /* ========================================
+     DARK BLUE
+     ======================================== */
+
+  --dusk: #083b52;
+  --dusk-soft: #0b526e;
+  --near-black: #071c27;
+
+  /* ========================================
+     ACCENT COLOURS
+     ======================================== */
+
+  --olive-deep: #09b1ec;
+  --olive-mid: #65c2f5;
+  --olive-soft: #9ddcf7;
+
+  --gold: #09b1ec;
+  --gold-bright: #65c2f5;
+
+  /* ========================================
+     BORDERS
+     ======================================== */
+
+  --line: rgba(9, 177, 236, 0.18);
+  --line-on-dark: rgba(255, 255, 255, 0.22);
+
+  /* ========================================
+     FONTS
+     ======================================== */
+
+  --font-display-family: "Fraunces", ui-serif, Georgia, serif;
+  --font-body-family: "Work Sans", ui-sans-serif, system-ui, sans-serif;
 }
 
 @theme inline {
+  --color-primary-blue: var(--primary-blue);
+  --color-secondary-blue: var(--secondary-blue);
+
   --color-limestone: var(--limestone);
+  --color-limestone-dim: var(--limestone-dim);
   --color-paper: var(--paper);
+
   --color-ink: var(--ink);
+  --color-text-dark: var(--text-dark);
+  --color-text-muted: var(--text-muted);
+  --color-text-white: var(--text-white);
+
   --color-olive-deep: var(--olive-deep);
   --color-olive-mid: var(--olive-mid);
   --color-olive-soft: var(--olive-soft);
+
   --color-gold: var(--gold);
   --color-gold-bright: var(--gold-bright);
+
   --color-dusk: var(--dusk);
   --color-dusk-soft: var(--dusk-soft);
   --color-near-black: var(--near-black);
-  --font-display: var(--font-display);
-  --font-body: var(--font-body);
+
+  --font-display: var(--font-display-family);
+  --font-body: var(--font-body-family);
 }
 
+/* ========================================
+   GLOBAL
+   ======================================== */
+
 * {
-  border-color: var(--line);
+  box-sizing: border-box;
 }
 
 html {
@@ -45,52 +110,492 @@ html {
 }
 
 body {
+  margin: 0;
+  padding: 0;
   background: var(--paper);
   color: var(--ink);
-  font-family: var(--font-body);
+  font-family: var(--font-body-family);
+  font-size: 16px;
+  line-height: 1.6;
+
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
 }
 
-@media (prefers-reduced-motion: reduce) {
-  html {
-    scroll-behavior: auto;
-  }
-  * {
-    animation-duration: 0.001ms !important;
-    animation-iteration-count: 1 !important;
-    transition-duration: 0.001ms !important;
-  }
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  font-family: var(--font-display-family);
+  color: var(--primary-blue);
+  font-weight: 600;
+  line-height: 1.15;
 }
+
+p {
+  margin: 0;
+  color: var(--ink);
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+button {
+  font-family: inherit;
+}
+
+button,
+a {
+  -webkit-tap-highlight-color: transparent;
+}
+
+/* ========================================
+   FONTS
+   ======================================== */
+
+.font-display {
+  font-family: var(--font-display-family);
+}
+
+.font-body {
+  font-family: var(--font-body-family);
+}
+
+/* ========================================
+   TEXT COLOURS
+   ======================================== */
+
+.text-primary {
+  color: #09b1ec;
+}
+
+.text-secondary {
+  color: #65c2f5;
+}
+
+.text-muted {
+  color: #52616a;
+}
+
+.text-dark {
+  color: #17232b;
+}
+
+.text-white {
+  color: #ffffff;
+}
+
+/* ========================================
+   BACKGROUND COLOURS
+   ======================================== */
+
+.bg-primary-blue {
+  background-color: #09b1ec;
+}
+
+.bg-secondary-blue {
+  background-color: #65c2f5;
+}
+
+.bg-limestone {
+  background-color: #eef9fd;
+}
+
+.bg-limestone-dim {
+  background-color: #dff3fb;
+}
+
+.bg-paper {
+  background-color: #ffffff;
+}
+
+.bg-dusk {
+  background-color: #083b52;
+}
+
+.bg-dusk-soft {
+  background-color: #0b526e;
+}
+
+.bg-near-black {
+  background-color: #071c27;
+}
+
+/* ========================================
+   EXISTING CLASS COMPATIBILITY
+   ======================================== */
+
+.bg-olive-deep {
+  background-color: #09b1ec;
+}
+
+.bg-olive-mid {
+  background-color: #65c2f5;
+}
+
+.bg-olive-soft {
+  background-color: #9ddcf7;
+}
+
+.text-olive-deep {
+  color: #09b1ec;
+}
+
+.text-olive-mid {
+  color: #65c2f5;
+}
+
+.text-olive-soft {
+  color: #9ddcf7;
+}
+
+.bg-gold {
+  background-color: #09b1ec;
+}
+
+.bg-gold-bright {
+  background-color: #65c2f5;
+}
+
+.text-gold {
+  color: #09b1ec;
+}
+
+.text-gold-bright {
+  color: #65c2f5;
+}
+
+/* ========================================
+   ALL INTERACTIVE ELEMENTS
+   ======================================== */
+
+button,
+a,
+.btn-primary,
+.btn-secondary,
+.call-director,
+.contact-button,
+.button-outline {
+  transition:
+    background-color 0.25s ease,
+    color 0.25s ease,
+    border-color 0.25s ease,
+    transform 0.25s ease,
+    box-shadow 0.25s ease;
+}
+
+/* ========================================
+   PRIMARY BUTTON
+   ======================================== */
+
+.btn-primary {
+  background-color: #09b1ec;
+  color: #ffffff;
+  border: 1px solid #09b1ec;
+  padding: 12px 24px;
+}
+
+.btn-primary:hover {
+  background-color: #65c2f5;
+  color: #ffffff;
+  border-color: #65c2f5;
+  transform: translateY(-2px);
+  box-shadow: 0 8px 20px rgba(9, 177, 236, 0.30);
+}
+
+/* ========================================
+   SECONDARY BUTTON
+   ======================================== */
+
+.btn-secondary {
+  background-color: #65c2f5;
+  color: #17232b;
+  border: 1px solid #65c2f5;
+  padding: 12px 24px;
+}
+
+.btn-secondary:hover {
+  background-color: #09b1ec;
+  color: #ffffff;
+  border-color: #09b1ec;
+  transform: translateY(-2px);
+  box-shadow: 0 8px 20px rgba(9, 177, 236, 0.30);
+}
+
+/* ========================================
+   CALL DIRECTOR
+   ======================================== */
+
+.call-director {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+
+  background-color: #09b1ec;
+  color: #ffffff;
+
+  border: 1px solid #09b1ec;
+
+  padding: 10px 18px;
+
+  font-weight: 500;
+}
+
+.call-director:hover {
+  background-color: #65c2f5;
+  color: #ffffff;
+  border-color: #65c2f5;
+
+  transform: translateY(-2px);
+
+  box-shadow: 0 8px 20px rgba(9, 177, 236, 0.30);
+}
+
+/* ========================================
+   CONTACT BUTTONS
+   ======================================== */
+
+.contact-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+
+  background-color: #09b1ec;
+  color: #ffffff;
+
+  border: 1px solid #09b1ec;
+
+  padding: 10px 18px;
+}
+
+.contact-button:hover {
+  background-color: #65c2f5;
+  color: #ffffff;
+  border-color: #65c2f5;
+
+  transform: translateY(-2px);
+
+  box-shadow: 0 8px 20px rgba(9, 177, 236, 0.30);
+}
+
+/* ========================================
+   OUTLINE BUTTON
+   ======================================== */
+
+.button-outline {
+  background-color: transparent;
+  color: #09b1ec;
+
+  border: 1px solid #09b1ec;
+
+  padding: 10px 18px;
+}
+
+.button-outline:hover {
+  background-color: #09b1ec;
+  color: #ffffff;
+  border-color: #09b1ec;
+
+  transform: translateY(-2px);
+
+  box-shadow: 0 8px 20px rgba(9, 177, 236, 0.30);
+}
+
+/* ========================================
+   BLUE SECTIONS
+   ======================================== */
+
+.bg-primary-blue h1,
+.bg-primary-blue h2,
+.bg-primary-blue h3,
+.bg-primary-blue h4,
+.bg-primary-blue h5,
+.bg-primary-blue h6,
+.bg-secondary-blue h1,
+.bg-secondary-blue h2,
+.bg-secondary-blue h3,
+.bg-secondary-blue h4,
+.bg-secondary-blue h5,
+.bg-secondary-blue h6 {
+  color: #ffffff;
+}
+
+.bg-primary-blue p,
+.bg-secondary-blue p {
+  color: rgba(255, 255, 255, 0.92);
+}
+
+/* ========================================
+   DARK SECTIONS
+   ======================================== */
+
+.bg-dusk h1,
+.bg-dusk h2,
+.bg-dusk h3,
+.bg-dusk h4,
+.bg-dusk h5,
+.bg-dusk h6,
+.bg-dusk-soft h1,
+.bg-dusk-soft h2,
+.bg-dusk-soft h3,
+.bg-dusk-soft h4,
+.bg-dusk-soft h5,
+.bg-dusk-soft h6,
+.bg-near-black h1,
+.bg-near-black h2,
+.bg-near-black h3,
+.bg-near-black h4,
+.bg-near-black h5,
+.bg-near-black h6 {
+  color: #ffffff;
+}
+
+.bg-dusk p,
+.bg-dusk-soft p,
+.bg-near-black p {
+  color: rgba(255, 255, 255, 0.85);
+}
+
+/* ========================================
+   SECTION LABEL
+   ======================================== */
+
+.section-label {
+  color: #09b1ec;
+  font-size: 0.8rem;
+  font-weight: 600;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+}
+
+/* ========================================
+   NAVIGATION HOVER
+   ======================================== */
+
+nav a {
+  transition:
+    color 0.25s ease,
+    background-color 0.25s ease;
+}
+
+nav a:hover {
+  color: #09b1ec;
+}
+
+/* ========================================
+   GENERAL LINK HOVER
+   ======================================== */
+
+.hover-text-primary:hover {
+  color: #09b1ec;
+}
+
+.hover-text-secondary:hover {
+  color: #65c2f5;
+}
+
+/* ========================================
+   CARD HOVER
+   ======================================== */
+
+.card-hover {
+  transition:
+    transform 0.25s ease,
+    box-shadow 0.25s ease,
+    border-color 0.25s ease;
+}
+
+.card-hover:hover {
+  transform: translateY(-4px);
+  border-color: #65c2f5;
+  box-shadow: 0 12px 30px rgba(9, 177, 236, 0.18);
+}
+
+/* ========================================
+   ICON HOVER
+   ======================================== */
+
+.icon-hover {
+  transition:
+    color 0.25s ease,
+    background-color 0.25s ease,
+    transform 0.25s ease;
+}
+
+.icon-hover:hover {
+  color: #ffffff;
+  background-color: #09b1ec;
+  transform: scale(1.05);
+}
+
+/* ========================================
+   INPUTS
+   ======================================== */
+
+input,
+textarea,
+select {
+  font-family: var(--font-body-family);
+}
+
+input::placeholder,
+textarea::placeholder {
+  color: #52616a;
+}
+
+input:focus,
+textarea:focus,
+select:focus {
+  outline: none;
+  border-color: #09b1ec;
+  box-shadow: 0 0 0 3px rgba(9, 177, 236, 0.12);
+}
+
+/* ========================================
+   CONTAINER
+   ======================================== */
 
 .container-x {
-  width: 100%;
-  max-width: 74rem;
-  margin-left: auto;
-  margin-right: auto;
-  padding-left: 1.5rem;
-  padding-right: 1.5rem;
+  width: min(1180px, calc(100% - 40px));
+  margin-inline: auto;
 }
 
 @media (min-width: 768px) {
   .container-x {
-    padding-left: 2.5rem;
-    padding-right: 2.5rem;
+    width: min(1180px, calc(100% - 64px));
   }
 }
 
-.rule {
-  border-top: 1px solid var(--line);
+/* ========================================
+   SELECTION
+   ======================================== */
+
+::selection {
+  background: #09b1ec;
+  color: #ffffff;
 }
 
-.rule-dark {
-  border-top: 1px solid var(--line-on-dark);
-}
+/* ========================================
+   RESPONSIVE
+   ======================================== */
 
-a:focus-visible,
-button:focus-visible {
-  outline: 2px solid var(--gold);
-  outline-offset: 3px;
-}
+@media (max-width: 767px) {
+  body {
+    font-size: 15px;
+  }
 
-.font-display {
-  font-family: var(--font-display);
+  h1 {
+    line-height: 1.1;
+  }
+
+  h2 {
+    line-height: 1.15;
+  }
 }

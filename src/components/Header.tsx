@@ -55,12 +55,6 @@ export function Header() {
           >
             Get in touch
           </a>
-          <a
-            href="/login"
-            className="text-sm border border-olive-deep/40 text-olive-deep px-4 py-2 hover:bg-olive-deep hover:text-limestone transition-colors"
-          >
-            Login
-          </a>
         </nav>
 
         <button
