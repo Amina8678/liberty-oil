@@ -1,46 +1,99 @@
-const certs = [
-  "HALAL Food Certified",
-  "Non-GMO Project Verified",
-  "FSSC 22000",
-  "FDA Approved",
-  "Kosher Certified",
-  "ISO 9001",
-];
+import Image from "next/image";
 
 export function Quality() {
   return (
-    <section id="quality" className="bg-paper">
-      <div className="container-x py-20 md:py-28">
-        <div className="grid md:grid-cols-12 gap-10 md:gap-16">
-          <div className="md:col-span-4">
-            <h2 className="font-display text-3xl md:text-4xl text-olive-deep leading-tight">
-              Quality control &amp; certification
+    <section id="quality" className="bg-limestone py-20 md:py-28">
+      <div className="container-x">
+
+        <div className="grid items-center gap-14 lg:grid-cols-2 lg:gap-20">
+
+          {/* Content */}
+          <div className="order-2 lg:order-1">
+            <span className="section-label">
+              Our Quality
+            </span>
+
+            <h2 className="mt-5 max-w-xl text-4xl md:text-5xl">
+              Quality you can see. Taste you can trust.
             </h2>
-          </div>
-          <div className="md:col-span-7 md:col-start-6 text-[17px] leading-relaxed text-ink/85">
-            <p>
-              An in-house quality control team checks every order against
-              HACCP, ISO 9001, Kosher, Halal and other hygiene protocols,
-              from cultivation through processing, packaging and transport.
-              Production complies with the Turkish Food Codex, and Event
-              offers the world&apos;s first Turkish Organic Olive
-              assortment.
+
+            <p className="mt-7 max-w-xl text-lg leading-8 text-muted">
+              We believe premium olive oil begins with the quality of
+              the olives and continues through every stage of
+              production, handling and packaging.
             </p>
+
+            <div className="mt-9 space-y-5">
+
+              <div className="flex gap-4">
+                <div className="flex h-11 w-11 shrink-0 items-center justify-center rounded-full bg-primary-blue text-white">
+                  01
+                </div>
+
+                <div>
+                  <h3 className="text-xl">
+                    Selected Olives
+                  </h3>
+
+                  <p className="mt-1 text-sm leading-6 text-muted">
+                    We focus on carefully selected olives as the
+                    starting point for quality oil.
+                  </p>
+                </div>
+              </div>
+
+              <div className="flex gap-4">
+                <div className="flex h-11 w-11 shrink-0 items-center justify-center rounded-full bg-primary-blue text-white">
+                  02
+                </div>
+
+                <div>
+                  <h3 className="text-xl">
+                    Cold Pressing
+                  </h3>
+
+                  <p className="mt-1 text-sm leading-6 text-muted">
+                    Cold pressing helps preserve the natural character
+                    and qualities of the oil.
+                  </p>
+                </div>
+              </div>
+
+              <div className="flex gap-4">
+                <div className="flex h-11 w-11 shrink-0 items-center justify-center rounded-full bg-primary-blue text-white">
+                  03
+                </div>
+
+                <div>
+                  <h3 className="text-xl">
+                    Careful Packaging
+                  </h3>
+
+                  <p className="mt-1 text-sm leading-6 text-muted">
+                    Every bottle is prepared to present our product
+                    with consistency and care.
+                  </p>
+                </div>
+              </div>
+
+            </div>
           </div>
+
+          {/* Image */}
+          <div className="order-1 lg:order-2">
+            <div className="image-premium relative aspect-[4/5] overflow-hidden">
+              <Image
+                src="/images/event-olive-oil-hand.jpg"
+                alt="Event Extra Virgin Olive Oil bottle in an olive grove"
+                fill
+                className="object-cover"
+                sizes="(max-width: 1024px) 100vw, 50vw"
+              />
+            </div>
+          </div>
+
         </div>
 
-        <div className="mt-14 border-y border-[var(--line)] py-8 overflow-x-auto">
-          <div className="flex flex-wrap gap-x-10 gap-y-4 justify-between">
-            {certs.map((c) => (
-              <span
-                key={c}
-                className="font-display text-lg md:text-xl text-olive-deep whitespace-nowrap"
-              >
-                {c}
-              </span>
-            ))}
-          </div>
-        </div>
       </div>
     </section>
   );
