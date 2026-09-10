@@ -1129,22 +1129,53 @@ hr {
    ABOUT
    ========================================================= */
 
-#about {
-  color: #071c27;
+/* Our Vision panel */
+#about .bg-\[\#083b52\],
+#about .bg-\[\#0b526e\],
+#about .bg-dusk,
+#about .bg-dusk-soft {
+  color: #ffffff !important;
 }
 
-#about h1,
-#about h2,
-#about h3,
-#about h4,
-#about h5,
-#about h6 {
-  color: #071c27 !important;
+#about .bg-\[\#083b52\] h1,
+#about .bg-\[\#083b52\] h2,
+#about .bg-\[\#083b52\] h3,
+#about .bg-\[\#083b52\] h4,
+#about .bg-\[\#083b52\] h5,
+#about .bg-\[\#083b52\] h6,
+#about .bg-\[\#083b52\] p,
+
+#about .bg-\[\#0b526e\] h1,
+#about .bg-\[\#0b526e\] h2,
+#about .bg-\[\#0b526e\] h3,
+#about .bg-\[\#0b526e\] h4,
+#about .bg-\[\#0b526e\] h5,
+#about .bg-\[\#0b526e\] h6,
+#about .bg-\[\#0b526e\] p,
+
+#about .bg-dusk h1,
+#about .bg-dusk h2,
+#about .bg-dusk h3,
+#about .bg-dusk h4,
+#about .bg-dusk h5,
+#about .bg-dusk h6,
+#about .bg-dusk p,
+
+#about .bg-dusk-soft h1,
+#about .bg-dusk-soft h2,
+#about .bg-dusk-soft h3,
+#about .bg-dusk-soft h4,
+#about .bg-dusk-soft h5,
+#about .bg-dusk-soft h6,
+#about .bg-dusk-soft p {
+  color: #ffffff !important;
 }
 
-#about p,
-#about li {
-  color: #52656f !important;
+#about .bg-\[\#083b52\] .text-\[\#65c2f5\],
+#about .bg-\[\#0b526e\] .text-\[\#65c2f5\],
+#about .bg-dusk .text-\[\#65c2f5\],
+#about .bg-dusk-soft .text-\[\#65c2f5\] {
+  color: #65c2f5 !important;
 }
 
 /* =========================================================
@@ -1229,12 +1260,10 @@ hr {
   color: #ffffff !important;
 }
 
-/* Sustainability labels and numbers */
 #sustainability .text-\[\#65c2f5\] {
   color: #65c2f5 !important;
 }
 
-/* Keep the card background dark */
 #sustainability .bg-\[\#071c27\] {
   background: #071c27 !important;
 }
