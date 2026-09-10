@@ -86,10 +86,10 @@ export function Hero() {
               {/* Buttons */}
               <div className="mt-9 flex flex-col gap-4 sm:flex-row">
                 <a
-                  href="/products"
+                  href="#products"
                   className="btn-primary"
                 >
-                  Shop Our Olive Oil
+                  Products
                 </a>
 
                 <a
