@@ -28,34 +28,57 @@ const steps = [
 
 export function Process() {
   return (
-    <section id="process" className="bg-dusk text-limestone">
+    <section
+      id="process"
+      className="bg-dusk"
+      style={{ color: "#ffffff" }}
+    >
       <div className="container-x py-20 md:py-28">
         <div className="grid md:grid-cols-12 gap-10">
           <div className="md:col-span-5">
-            <h2 className="font-display text-3xl md:text-4xl leading-tight">
+            <h2
+              className="font-display text-3xl md:text-4xl leading-tight"
+              style={{ color: "#ffffff" }}
+            >
               From grove to bottle
             </h2>
-            <p className="mt-5 text-limestone/75 leading-relaxed max-w-sm">
+
+            <p
+              className="mt-5 leading-relaxed max-w-sm"
+              style={{ color: "#ffffff" }}
+            >
               Hand-harvested, then cold-pressed below 27°C — the temperature
               that keeps aroma, nutrients and flavour intact, and yields a
               markedly higher concentration of phenolic compounds than other
               extraction methods.
             </p>
           </div>
+
           <div className="md:col-span-6 md:col-start-7 rule-dark">
             {steps.map((s) => (
               <div
                 key={s.n}
                 className="grid grid-cols-[3rem_1fr] gap-4 py-7 rule-dark first:border-t-0"
               >
-                <span className="font-display text-2xl text-gold-bright">
+                <span
+                  className="font-display text-2xl"
+                  style={{ color: "#65c2f5" }}
+                >
                   {s.n}
                 </span>
+
                 <div>
-                  <h3 className="text-base font-medium text-limestone">
+                  <h3
+                    className="text-base font-medium"
+                    style={{ color: "#ffffff" }}
+                  >
                     {s.title}
                   </h3>
-                  <p className="mt-2 text-[15px] text-limestone/70 leading-relaxed">
+
+                  <p
+                    className="mt-2 text-[15px] leading-relaxed"
+                    style={{ color: "#ffffff" }}
+                  >
                     {s.body}
                   </p>
                 </div>

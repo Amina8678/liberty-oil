@@ -1,15 +1,14 @@
 import { Header } from "@/components/Header";
 import { Hero } from "@/components/Hero";
 import { About } from "@/components/About";
+import { Directors } from "@/components/Directors";
+import { Managers } from "@/components/Managers";
+import { WhatWeDo } from "@/components/WhatWeDo";
 import { Process } from "@/components/Process";
 import { Sustainability } from "@/components/Sustainability";
 import { Products } from "@/components/Products";
-import { Benefits } from "@/components/Benefits";
 import { Quality } from "@/components/Quality";
-import { Packaging } from "@/components/Packaging";
-import { ChoosingAndWhy } from "@/components/ChoosingAndWhy";
 import { Locations } from "@/components/Locations";
-import { Managers } from "@/components/Managers";
 import { Contact } from "@/components/Contact";
 import { Footer } from "@/components/Footer";
 
@@ -20,18 +19,25 @@ export default function Home() {
 
       <main>
         <Hero />
+
         <About />
+
+        <Directors />
+
+        <Managers />
+
+        <WhatWeDo />
+
         <Process />
+
         <Sustainability />
+
         <Products />
-        <Benefits />
+
         <Quality />
-        <Packaging />
-        <ChoosingAndWhy />
-        <Managers/>
+
         <Locations />
 
-        {/* Message box immediately before Footer */}
         <Contact />
       </main>
 

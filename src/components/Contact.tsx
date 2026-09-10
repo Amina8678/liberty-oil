@@ -98,7 +98,7 @@ export function Contact() {
                 name="email"
                 type="email"
                 required
-                placeholder="you@example.com"
+                placeholder="you@libertyhealth.com"
                 className="block w-full rounded-xl border border-[#083b52]/20 bg-white px-5 py-4 text-[#071c27] placeholder:text-[#083b52]/50 outline-none transition focus:border-[#09b1ec] focus:ring-2 focus:ring-[#09b1ec]/20"
               />
             </div>

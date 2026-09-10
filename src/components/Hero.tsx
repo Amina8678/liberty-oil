@@ -1,131 +1,178 @@
-import { ContourLines } from "./OliveMotif";
-
-const stats = [
-  {
-    value: "10,000",
-    label: "olive trees, own gardens",
-  },
-  {
-    value: "300,000 m²",
-    label: "of grove on the Aegean coast",
-  },
-  {
-    value: "250 t",
-    label: "warehouse capacity",
-  },
-  {
-    value: "2020",
-    label: "founded, 100% Turkish capital",
-  },
-];
-
 export function Hero() {
   return (
     <section
       id="top"
-      className="relative min-h-[760px] overflow-hidden bg-near-black"
+      className="relative overflow-hidden bg-[#071c27]"
     >
-      {/* Hero Image */}
-      <img
-        src="/images/event-olive-oil-grove.jpeg"
-        alt="Event Extra Virgin Olive Oil in an olive grove"
-        className="absolute inset-0 h-full w-full object-cover object-center"
-      />
+      <div className="grid min-h-[760px] lg:grid-cols-[1.05fr_0.95fr]">
 
-      {/* Main dark overlay */}
-      <div className="absolute inset-0 bg-black/45" />
+        {/* LEFT — COMPANY */}
+        <div className="relative z-10 flex items-center">
 
-      {/* Left-to-right gradient for text readability */}
-      <div className="absolute inset-0 bg-gradient-to-r from-black/90 via-black/60 to-black/20" />
+          <div className="container-x w-full py-24 lg:py-32">
 
-      {/* Bottom gradient */}
-      <div className="absolute inset-x-0 bottom-0 h-64 bg-gradient-to-t from-black/80 via-black/30 to-transparent" />
+            <div className="max-w-3xl">
 
-      {/* Blue glow */}
-      <div className="pointer-events-none absolute -left-40 top-20 h-96 w-96 rounded-full bg-primary-blue/20 blur-3xl" />
+              {/* EYEBROW */}
+              <div className="mb-8 flex items-center gap-3">
 
-      {/* Decorative contour lines */}
-      <ContourLines
-        className="pointer-events-none absolute right-0 top-0 z-[1] hidden h-full w-1/2 text-white/10 lg:block"
-      />
+                <span className="h-px w-12 bg-[#09b1ec]" />
 
-      {/* Content */}
-      <div className="relative z-10">
-        <div className="container-x">
-          <div className="flex min-h-[760px] items-center py-20 md:py-28">
-            <div className="max-w-5xl">
+                <span className="text-xs font-semibold uppercase tracking-[0.22em] text-[#65c2f5]">
+                  Liberty Health Ltd
+                </span>
 
-              {/* Brand label */}
-              <div className="mb-7 flex items-center gap-3">
-                <span className="h-[2px] w-10 rounded-full bg-primary-blue" />
-
-                <p className="m-0 text-sm font-semibold uppercase tracking-[0.2em] text-white/90">
-                  Liberty Health Ltd · Event
-                </p>
               </div>
 
-              {/* Heading */}
-              <h1 className="max-w-5xl font-display text-5xl font-semibold leading-[1.02] tracking-tight text-white sm:text-6xl md:text-7xl lg:text-[5.5rem]">
-                Olive oil pressed cold,
+
+              {/* HEADLINE */}
+              <h1 className="font-display text-5xl font-semibold leading-[1.02] tracking-tight text-white sm:text-6xl md:text-7xl lg:text-[5.2rem]">
+                Building
                 <br />
 
-                <span className="text-primary-blue">
-                  on the coast where it grew.
+                <span className="text-[#09b1ec]">
+                  trusted value.
                 </span>
               </h1>
 
-              {/* Description */}
-              <p className="mt-7 max-w-2xl text-lg leading-8 text-white/85 md:text-xl">
-                Event is the extra virgin olive oil brand of Liberty
-                Health Ltd — a farmers&apos; enterprise on the Aegean
-                coast of Turkey, picked by hand and pressed within
-                hours, now finding its way from Izmir to London and
-                Accra.
+
+              {/* COMPANY INTRODUCTION */}
+              <p className="mt-8 max-w-2xl text-lg leading-8 text-white/75 md:text-xl">
+                Liberty Health Ltd is a UK-based company focused on
+                developing quality food products, building trusted
+                partnerships and connecting producers, suppliers and
+                customers across international markets.
               </p>
 
-              {/* Buttons */}
-              <div className="mt-9 flex flex-col gap-4 sm:flex-row">
-                <a
-                  href="#products"
-                  className="btn-primary"
-                >
-                  Products
-                </a>
+
+              {/* SECONDARY DESCRIPTION */}
+              <p className="mt-5 max-w-xl text-sm leading-7 text-white/50">
+                Established in 2020, the company combines entrepreneurial
+                leadership, sourcing expertise, quality assurance and
+                market development to create long-term value for customers
+                and business partners.
+              </p>
+
+
+              {/* BUTTONS */}
+              <div className="mt-10 flex flex-col gap-3 sm:flex-row">
 
                 <a
                   href="#about"
-                  className="button-outline border border-white/40 bg-white/10 text-white backdrop-blur-md hover:border-primary-blue hover:bg-white/20"
+                  className="inline-flex items-center justify-center bg-[#09b1ec] px-7 py-4 text-sm font-semibold text-white transition-colors hover:bg-white hover:text-[#083b52]"
                 >
-                  Discover Our Story
+                  Discover Liberty Health
                 </a>
+
+                <a
+                  href="#what-we-do"
+                  className="inline-flex items-center justify-center border border-white/30 px-7 py-4 text-sm font-semibold text-white transition-colors hover:border-[#09b1ec] hover:text-[#65c2f5]"
+                >
+                  What We Do
+                </a>
+
               </div>
 
-              {/* Statistics */}
-              <dl className="mt-14 grid max-w-5xl grid-cols-2 gap-x-8 gap-y-8 border-t border-white/20 pt-8 md:mt-20 md:grid-cols-4">
-                {stats.map((stat) => (
-                  <div key={stat.label}>
-                    <dt className="sr-only">
-                      {stat.label}
-                    </dt>
 
-                    <dd className="m-0 font-display text-3xl font-semibold text-white md:text-4xl">
-                      {stat.value}
-                    </dd>
+              {/* COMPANY FACTS */}
+              <div className="mt-16 grid grid-cols-2 border-t border-white/15 pt-7 sm:grid-cols-4">
 
-                    <p className="mt-1 max-w-[18ch] text-sm leading-snug text-white/65">
-                      {stat.label}
-                    </p>
-                  </div>
-                ))}
-              </dl>
+                <div className="border-r border-white/10 pr-5">
+
+                  <p className="font-display text-2xl font-semibold text-white">
+                    2020
+                  </p>
+
+                  <p className="mt-1 text-xs leading-5 text-white/45">
+                    Established
+                  </p>
+
+                </div>
+
+
+                <div className="border-r border-white/10 px-5">
+
+                  <p className="font-display text-2xl font-semibold text-white">
+                    UK
+                  </p>
+
+                  <p className="mt-1 text-xs leading-5 text-white/45">
+                    Company Base
+                  </p>
+
+                </div>
+
+
+                <div className="border-r border-white/10 px-5">
+
+                  <p className="font-display text-2xl font-semibold text-white">
+                    GH
+                  </p>
+
+                  <p className="mt-1 text-xs leading-5 text-white/45">
+                    West Africa
+                  </p>
+
+                </div>
+
+
+                <div className="pl-5">
+
+                  <p className="font-display text-2xl font-semibold text-white">
+                    B2B
+                  </p>
+
+                  <p className="mt-1 text-xs leading-5 text-white/45">
+                    Business Focus
+                  </p>
+
+                </div>
+
+              </div>
 
             </div>
-          </div>
-        </div>
-      </div>
 
-      {/* Final fade */}
-      <div className="pointer-events-none absolute bottom-0 left-0 right-0 z-[2] h-24 bg-gradient-to-t from-near-black/80 to-transparent" />
+          </div>
+
+        </div>
+
+
+        {/* RIGHT — COMPANY IMAGE */}
+        <div className="relative min-h-[520px] lg:min-h-[760px]">
+
+          <img
+            src="/images/event-olive-oil-grove.jpeg"
+            alt="Olive production and agricultural operations connected to Liberty Health"
+            className="absolute inset-0 h-full w-full object-cover"
+          />
+
+
+          {/* OVERLAY */}
+          <div className="absolute inset-0 bg-gradient-to-r from-[#071c27] via-[#071c27]/25 to-transparent" />
+
+          <div className="absolute inset-0 bg-gradient-to-t from-[#071c27]/70 via-transparent to-transparent" />
+
+
+          {/* COMPANY CARD */}
+          <div className="absolute bottom-10 right-8 max-w-xs border border-white/20 bg-[#071c27]/80 px-7 py-6 backdrop-blur-md">
+
+            <p className="text-[10px] font-semibold uppercase tracking-[0.2em] text-[#65c2f5]">
+              Our Company
+            </p>
+
+            <p className="mt-3 font-display text-2xl font-semibold text-white">
+              Liberty Health Ltd
+            </p>
+
+            <p className="mt-2 text-xs leading-6 text-white/55">
+              Quality products. Trusted relationships. Growing markets.
+            </p>
+
+          </div>
+
+        </div>
+
+      </div>
     </section>
   );
 }

@@ -11,61 +11,90 @@
 @import "tailwindcss";
 
 /* =========================================================
-   LIBERTY HEALTH — PREMIUM DESIGN SYSTEM
+   LIBERTY HEALTH LTD
+   PREMIUM CORPORATE DESIGN SYSTEM
    ========================================================= */
 
 :root {
-  /* Brand */
+  /* =======================================================
+     BRAND COLORS
+     ======================================================= */
+
   --primary-blue: #09b1ec;
   --primary-blue-hover: #078fca;
   --primary-blue-soft: #65c2f5;
   --primary-blue-light: #dff5fd;
 
-  /* Surfaces */
+  /* =======================================================
+     SURFACES
+     ======================================================= */
+
   --paper: #ffffff;
   --limestone: #f4fbfe;
   --limestone-dim: #e8f6fc;
   --surface-soft: #f6f9fb;
-  --surface-blue: #edf9fd;
+  --surface-blue: #eef9fd;
 
-  /* Text */
-  --ink: #14242d;
-  --text-dark: #14242d;
-  --text-muted: #60717a;
-  --text-light: #8a999f;
+  /* =======================================================
+     TEXT
+     ======================================================= */
+
+  --ink: #071c27;
+  --text-dark: #071c27;
+  --text-muted: #52656f;
+  --text-light: #7c8d95;
   --white: #ffffff;
 
-  /* Dark Sections */
-  --dusk: #07384d;
-  --dusk-soft: #0b526e;
-  --near-black: #061b25;
+  /* =======================================================
+     DARK CORPORATE COLORS
+     ======================================================= */
 
-  /* Legacy Compatibility */
-  --olive-deep: #09b1ec;
-  --olive-mid: #65c2f5;
-  --olive-soft: #9ddcf7;
+  --dusk: #083b52;
+  --dusk-soft: #0b526e;
+  --near-black: #071c27;
+
+  /* =======================================================
+     LEGACY COMPATIBILITY
+     ======================================================= */
+
+  --olive-deep: #083b52;
+  --olive-mid: #0b526e;
+  --olive-soft: #65c2f5;
+
   --gold: #09b1ec;
   --gold-bright: #65c2f5;
 
-  /* Lines */
-  --line: rgba(20, 36, 45, 0.08);
+  /* =======================================================
+     LINES
+     ======================================================= */
+
+  --line: rgba(7, 28, 39, 0.09);
   --line-blue: rgba(9, 177, 236, 0.18);
   --line-light: rgba(255, 255, 255, 0.16);
 
-  /* Shadows */
-  --shadow-xs: 0 1px 2px rgba(6, 27, 37, 0.04);
-  --shadow-sm: 0 4px 14px rgba(6, 27, 37, 0.06);
-  --shadow-md: 0 10px 30px rgba(6, 27, 37, 0.09);
-  --shadow-lg: 0 20px 55px rgba(6, 27, 37, 0.11);
+  /* =======================================================
+     SHADOWS
+     ======================================================= */
+
+  --shadow-xs: 0 1px 2px rgba(7, 28, 39, 0.04);
+  --shadow-sm: 0 4px 14px rgba(7, 28, 39, 0.06);
+  --shadow-md: 0 10px 30px rgba(7, 28, 39, 0.09);
+  --shadow-lg: 0 20px 55px rgba(7, 28, 39, 0.11);
   --shadow-blue: 0 14px 34px rgba(9, 177, 236, 0.22);
 
-  /* Radius */
+  /* =======================================================
+     RADIUS
+     ======================================================= */
+
   --radius-sm: 8px;
   --radius: 14px;
   --radius-lg: 22px;
   --radius-xl: 30px;
 
-  /* Fonts */
+  /* =======================================================
+     FONTS
+     ======================================================= */
+
   --font-display-family: "Fraunces", ui-serif, Georgia, serif;
   --font-body-family: "Work Sans", ui-sans-serif, system-ui, sans-serif;
 }
@@ -82,10 +111,12 @@
   --color-limestone: var(--limestone);
   --color-limestone-dim: var(--limestone-dim);
   --color-surface-soft: var(--surface-soft);
+  --color-surface-blue: var(--surface-blue);
 
   --color-ink: var(--ink);
   --color-text-dark: var(--text-dark);
   --color-text-muted: var(--text-muted);
+  --color-text-light: var(--text-light);
 
   --color-dusk: var(--dusk);
   --color-dusk-soft: var(--dusk-soft);
@@ -121,8 +152,8 @@ html {
 body {
   margin: 0;
   padding: 0;
-  background: var(--paper);
-  color: var(--ink);
+  background: #ffffff;
+  color: #071c27;
   font-family: var(--font-body-family);
   font-size: 16px;
   line-height: 1.65;
@@ -137,6 +168,10 @@ select {
   -webkit-font-smoothing: antialiased;
 }
 
+/* =========================================================
+   HEADINGS
+   ========================================================= */
+
 h1,
 h2,
 h3,
@@ -145,7 +180,7 @@ h5,
 h6 {
   margin: 0;
   font-family: var(--font-display-family);
-  color: var(--ink);
+  color: #071c27;
   font-weight: 600;
   line-height: 1.12;
   letter-spacing: -0.025em;
@@ -163,9 +198,25 @@ h3 {
   font-size: clamp(1.35rem, 2vw, 1.8rem);
 }
 
+h4 {
+  font-size: 1.25rem;
+}
+
+h5 {
+  font-size: 1.1rem;
+}
+
+h6 {
+  font-size: 1rem;
+}
+
+/* =========================================================
+   PARAGRAPHS
+   ========================================================= */
+
 p {
   margin: 0 0 1rem;
-  color: var(--ink);
+  color: #071c27;
 }
 
 a {
@@ -190,7 +241,7 @@ img {
 }
 
 ::selection {
-  background: var(--primary-blue);
+  background: #09b1ec;
   color: #ffffff;
 }
 
@@ -220,7 +271,7 @@ img {
 }
 
 /* =========================================================
-   TYPOGRAPHY
+   TYPOGRAPHY UTILITIES
    ========================================================= */
 
 .font-display {
@@ -232,32 +283,62 @@ img {
 }
 
 .text-primary {
-  color: var(--primary-blue);
+  color: #09b1ec !important;
 }
 
 .text-secondary {
-  color: var(--primary-blue-soft);
+  color: #65c2f5 !important;
 }
 
 .text-muted {
-  color: var(--text-muted);
+  color: #52656f !important;
 }
 
 .text-dark {
-  color: var(--text-dark);
+  color: #071c27 !important;
+}
+
+.text-light {
+  color: #7c8d95 !important;
 }
 
 .text-white {
-  color: #ffffff;
+  color: #ffffff !important;
 }
+
+/* =========================================================
+   LEGACY TEXT COLORS
+   ========================================================= */
+
+.text-olive-deep {
+  color: #083b52 !important;
+}
+
+.text-olive-mid {
+  color: #0b526e !important;
+}
+
+.text-olive-soft {
+  color: #65c2f5 !important;
+}
+
+.text-gold {
+  color: #09b1ec !important;
+}
+
+.text-gold-bright {
+  color: #65c2f5 !important;
+}
+
+/* =========================================================
+   SECTION LABEL
+   ========================================================= */
 
 .section-label {
   display: inline-flex;
   align-items: center;
   gap: 10px;
-
-  color: var(--primary-blue);
-
+  color: #09b1ec !important;
   font-size: 0.72rem;
   font-weight: 700;
   letter-spacing: 0.18em;
@@ -269,12 +350,16 @@ img {
   width: 28px;
   height: 2px;
   border-radius: 999px;
-  background: var(--primary-blue);
+  background: #09b1ec;
 }
+
+/* =========================================================
+   SECTION INTRO
+   ========================================================= */
 
 .section-intro {
   max-width: 680px;
-  color: var(--text-muted);
+  color: #52656f !important;
   font-size: 1.05rem;
   line-height: 1.8;
 }
@@ -284,65 +369,63 @@ img {
    ========================================================= */
 
 .bg-primary-blue {
-  background: var(--primary-blue);
+  background: #09b1ec;
 }
 
 .bg-secondary-blue {
-  background: var(--primary-blue-soft);
+  background: #65c2f5;
 }
 
 .bg-limestone {
-  background: var(--limestone);
+  background: #f4fbfe;
 }
 
 .bg-limestone-dim {
-  background: var(--limestone-dim);
+  background: #e8f6fc;
 }
 
 .bg-paper {
-  background: var(--paper);
+  background: #ffffff;
 }
 
 .bg-dusk {
-  background: var(--dusk);
+  background: #083b52;
 }
 
 .bg-dusk-soft {
-  background: var(--dusk-soft);
+  background: #0b526e;
 }
 
 .bg-near-black {
-  background: var(--near-black);
+  background: #071c27;
 }
 
-/* Existing project compatibility */
-
-.bg-olive-deep,
-.bg-gold {
-  background: var(--primary-blue);
+.bg-surface-blue {
+  background: #eef9fd;
 }
 
-.bg-olive-mid,
-.bg-gold-bright {
-  background: var(--primary-blue-soft);
+/* =========================================================
+   LEGACY BACKGROUNDS
+   ========================================================= */
+
+.bg-olive-deep {
+  background: #083b52;
+}
+
+.bg-olive-mid {
+  background: #0b526e;
 }
 
 .bg-olive-soft {
-  background: var(--primary-blue-light);
+  background: #dff5fd;
 }
 
-.text-olive-deep,
-.text-gold {
-  color: var(--primary-blue);
+.bg-gold {
+  background: #09b1ec;
 }
 
-.text-olive-mid,
-.text-gold-bright {
-  color: var(--primary-blue-soft);
-}
-
-.text-olive-soft {
-  color: var(--primary-blue-light);
+.bg-gold-bright {
+  background: #65c2f5;
 }
 
 /* =========================================================
@@ -356,25 +439,20 @@ img {
   align-items: center;
   justify-content: center;
   gap: 9px;
-
   min-height: 48px;
   padding: 13px 26px;
-
-  background: var(--primary-blue);
-  color: #ffffff;
-
-  border: 1px solid var(--primary-blue);
+  background: #09b1ec;
+  color: #ffffff !important;
+  border: 1px solid #09b1ec;
   border-radius: 999px;
-
   font-size: 0.92rem;
   font-weight: 600;
   line-height: 1;
-
   box-shadow: var(--shadow-sm);
-
   transition:
     background-color 0.25s ease,
     border-color 0.25s ease,
+    color 0.25s ease,
     transform 0.25s ease,
     box-shadow 0.25s ease;
 }
@@ -382,8 +460,9 @@ img {
 .btn-primary:hover,
 .call-director:hover,
 .contact-button:hover {
-  background: var(--primary-blue-hover);
-  border-color: var(--primary-blue-hover);
+  background: #078fca;
+  border-color: #078fca;
+  color: #ffffff !important;
   transform: translateY(-2px);
   box-shadow: var(--shadow-blue);
 }
@@ -401,26 +480,25 @@ img {
   outline-offset: 3px;
 }
 
+/* =========================================================
+   SECONDARY BUTTONS
+   ========================================================= */
+
 .btn-secondary,
 .button-outline {
   display: inline-flex;
   align-items: center;
   justify-content: center;
   gap: 9px;
-
   min-height: 48px;
   padding: 12px 25px;
-
   background: transparent;
-  color: var(--primary-blue);
-
+  color: #09b1ec !important;
   border: 1px solid rgba(9, 177, 236, 0.3);
   border-radius: 999px;
-
   font-size: 0.92rem;
   font-weight: 600;
   line-height: 1;
-
   transition:
     background-color 0.25s ease,
     color 0.25s ease,
@@ -431,9 +509,9 @@ img {
 
 .btn-secondary:hover,
 .button-outline:hover {
-  background: var(--primary-blue);
-  color: #ffffff;
-  border-color: var(--primary-blue);
+  background: #09b1ec;
+  color: #ffffff !important;
+  border-color: #09b1ec;
   transform: translateY(-2px);
   box-shadow: var(--shadow-blue);
 }
@@ -443,11 +521,11 @@ img {
    ========================================================= */
 
 .card-hover {
-  background: var(--paper);
+  background: #ffffff;
+  color: #071c27;
   border: 1px solid var(--line);
   border-radius: var(--radius-lg);
   box-shadow: var(--shadow-sm);
-
   transition:
     transform 0.3s cubic-bezier(0.2, 0.8, 0.2, 1),
     box-shadow 0.3s ease,
@@ -460,13 +538,15 @@ img {
   box-shadow: var(--shadow-lg);
 }
 
+/* =========================================================
+   ICON HOVER
+   ========================================================= */
+
 .icon-hover {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-
   border-radius: 999px;
-
   transition:
     color 0.25s ease,
     background-color 0.25s ease,
@@ -475,8 +555,8 @@ img {
 }
 
 .icon-hover:hover {
-  color: #ffffff;
-  background: var(--primary-blue);
+  color: #ffffff !important;
+  background: #09b1ec;
   transform: scale(1.06);
   box-shadow: var(--shadow-blue);
 }
@@ -494,9 +574,7 @@ img {
   width: 100%;
   height: 100%;
   object-fit: cover;
-
-  transition:
-    transform 0.6s cubic-bezier(0.2, 0.8, 0.2, 1);
+  transition: transform 0.6s cubic-bezier(0.2, 0.8, 0.2, 1);
 }
 
 .image-premium:hover img {
@@ -510,26 +588,23 @@ img {
 nav a {
   position: relative;
   font-weight: 500;
+  color: #083b52;
   transition: color 0.2s ease;
 }
 
 nav a:hover {
-  color: var(--primary-blue);
+  color: #09b1ec;
 }
 
 nav a::after {
   content: "";
-
   position: absolute;
   left: 0;
   bottom: -7px;
-
   width: 0;
   height: 2px;
-
-  background: var(--primary-blue);
+  background: #09b1ec;
   border-radius: 999px;
-
   transition: width 0.25s ease;
 }
 
@@ -543,27 +618,192 @@ nav a:hover::after {
 
 .bg-dusk,
 .bg-dusk-soft,
-.bg-near-black {
-  color: #ffffff;
+.bg-near-black,
+.bg-olive-deep {
+  color: #ffffff !important;
 }
 
-.bg-dusk :is(h1, h2, h3, h4, h5, h6),
-.bg-dusk-soft :is(h1, h2, h3, h4, h5, h6),
-.bg-near-black :is(h1, h2, h3, h4, h5, h6),
-.bg-primary-blue :is(h1, h2, h3, h4, h5, h6),
-.bg-secondary-blue :is(h1, h2, h3, h4, h5, h6) {
-  color: #ffffff;
+.bg-dusk h1,
+.bg-dusk h2,
+.bg-dusk h3,
+.bg-dusk h4,
+.bg-dusk h5,
+.bg-dusk h6,
+.bg-dusk p,
+.bg-dusk li,
+
+.bg-dusk-soft h1,
+.bg-dusk-soft h2,
+.bg-dusk-soft h3,
+.bg-dusk-soft h4,
+.bg-dusk-soft h5,
+.bg-dusk-soft h6,
+.bg-dusk-soft p,
+.bg-dusk-soft li,
+
+.bg-near-black h1,
+.bg-near-black h2,
+.bg-near-black h3,
+.bg-near-black h4,
+.bg-near-black h5,
+.bg-near-black h6,
+.bg-near-black p,
+.bg-near-black li,
+
+.bg-olive-deep h1,
+.bg-olive-deep h2,
+.bg-olive-deep h3,
+.bg-olive-deep h4,
+.bg-olive-deep h5,
+.bg-olive-deep h6,
+.bg-olive-deep p,
+.bg-olive-deep li {
+  color: #ffffff !important;
 }
 
 .bg-dusk p,
 .bg-dusk-soft p,
-.bg-near-black p {
-  color: rgba(255, 255, 255, 0.78);
+.bg-near-black p,
+.bg-olive-deep p {
+  color: rgba(255, 255, 255, 0.78) !important;
 }
 
+/* =========================================================
+   DARK BACKGROUND TEXT SAFETY NET
+   .text-olive-deep / .text-olive-mid / .text-dark / .text-ink /
+   .text-muted / .text-light all resolve to dark navy or
+   near-black (e.g. --olive-deep is literally the same hex as
+   --dusk). The block above only whitens h1–h6/p/li, so any
+   span, div, dt/dd, or label carrying one of those classes
+   directly still renders dark-on-dark inside a dark section.
+   Force those — plus stray form labels and nav links — to
+   white wherever they end up inside a dark section.
+   ========================================================= */
+
+:is(
+    .bg-dusk,
+    .bg-dusk-soft,
+    .bg-near-black,
+    .bg-olive-deep,
+    .bg-\[\#071c27\],
+    footer,
+    #directors .bg-\[\#083b52\]
+  )
+  :is(
+    .text-olive-deep,
+    .text-olive-mid,
+    .text-dark,
+    .text-ink,
+    .text-muted,
+    .text-light,
+    label
+  ) {
+  color: #ffffff !important;
+}
+
+:is(
+    .bg-dusk,
+    .bg-dusk-soft,
+    .bg-near-black,
+    .bg-olive-deep,
+    .bg-\[\#071c27\]
+  )
+  nav a {
+  color: #ffffff !important;
+}
+
+:is(
+    .bg-dusk,
+    .bg-dusk-soft,
+    .bg-near-black,
+    .bg-olive-deep,
+    .bg-\[\#071c27\]
+  )
+  nav a:hover {
+  color: #65c2f5 !important;
+}
+
+/* =========================================================
+   HERO
+   ========================================================= */
+
+.bg-\[\#071c27\] {
+  color: #ffffff !important;
+}
+
+.bg-\[\#071c27\] h1,
+.bg-\[\#071c27\] h2,
+.bg-\[\#071c27\] h3,
+.bg-\[\#071c27\] h4,
+.bg-\[\#071c27\] h5,
+.bg-\[\#071c27\] h6 {
+  color: #ffffff !important;
+}
+
+.bg-\[\#071c27\] p,
+.bg-\[\#071c27\] li {
+  color: rgba(255, 255, 255, 0.78) !important;
+}
+
+.bg-\[\#071c27\] [class*="text-white"] {
+  color: #ffffff !important;
+}
+
+.bg-\[\#071c27\] .text-\[\#09b1ec\] {
+  color: #09b1ec !important;
+}
+
+.bg-\[\#071c27\] .text-\[\#65c2f5\] {
+  color: #65c2f5 !important;
+}
+
+/* =========================================================
+   BLUE SECTIONS
+   ========================================================= */
+
+.bg-primary-blue,
+.bg-secondary-blue,
+.bg-gold,
+.bg-gold-bright {
+  color: #ffffff !important;
+}
+
+.bg-primary-blue h1,
+.bg-primary-blue h2,
+.bg-primary-blue h3,
+.bg-primary-blue h4,
+.bg-primary-blue h5,
+.bg-primary-blue h6,
 .bg-primary-blue p,
-.bg-secondary-blue p {
-  color: rgba(255, 255, 255, 0.92);
+.bg-primary-blue li,
+
+.bg-secondary-blue h1,
+.bg-secondary-blue h2,
+.bg-secondary-blue h3,
+.bg-secondary-blue h4,
+.bg-secondary-blue h5,
+.bg-secondary-blue h6,
+.bg-secondary-blue p,
+.bg-secondary-blue li,
+
+.bg-gold h1,
+.bg-gold h2,
+.bg-gold h3,
+.bg-gold h4,
+.bg-gold h5,
+.bg-gold h6,
+.bg-gold p,
+.bg-gold li,
+
+.bg-gold-bright h1,
+.bg-gold-bright h2,
+.bg-gold-bright h3,
+.bg-gold-bright h4,
+.bg-gold-bright h5,
+.bg-gold-bright h6,
+.bg-gold-bright p,
+.bg-gold-bright li {
+  color: #ffffff !important;
 }
 
 /* =========================================================
@@ -574,17 +814,13 @@ input,
 textarea,
 select {
   width: 100%;
-
   font-family: var(--font-body-family);
-
-  color: var(--ink);
-  background: var(--surface-soft);
-
+  font-size: 1rem;
+  color: #071c27 !important;
+  background: #ffffff !important;
   padding: 14px 16px;
-
   border: 1px solid transparent;
   border-radius: var(--radius);
-
   transition:
     background-color 0.2s ease,
     border-color 0.2s ease,
@@ -594,25 +830,35 @@ select {
 input:hover,
 textarea:hover,
 select:hover {
-  background: #ffffff;
+  background: #ffffff !important;
   border-color: rgba(9, 177, 236, 0.12);
 }
 
 input::placeholder,
-textarea::placeholder {
-  color: var(--text-muted);
+textarea::placeholder,
+select::placeholder {
+  color: #60717a !important;
+  opacity: 1;
 }
 
 input:focus,
 textarea:focus,
 select:focus {
   outline: none;
-  background: #ffffff;
-  border-color: var(--primary-blue);
-
+  background: #ffffff !important;
+  border-color: #09b1ec;
   box-shadow:
     0 0 0 3px rgba(9, 177, 236, 0.12),
     var(--shadow-sm);
+}
+
+/* =========================================================
+   FORM LABELS
+   ========================================================= */
+
+label {
+  color: #083b52 !important;
+  font-weight: 600;
 }
 
 /* =========================================================
@@ -623,14 +869,10 @@ select:focus {
   display: inline-flex;
   align-items: center;
   gap: 7px;
-
   padding: 7px 12px;
-
-  background: var(--primary-blue-light);
-  color: var(--primary-blue);
-
+  background: #dff5fd;
+  color: #083b52 !important;
   border-radius: 999px;
-
   font-size: 0.72rem;
   font-weight: 700;
   letter-spacing: 0.06em;
@@ -657,7 +899,7 @@ hr {
 }
 
 .hover-text-primary:hover {
-  color: var(--primary-blue);
+  color: #09b1ec !important;
 }
 
 .hover-text-secondary {
@@ -665,25 +907,21 @@ hr {
 }
 
 .hover-text-secondary:hover {
-  color: var(--primary-blue-soft);
+  color: #65c2f5 !important;
 }
 
 /* =========================================================
-   E-COMMERCE
+   PRODUCT PORTFOLIO
    ========================================================= */
 
 .product-card {
   position: relative;
-
   background: #ffffff;
-
+  color: #071c27;
   border: 1px solid var(--line);
   border-radius: var(--radius-lg);
-
   overflow: hidden;
-
   box-shadow: var(--shadow-sm);
-
   transition:
     transform 0.3s ease,
     box-shadow 0.3s ease,
@@ -699,120 +937,71 @@ hr {
 .product-image {
   position: relative;
   overflow: hidden;
-  background: var(--limestone);
+  background: #f4fbfe;
 }
 
 .product-image img {
-  transition:
-    transform 0.5s cubic-bezier(0.2, 0.8, 0.2, 1);
+  transition: transform 0.5s cubic-bezier(0.2, 0.8, 0.2, 1);
 }
 
 .product-card:hover .product-image img {
   transform: scale(1.04);
 }
 
+.product-card h1,
+.product-card h2,
+.product-card h3,
+.product-card h4,
+.product-card h5,
+.product-card h6,
+.product-card p,
+.product-card li {
+  color: #071c27 !important;
+}
+
+/* =========================================================
+   PRICE
+   ========================================================= */
+
 .price {
-  color: var(--primary-blue);
+  color: #09b1ec !important;
   font-family: var(--font-display-family);
   font-size: 1.35rem;
   font-weight: 600;
 }
 
 /* =========================================================
-   SHOPPING CART
-   ========================================================= */
-
-.cart-item {
-  background: #ffffff;
-  border-radius: var(--radius);
-  box-shadow: var(--shadow-xs);
-
-  transition:
-    box-shadow 0.2s ease,
-    transform 0.2s ease;
-}
-
-.cart-item:hover {
-  box-shadow: var(--shadow-sm);
-}
-
-.quantity-control {
-  display: inline-flex;
-  align-items: center;
-  overflow: hidden;
-
-  background: var(--surface-soft);
-
-  border: 1px solid var(--line);
-  border-radius: 999px;
-}
-
-.quantity-control button {
-  width: 36px;
-  height: 36px;
-
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-
-  background: transparent;
-  color: var(--ink);
-
-  border: none;
-
-  transition:
-    background-color 0.2s ease,
-    color 0.2s ease;
-}
-
-.quantity-control button:hover {
-  background: var(--primary-blue);
-  color: #ffffff;
-}
-
-.quantity-control span {
-  min-width: 34px;
-  text-align: center;
-  font-weight: 600;
-}
-
-/* =========================================================
-   CHECKOUT
-   ========================================================= */
-
-.checkout-card {
-  background: #ffffff;
-  border: 1px solid var(--line);
-  border-radius: var(--radius-lg);
-  box-shadow: var(--shadow-md);
-}
-
-.checkout-summary {
-  background: var(--limestone);
-  border-radius: var(--radius-lg);
-}
-
-/* =========================================================
-   MANAGEMENT / CONTACT
+   MANAGEMENT
    ========================================================= */
 
 .manager-card {
   background: #ffffff;
+  color: #071c27;
   border-radius: var(--radius-lg);
   overflow: hidden;
-
   border: 1px solid var(--line);
-
   box-shadow: var(--shadow-sm);
-
   transition:
     transform 0.3s ease,
-    box-shadow 0.3s ease;
+    box-shadow 0.3s ease,
+    border-color 0.3s ease;
 }
 
 .manager-card:hover {
   transform: translateY(-5px);
+  border-color: rgba(9, 177, 236, 0.18);
   box-shadow: var(--shadow-lg);
+}
+
+.manager-card h1,
+.manager-card h2,
+.manager-card h3,
+.manager-card h4,
+.manager-card h5,
+.manager-card h6,
+.manager-card p,
+.manager-card li {
+  color: #071c27 !important;
 }
 
 .manager-image {
@@ -824,7 +1013,6 @@ hr {
   width: 100%;
   height: 100%;
   object-fit: cover;
-
   transition: transform 0.5s ease;
 }
 
@@ -839,13 +1027,12 @@ hr {
 .hero-overlay {
   position: absolute;
   inset: 0;
-
   background:
     linear-gradient(
       90deg,
-      rgba(6, 27, 37, 0.82) 0%,
-      rgba(6, 27, 37, 0.58) 42%,
-      rgba(6, 27, 37, 0.16) 100%
+      rgba(7, 28, 39, 0.88) 0%,
+      rgba(7, 28, 39, 0.62) 42%,
+      rgba(7, 28, 39, 0.16) 100%
     );
 }
 
@@ -864,17 +1051,12 @@ hr {
 
 .brand-glow::before {
   content: "";
-
   position: absolute;
   width: 220px;
   height: 220px;
-
   border-radius: 50%;
-
   background: rgba(9, 177, 236, 0.12);
-
   filter: blur(40px);
-
   pointer-events: none;
 }
 
@@ -890,21 +1072,319 @@ hr {
       rgba(9, 177, 236, 0.12),
       transparent 30%
     ),
-    var(--limestone);
+    #f4fbfe;
+}
+
+/* =========================================================
+   CORPORATE ACCENT
+   ========================================================= */
+
+.corporate-accent {
+  color: #09b1ec !important;
+}
+
+.corporate-border {
+  border-color: rgba(9, 177, 236, 0.18);
+}
+
+.corporate-surface {
+  background: #eef9fd;
+}
+
+/* =========================================================
+   DIRECTORS
+   ========================================================= */
+
+#directors {
+  color: #071c27;
+}
+
+#directors h1,
+#directors h2,
+#directors h3,
+#directors h4,
+#directors h5,
+#directors h6,
+#directors p,
+#directors li {
+  color: #071c27 !important;
+}
+
+#directors .bg-\[\#083b52\] {
+  color: #ffffff !important;
+}
+
+#directors .bg-\[\#083b52\] h1,
+#directors .bg-\[\#083b52\] h2,
+#directors .bg-\[\#083b52\] h3,
+#directors .bg-\[\#083b52\] h4,
+#directors .bg-\[\#083b52\] h5,
+#directors .bg-\[\#083b52\] h6,
+#directors .bg-\[\#083b52\] p,
+#directors .bg-\[\#083b52\] li {
+  color: #ffffff !important;
+}
+
+/* =========================================================
+   ABOUT
+   ========================================================= */
+
+#about {
+  color: #071c27;
+}
+
+#about h1,
+#about h2,
+#about h3,
+#about h4,
+#about h5,
+#about h6 {
+  color: #071c27 !important;
+}
+
+#about p,
+#about li {
+  color: #52656f !important;
+}
+
+/* =========================================================
+   WHAT WE DO
+   ========================================================= */
+
+#what-we-do {
+  color: #071c27;
+}
+
+#what-we-do h1,
+#what-we-do h2,
+#what-we-do h3,
+#what-we-do h4,
+#what-we-do h5,
+#what-we-do h6 {
+  color: #071c27 !important;
+}
+
+#what-we-do p,
+#what-we-do li {
+  color: #52656f !important;
+}
+
+/* =========================================================
+   PROCESS / GROVE TO BOTTLE
+   ========================================================= */
+
+#process,
+#grove-to-bottle {
+  color: #ffffff !important;
+}
+
+/* Force Process text to white so it is visible on the dark background. */
+#process h1,
+#process h2,
+#process h3,
+#process h4,
+#process h5,
+#process h6,
+#process p,
+#process li {
+  color: #ffffff !important;
+}
+
+/* Process step numbers */
+#process span {
+  color: #65c2f5 !important;
+}
+
+#grove-to-bottle h1,
+#grove-to-bottle h2,
+#grove-to-bottle h3,
+#grove-to-bottle h4,
+#grove-to-bottle h5,
+#grove-to-bottle h6,
+#grove-to-bottle p,
+#grove-to-bottle li {
+  color: #ffffff !important;
+}
+
+/* =========================================================
+   SUSTAINABILITY
+   ========================================================= */
+
+#sustainability {
+  color: #ffffff !important;
+  background: #071c27;
+}
+
+#sustainability h1,
+#sustainability h2,
+#sustainability h3,
+#sustainability h4,
+#sustainability h5,
+#sustainability h6 {
+  color: #ffffff !important;
+}
+
+#sustainability p,
+#sustainability li {
+  color: #ffffff !important;
+}
+
+/* Sustainability labels and numbers */
+#sustainability .text-\[\#65c2f5\] {
+  color: #65c2f5 !important;
+}
+
+/* Keep the card background dark */
+#sustainability .bg-\[\#071c27\] {
+  background: #071c27 !important;
+}
+/* =========================================================
+   PRODUCTS
+   ========================================================= */
+.product-card {
+  color: #071c27;
+}
+
+#products .product-card .text-white,
+#products .product-card [class*="text-white"] {
+  color: #ffffff !important;
+}
+
+#products .product-card h1,
+#products .product-card h2,
+#products .product-card h3,
+#products .product-card h4,
+#products .product-card h5,
+#products .product-card h6 {
+  color: #ffffff !important;
+}
+
+#products .product-card p {
+  color: #ffffff !important;
+}
+#products .product-card .text-\[\#65c2f5\] {
+  color: #65c2f5 !important;
+}
+
+/* =========================================================
+   QUALITY
+   ========================================================= */
+
+#quality {
+  color: #071c27;
+}
+
+#quality h1,
+#quality h2,
+#quality h3,
+#quality h4,
+#quality h5,
+#quality h6 {
+  color: #071c27 !important;
+}
+
+#quality p,
+#quality li {
+  color: #52656f !important;
+}
+
+/* =========================================================
+   LOCATIONS
+   ========================================================= */
+
+#locations {
+  color: #071c27;
+}
+
+#locations h1,
+#locations h2,
+#locations h3,
+#locations h4,
+#locations h5,
+#locations h6 {
+  color: #071c27 !important;
+}
+
+#locations p,
+#locations li {
+  color: #52656f !important;
+}
+
+/* =========================================================
+   CONTACT
+   ========================================================= */
+
+#contact {
+  color: #071c27;
+}
+
+#contact h1,
+#contact h2,
+#contact h3,
+#contact h4,
+#contact h5,
+#contact h6 {
+  color: #071c27 !important;
+}
+
+#contact p,
+#contact li {
+  color: #52656f !important;
 }
 
 /* =========================================================
    FOOTER
    ========================================================= */
 
+footer {
+  background: #071c27;
+  color: #ffffff !important;
+}
+
+footer h1,
+footer h2,
+footer h3,
+footer h4,
+footer h5,
+footer h6,
+footer p,
+footer li {
+  color: #ffffff !important;
+}
+
 footer a {
-  transition:
-    color 0.2s ease,
-    opacity 0.2s ease;
+  color: rgba(255, 255, 255, 0.78) !important;
 }
 
 footer a:hover {
-  color: var(--primary-blue-soft);
+  color: #65c2f5 !important;
+}
+
+/* =========================================================
+   GLOBAL TAILWIND WHITE TEXT PROTECTION
+   IMPORTANT:
+   Keeps text-white/50, text-white/75, etc. visible.
+   ========================================================= */
+
+[class*="text-white"] {
+  color: #ffffff !important;
+}
+
+/* Re-apply blue text utilities after white protection */
+.text-primary {
+  color: #09b1ec !important;
+}
+
+.text-secondary {
+  color: #65c2f5 !important;
+}
+
+.text-gold {
+  color: #09b1ec !important;
+}
+
+.text-gold-bright {
+  color: #65c2f5 !important;
 }
 
 /* =========================================================
@@ -912,29 +1392,8 @@ footer a:hover {
    ========================================================= */
 
 :focus-visible {
-  outline: 2px solid var(--primary-blue);
+  outline: 2px solid #09b1ec;
   outline-offset: 3px;
-}
-
-/* =========================================================
-   SCROLLBAR
-   ========================================================= */
-
-::-webkit-scrollbar {
-  width: 9px;
-}
-
-::-webkit-scrollbar-track {
-  background: var(--limestone);
-}
-
-::-webkit-scrollbar-thumb {
-  background: var(--primary-blue-soft);
-  border-radius: 999px;
-}
-
-::-webkit-scrollbar-thumb:hover {
-  background: var(--primary-blue);
 }
 
 /* =========================================================

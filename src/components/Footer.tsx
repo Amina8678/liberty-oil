@@ -1,83 +1,175 @@
-import { OliveSprig } from "./OliveMotif";
-
 export function Footer() {
   return (
-    <footer id="contact" className="bg-near-black text-limestone">
-      <div className="container-x pt-20 pb-12 md:pt-28">
-        <div className="grid md:grid-cols-12 gap-10 md:gap-16">
+    <footer className="bg-[#071c27] text-white">
+
+      <div className="container-x py-20 md:py-24">
+
+        <div className="grid gap-14 md:grid-cols-12">
+
+          {/* COMPANY */}
           <div className="md:col-span-5">
-            <h2 className="font-display text-3xl md:text-4xl leading-tight">
-              Get in touch about an order
-            </h2>
-            <p className="mt-5 text-limestone/65 leading-relaxed max-w-sm">
-              For bulk, retail or private-label enquiries, reach the team
-              directly — production and sourcing is based in Turkey&apos;s
-              Aegean region, Izmir and Akhisar.
+
+            <div className="flex items-center gap-3">
+
+              <div className="flex h-10 w-10 items-center justify-center bg-[#09b1ec]">
+                <span className="font-display text-lg font-bold text-white">
+                  LH
+                </span>
+              </div>
+
+              <div>
+                <p className="font-display text-xl font-semibold">
+                  Liberty Health
+                </p>
+
+                <p className="text-[9px] font-semibold uppercase tracking-[0.18em] text-[#65c2f5]">
+                  Trading as Event
+                </p>
+              </div>
+
+            </div>
+
+            <p className="mt-7 max-w-md text-sm leading-7 text-white/55">
+              Liberty Health Ltd is focused on connecting quality products,
+              trusted suppliers and growing markets across Ghana, the
+              United Kingdom and beyond.
             </p>
-            <OliveSprig className="mt-10 w-40 h-auto text-olive-soft/60" />
+
+            <a
+              href="#contact"
+              className="mt-7 inline-flex border border-[#65c2f5] px-6 py-3 text-sm font-semibold text-white transition-colors hover:bg-[#09b1ec] hover:border-[#09b1ec]"
+            >
+              Contact Us
+            </a>
+
           </div>
 
-          <div className="md:col-span-3 md:col-start-7">
-            <p className="text-sm font-medium text-limestone/50 mb-4">
-              Liberty Health Ltd
+          {/* COMPANY LINKS */}
+          <div className="md:col-span-2 md:col-start-7">
+
+            <p className="text-xs font-semibold uppercase tracking-[0.16em] text-white/40">
+              Company
             </p>
-            <p className="text-limestone/80 leading-relaxed">
-              101 Waddon Road
-              <br />
-              London, CR0 4JH
-              <br />
-              United Kingdom
-            </p>
+
+            <div className="mt-5 flex flex-col gap-3 text-sm text-white/60">
+
+              <a
+                href="#about"
+                className="transition-colors hover:text-[#65c2f5]"
+              >
+                About Us
+              </a>
+
+              <a
+                href="#what-we-do"
+                className="transition-colors hover:text-[#65c2f5]"
+              >
+                What We Do
+              </a>
+
+              <a
+                href="#quality"
+                className="transition-colors hover:text-[#65c2f5]"
+              >
+                Quality
+              </a>
+
+              <a
+                href="#sustainability"
+                className="transition-colors hover:text-[#65c2f5]"
+              >
+                Sustainability
+              </a>
+
+            </div>
+
           </div>
 
+          {/* PORTFOLIO */}
+          <div className="md:col-span-2">
+
+            <p className="text-xs font-semibold uppercase tracking-[0.16em] text-white/40">
+              Portfolio
+            </p>
+
+            <div className="mt-5 flex flex-col gap-3 text-sm text-white/60">
+
+              <a
+                href="#products"
+                className="transition-colors hover:text-[#65c2f5]"
+              >
+                Event
+              </a>
+
+              <a
+                href="#products"
+                className="transition-colors hover:text-[#65c2f5]"
+              >
+                Olive Oil
+              </a>
+
+              <a
+                href="#products"
+                className="transition-colors hover:text-[#65c2f5]"
+              >
+                Mediterranean Foods
+              </a>
+
+            </div>
+
+          </div>
+
+          {/* CONTACT */}
           <div className="md:col-span-3">
-            <p className="text-sm font-medium text-limestone/50 mb-4">
+
+            <p className="text-xs font-semibold uppercase tracking-[0.16em] text-white/40">
               Contact
             </p>
-            <a
-              href="tel:+447837867759"
-              className="block text-limestone/80 hover:text-gold-bright transition-colors"
-            >
-              +44 7837 867759
-            </a>
-            <a
-              href="mailto:info@eventolives.com"
-              className="block mt-1 text-limestone/80 hover:text-gold-bright transition-colors"
-            >
-              info@eventolives.com
-            </a>
-            <a
-              href="mailto:libertyhealthltd@gmail.com"
-              className="block mt-1 text-limestone/80 hover:text-gold-bright transition-colors"
-            >
-              libertyhealthltd@gmail.com
-            </a>
-            <div className="mt-4 flex flex-col">
+
+            <div className="mt-5 space-y-3 text-sm text-white/60">
+
               <a
-                href="https://www.eventolives.com"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-limestone/80 hover:text-gold-bright transition-colors"
+                href="mailto:info@eventolives.com"
+                className="block transition-colors hover:text-[#65c2f5]"
               >
-                eventolives.com
+                info@eventolives.com
               </a>
+
               <a
-                href="https://www.libertyhealthltd.com"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-limestone/80 hover:text-gold-bright transition-colors"
+                href="mailto:libertyhealthltd@gmail.com"
+                className="block transition-colors hover:text-[#65c2f5]"
               >
-                libertyhealthltd.com
+                libertyhealthltd@gmail.com
               </a>
+
+              <a
+                href="tel:+447837867759"
+                className="block transition-colors hover:text-[#65c2f5]"
+              >
+                +44 7837 867759
+              </a>
+
             </div>
+
           </div>
+
         </div>
 
-        <div className="mt-20 pt-8 border-t border-[var(--line-on-dark)] flex flex-col sm:flex-row justify-between gap-4 text-sm text-limestone/40">
-          <p>Liberty Health Ltd — Company Profile 2025</p>
-          <p>Production &amp; sourcing: Turkey, Aegean Region — Izmir / Akhisar</p>
+        {/* BOTTOM */}
+        <div className="mt-16 flex flex-col gap-4 border-t border-white/10 pt-7 text-xs text-white/35 md:flex-row md:items-center md:justify-between">
+
+          <p>
+            © {new Date().getFullYear()} Liberty Health Ltd. All rights reserved.
+          </p>
+
+          <p>
+            Ghana · United Kingdom
+          </p>
+
         </div>
+
       </div>
+
     </footer>
   );
 }
