@@ -1,4 +1,4 @@
-export function About() {
+export function CompanyProfile() {
   return (
     <section
       id="about"
@@ -6,13 +6,14 @@ export function About() {
     >
       <div className="container-x">
 
-        {/* INTRO */}
-        <div className="grid gap-14 lg:grid-cols-[0.7fr_1.3fr] lg:gap-24">
+        {/* =====================================================
+            COMPANY STORY
+            ===================================================== */}
 
-          {/* TITLE */}
+        <div className="mt-24 grid gap-14 lg:grid-cols-[0.7fr_1.3fr] lg:gap-24">
           <div>
             <p className="text-xs font-bold uppercase tracking-[0.2em] text-[#09b1ec]">
-              About Liberty Health
+              Company`s profile
             </p>
 
             <h2 className="mt-5 font-display text-4xl font-semibold leading-tight tracking-tight text-[#071c27] md:text-5xl">
@@ -22,7 +23,6 @@ export function About() {
             </h2>
           </div>
 
-          {/* COMPANY STORY */}
           <div className="max-w-3xl">
             <p className="text-xl leading-9 text-[#083b52] md:text-2xl">
               Liberty Health Ltd is a UK-based company established in 2020,
@@ -52,7 +52,10 @@ export function About() {
           </div>
         </div>
 
-        {/* HISTORY / VISION / MISSION */}
+        {/* =====================================================
+            HISTORY / VISION / MISSION
+            ===================================================== */}
+
         <div className="mt-20 grid gap-px bg-[#083b52]/10 md:grid-cols-3">
 
           {/* HISTORY */}
@@ -83,7 +86,7 @@ export function About() {
               Taking quality to global markets.
             </h3>
 
-            <p className="mt-5 text-sm leading-7 text-white/60">
+            <p className="mt-5 text-sm leading-7 text-white/80">
               To bring exceptional Turkish olive oil and quality food
               products to international markets while creating lasting
               value for customers, partners and local communities.
@@ -100,7 +103,7 @@ export function About() {
               Quality with purpose.
             </h3>
 
-            <p className="mt-5 text-sm leading-7 text-white/60">
+            <p className="mt-5 text-sm leading-7 text-white/80">
               To source quality produce, combine traditional knowledge
               with modern techniques and develop reliable products and
               partnerships for generations to come.
@@ -108,9 +111,11 @@ export function About() {
           </div>
         </div>
 
-        {/* COMPANY PRINCIPLES */}
-        <div className="mt-24 border-t border-[#083b52]/15 pt-16">
+        {/* =====================================================
+            COMPANY PRINCIPLES
+            ===================================================== */}
 
+        <div className="mt-24 border-t border-[#083b52]/15 pt-16">
           <div className="grid gap-12 lg:grid-cols-[0.7fr_1.3fr]">
 
             <div>

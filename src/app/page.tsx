@@ -1,7 +1,8 @@
 import { Header } from "@/components/Header";
 import { Hero } from "@/components/Hero";
-import { About } from "@/components/About";
+import { CEOProfile } from "@/components/CEOProfile";
 import { Directors } from "@/components/Directors";
+import { CompanyProfile } from "@/components/CompanyProfile";
 import { Managers } from "@/components/Managers";
 import { WhatWeDo } from "@/components/WhatWeDo";
 import { Process } from "@/components/Process";
@@ -11,7 +12,6 @@ import { Quality } from "@/components/Quality";
 import { Locations } from "@/components/Locations";
 import { Contact } from "@/components/Contact";
 import { Footer } from "@/components/Footer";
-
 export default function Home() {
   return (
     <>
@@ -20,24 +20,22 @@ export default function Home() {
       <main>
         <Hero />
 
-        <About />
+        {/* CEO Profile */}
+        <CEOProfile />
 
+        {/* Directors */}
         <Directors />
 
+        {/* Company Profile */}
+        <CompanyProfile />
+
         <Managers />
-
         <WhatWeDo />
-
         <Process />
-
         <Sustainability />
-
         <Products />
-
         <Quality />
-
         <Locations />
-
         <Contact />
       </main>
 

@@ -31,7 +31,19 @@ const managers = [
     email: "uk@libertyhealth.com",
     location: "United Kingdom",
     address: "United Kingdom",
+    
   },
+  {
+    region: "South Africa",
+    name: "Mr Kovan Pillay",
+    title: "Director — South Africa",
+    image: "/images/manager-sa.png",
+    phone: "+27 71 115 3889",
+    whatsapp: "27711153889",
+    email: "sa@libertyhealth.com",
+    location: "South Africa",
+    address: "Plot 127 Rietfontein. Hartbeespoort. North West Province.",
+  }
 ];
 
 export function Managers() {
