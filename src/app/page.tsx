@@ -3,7 +3,6 @@ import { Hero } from "@/components/Hero";
 import { CEOProfile } from "@/components/CEOProfile";
 import { Directors } from "@/components/Directors";
 import { CompanyProfile } from "@/components/CompanyProfile";
-import { Managers } from "@/components/Managers";
 import { WhatWeDo } from "@/components/WhatWeDo";
 import { Process } from "@/components/Process";
 import { Sustainability } from "@/components/Sustainability";
@@ -28,8 +27,6 @@ export default function Home() {
 
         {/* Company Profile */}
         <CompanyProfile />
-
-        <Managers />
         <WhatWeDo />
         <Process />
         <Sustainability />

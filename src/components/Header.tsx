@@ -44,13 +44,13 @@ export function Header() {
           href="#top"
           className="flex items-baseline gap-2"
         >
-          <span className="font-display text-xl tracking-tight text-[#083b52]">
-            Liberty Health
-          </span>
-
-          <span className="hidden text-[11px] font-medium text-[#0b526e] sm:inline">
-            trading as Event
-          </span>
+        
+          <img
+            src="/images/LOGO.png"
+            alt="Liberty Health Logo"
+            className="h-20 w-20"
+          />
+         
         </a>
 
         {/* Desktop Navigation */}
