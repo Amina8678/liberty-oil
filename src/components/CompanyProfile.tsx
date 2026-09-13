@@ -5,7 +5,6 @@ export function CompanyProfile() {
       className="bg-white py-24 md:py-32"
     >
       <div className="container-x">
-
         {/* =====================================================
             COMPANY STORY
             ===================================================== */}
@@ -13,7 +12,7 @@ export function CompanyProfile() {
         <div className="mt-24 grid gap-14 lg:grid-cols-[0.7fr_1.3fr] lg:gap-24">
           <div>
             <p className="text-xs font-bold uppercase tracking-[0.2em] text-[#09b1ec]">
-              Company`s profile
+              Company&apos;s Profile
             </p>
 
             <h2 className="mt-5 font-display text-4xl font-semibold leading-tight tracking-tight text-[#071c27] md:text-5xl">
@@ -57,8 +56,8 @@ export function CompanyProfile() {
             ===================================================== */}
 
         <div className="mt-20 grid gap-px bg-[#083b52]/10 md:grid-cols-3">
-
           {/* HISTORY */}
+
           <div className="bg-[#eef9fd] p-8 md:p-10">
             <p className="text-xs font-bold uppercase tracking-[0.16em] text-[#09b1ec]">
               Our History
@@ -77,6 +76,7 @@ export function CompanyProfile() {
           </div>
 
           {/* VISION */}
+
           <div className="bg-[#083b52] p-8 md:p-10">
             <p className="text-xs font-bold uppercase tracking-[0.16em] text-[#65c2f5]">
               Our Vision
@@ -94,6 +94,7 @@ export function CompanyProfile() {
           </div>
 
           {/* MISSION */}
+
           <div className="bg-[#071c27] p-8 md:p-10">
             <p className="text-xs font-bold uppercase tracking-[0.16em] text-[#65c2f5]">
               Our Mission
@@ -112,12 +113,104 @@ export function CompanyProfile() {
         </div>
 
         {/* =====================================================
+            AFRICA MISSION STATEMENT
+            ===================================================== */}
+
+        <div className="mt-24 grid gap-12 lg:grid-cols-[0.7fr_1.3fr] lg:gap-24">
+          <div>
+            <p className="text-xs font-bold uppercase tracking-[0.2em] text-[#09b1ec]">
+              Africa Mission Statement
+            </p>
+
+            <h2 className="mt-5 font-display text-3xl font-semibold leading-tight text-[#071c27] md:text-4xl">
+              Serving Africa with quality, nutrition and trust.
+            </h2>
+          </div>
+
+          <div className="max-w-3xl space-y-6 text-base leading-8 text-[#083b52]/75">
+            <p>
+              At Liberty Health Ltd, our mission is to provide premium
+              Mediterranean food products that combine quality, nutrition,
+              authenticity, and trust while serving the diverse cultures,
+              traditions, and faiths of Africa.
+            </p>
+
+            <p>
+              Across Ghana, South Africa, and the wider African continent,
+              we are committed to delivering products that meet the highest
+              standards of quality, safety, and integrity. Through
+              responsible sourcing, ethical partnerships, and sustainable
+              business practices, we connect trusted producers with growing
+              markets and help consumers make healthier food choices.
+            </p>
+
+            <p>
+              Our portfolio of Event Extra Virgin Olive Oil, dried fruits,
+              nuts, and Mediterranean specialty foods is produced with a
+              focus on natural quality. Where applicable, our products are{" "}
+              <strong className="font-semibold text-[#083b52]">
+                Halal certified
+              </strong>
+              ,{" "}
+              <strong className="font-semibold text-[#083b52]">
+                Non-GMO
+              </strong>{" "}
+              (Genetically Modified Organism) free, and carefully selected
+              to meet the needs of culturally and religiously diverse
+              communities.
+            </p>
+
+            <p>
+              We believe that long-term success is built on trust, respect,
+              and inclusion. By combining global expertise with local market
+              understanding, Liberty Health strives to become one of
+              Africa&apos;s most trusted food and distribution partners,
+              creating value for customers, businesses, and communities alike.
+            </p>
+          </div>
+        </div>
+
+        {/* =====================================================
+            CORPORATE SUSTAINABILITY STATEMENT
+            ===================================================== */}
+
+        <div className="mt-24 rounded-[24px] bg-[#eef9fd] p-8 md:p-12">
+          <div className="grid gap-10 lg:grid-cols-[0.7fr_1.3fr] lg:gap-24">
+            <div>
+              <p className="text-xs font-bold uppercase tracking-[0.2em] text-[#09b1ec]">
+                Corporate Sustainability Statement
+              </p>
+
+              <h2 className="mt-5 font-display text-3xl font-semibold leading-tight text-[#071c27] md:text-4xl">
+                Responsible growth for future generations.
+              </h2>
+            </div>
+
+            <div>
+              <blockquote className="border-l-2 border-[#09b1ec] pl-6 font-display text-2xl leading-relaxed text-[#083b52] md:text-3xl">
+                “From the Mediterranean to Africa, Liberty Health delivers
+                premium Halal-certified, Non-GMO foods that respect cultural
+                diversity, promote healthier lifestyles, and create trusted
+                partnerships for future generations.”
+              </blockquote>
+
+              <p className="mt-8 text-base leading-8 text-[#083b52]/70">
+                Our commitment to sustainability is reflected in the way we
+                source products, build partnerships, respect cultural
+                diversity, and support healthier lifestyles. We aim to create
+                long-term value for customers, businesses, producers, and
+                communities across Africa.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        {/* =====================================================
             COMPANY PRINCIPLES
             ===================================================== */}
 
         <div className="mt-24 border-t border-[#083b52]/15 pt-16">
           <div className="grid gap-12 lg:grid-cols-[0.7fr_1.3fr]">
-
             <div>
               <p className="text-xs font-bold uppercase tracking-[0.2em] text-[#09b1ec]">
                 What Defines Us
@@ -131,8 +224,8 @@ export function CompanyProfile() {
             </div>
 
             <div className="grid gap-8 sm:grid-cols-2">
-
               {/* QUALITY */}
+
               <div className="border-t border-[#083b52]/15 pt-6">
                 <h4 className="font-display text-xl font-semibold text-[#071c27]">
                   Quality
@@ -145,6 +238,7 @@ export function CompanyProfile() {
               </div>
 
               {/* TRUST */}
+
               <div className="border-t border-[#083b52]/15 pt-6">
                 <h4 className="font-display text-xl font-semibold text-[#071c27]">
                   Trust
@@ -157,6 +251,7 @@ export function CompanyProfile() {
               </div>
 
               {/* RESPONSIBILITY */}
+
               <div className="border-t border-[#083b52]/15 pt-6">
                 <h4 className="font-display text-xl font-semibold text-[#071c27]">
                   Responsibility
@@ -169,6 +264,7 @@ export function CompanyProfile() {
               </div>
 
               {/* GROWTH */}
+
               <div className="border-t border-[#083b52]/15 pt-6">
                 <h4 className="font-display text-xl font-semibold text-[#071c27]">
                   Growth
@@ -179,11 +275,9 @@ export function CompanyProfile() {
                   partnerships with a long-term perspective.
                 </p>
               </div>
-
             </div>
           </div>
         </div>
-
       </div>
     </section>
   );

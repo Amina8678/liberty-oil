@@ -11,28 +11,44 @@ import { Quality } from "@/components/Quality";
 import { Locations } from "@/components/Locations";
 import { Contact } from "@/components/Contact";
 import { Footer } from "@/components/Footer";
+
 export default function Home() {
   return (
     <>
       <Header />
 
       <main>
+        {/* Main company introduction */}
         <Hero />
 
-        {/* CEO Profile */}
+        {/* CEO profile comes first */}
         <CEOProfile />
 
-        {/* Directors */}
+        {/* Three main company directors and regional leadership */}
         <Directors />
 
-        {/* Company Profile */}
+        {/* Company profile comes after the directors */}
         <CompanyProfile />
+
+        {/* Company activities */}
         <WhatWeDo />
+
+        {/* Production process */}
         <Process />
+
+        {/* Sustainability and solar-powered production */}
         <Sustainability />
+
+        {/* Product portfolio */}
         <Products />
+
+        {/* Quality and certifications */}
         <Quality />
+
+        {/* UK and Ghana locations */}
         <Locations />
+
+        {/* Contact message form */}
         <Contact />
       </main>
 
