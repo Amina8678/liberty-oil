@@ -35,7 +35,7 @@ export function CEOProfile() {
           <div className="overflow-hidden rounded-[22px] bg-[#eef9fd]">
             <div className="flex min-h-[360px] items-center justify-center bg-[#dff3fb] p-8">
               <img
-                src="/images/ceo.png"
+                src="/images/CEO.PNG"
                 alt="Chief Executive Officer of Liberty Health Ltd"
                 className="h-full min-h-[360px] w-full object-contain"
               />

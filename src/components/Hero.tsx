@@ -141,7 +141,7 @@ export function Hero() {
         <div className="relative min-h-[520px] lg:min-h-[760px]">
 
           <img
-            src="/images/ceo.png"
+            src="/images/CEO.PNG"
             alt="Olive production and agricultural operations connected to Liberty Health"
             className="absolute inset-0 h-full w-full object-cover"
           />
