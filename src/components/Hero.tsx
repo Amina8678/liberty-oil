@@ -145,9 +145,7 @@ export function Hero() {
             alt="Olive production and agricultural operations connected to Liberty Health"
             className="absolute inset-0 h-full w-full object-cover"
           />
-          
-
-
+    
           {/* OVERLAY */}
           <div className="absolute inset-0 bg-gradient-to-r from-[#071c27] via-[#071c27]/25 to-transparent" />
 
