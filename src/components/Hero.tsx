@@ -26,31 +26,31 @@ export function Hero() {
 
 
               {/* HEADLINE */}
-              <h1 className="font-display text-5xl font-semibold leading-[1.02] tracking-tight text-white sm:text-6xl md:text-7xl lg:text-[5.2rem]">
-                Building
+              <h2 className="font-display text-5xl font-semibold leading-[1.02] tracking-tight text-white sm:text-6xl md:text-7xl lg:text-[5.2rem]">
+                OUR CEO
                 <br />
 
                 <span className="text-[#09b1ec]">
-                  trusted value.
+                 Mr. Christian Osei 
                 </span>
-              </h1>
+              </h2>
 
 
               {/* COMPANY INTRODUCTION */}
+              <p></p>
               <p className="mt-8 max-w-2xl text-lg leading-8 text-white/75 md:text-xl">
-                Liberty Health Ltd is a UK-based company focused on
-                developing quality food products, building trusted
-                partnerships and connecting producers, suppliers and
-                customers across international markets.
-              </p>
+                At Liberty Health Ltd, our mission is to deliver premium Mediterranean 
+                food products that combine quality, nutrition, authenticity, and trust. 
+                We are committed to serving Africa’s diverse communities through safe, 
+                responsibly sourced products that promote healthier food choices.
+              </p><br></br>
 
 
               {/* SECONDARY DESCRIPTION */}
               <p className="mt-5 max-w-xl text-sm leading-7 text-white/50">
-                Established in 2020, the company combines entrepreneurial
-                leadership, sourcing expertise, quality assurance and
-                market development to create long-term value for customers
-                and business partners.
+               As CEO, I am dedicated to building a trusted and sustainable food and 
+               distribution company that connects quality producers with African markets, 
+               creates lasting value, and upholds the highest standards of integrity and excellence.
               </p>
 
 
@@ -59,7 +59,7 @@ export function Hero() {
 
                 <a
                   href="#about"
-                  className="inline-flex items-center justify-center bg-[#09b1ec] px-7 py-4 text-sm font-semibold text-white transition-colors hover:bg-white hover:text-[#083b52]"
+                  className="inline-flex items-center justify-center bg-[#09b1ec] px-7 py-4 text-sm font-semibold text-white transition-colors hover:bg-black hover:text-[#083b52]"
                 >
                   Discover Liberty Health
                 </a>
@@ -106,7 +106,7 @@ export function Hero() {
                 <div className="border-r border-white/10 px-5">
 
                   <p className="font-display text-2xl font-semibold text-white">
-                    GH
+                    GH & SA
                   </p>
 
                   <p className="mt-1 text-xs leading-5 text-white/45">
@@ -141,10 +141,11 @@ export function Hero() {
         <div className="relative min-h-[520px] lg:min-h-[760px]">
 
           <img
-            src="/images/event-olive-oil-grove.jpeg"
+            src="/images/ceo.png"
             alt="Olive production and agricultural operations connected to Liberty Health"
             className="absolute inset-0 h-full w-full object-cover"
           />
+          
 
 
           {/* OVERLAY */}
