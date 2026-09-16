@@ -2,7 +2,6 @@
 
 import {
   Phone,
-  Mail,
   MessageCircle,
   MapPin,
 } from "lucide-react";
@@ -47,27 +46,27 @@ const directors = [
 ];
 
 const managers = [
-  {
-    region: "Ghana",
-    name: "Seth Kwame Twum",
-    title: "Director — Ghana",
-    image: "/images/manager-ghana.jpg",
-    phone: "+233 23 456 7890",
-    whatsapp: "233234567890",
-    email: "ghana@libertyhealth.com",
-    address:
-      "18 Junction, Spintex Road, opposite DSTV, Accra, Ghana",
-  },
-  {
+    {
     region: "United Kingdom",
     name: "UK Director",
     title: "Director — United Kingdom",
     image: "/images/manager-uk.jpg",
     phone: "+44 1234 567890",
     whatsapp: "441234567890",
-    email: "uk@libertyhealth.com",
     address: "United Kingdom",
   },
+  // Ghana Director
+  {
+    region: "Ghana",
+    name: "Seth Kwame Twum",
+    title: "Director — Ghana",
+    image: "/images/manager-ghana.jpg",
+    phone: "+233 59 247 1523",
+    whatsapp: "+233 59 247 1523",
+    address:
+      "18 Junction, Spintex Road, opposite DSTV, Accra, Ghana",
+  },
+
   {
     region: "South Africa",
     name: "Mr Kovan Pillay",
@@ -75,7 +74,6 @@ const managers = [
     image: "/images/manager-sa.png",
     phone: "+27 71 115 3889",
     whatsapp: "27711153889",
-    email: "sa@libertyhealth.com",
     address:
       "Plot 127 Rietfontein, Hartbeespoort, North West Province.",
   },
@@ -354,18 +352,6 @@ export function Directors() {
                       {manager.phone}
                     </a>
 
-                    {/* EMAIL */}
-                    <a
-                      href={`mailto:${manager.email}`}
-                      className="flex items-center gap-3 text-sm text-[#083b52]/75 transition-colors hover:text-[#09b1ec]"
-                    >
-                      <Mail
-                        size={18}
-                        className="shrink-0 text-[#09b1ec]"
-                      />
-
-                      {manager.email}
-                    </a>
                   </div>
 
                   {/* CONTACT BUTTONS */}

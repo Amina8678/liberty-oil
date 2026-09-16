@@ -52,6 +52,44 @@ export function CompanyProfile() {
         </div>
 
         {/* =====================================================
+            VIDEO FEATURE
+            ===================================================== */}
+
+        <div className="mt-20 overflow-hidden rounded-[28px] border border-[#083b52]/10 bg-[#eef9fd] shadow-sm">
+          <div className="grid gap-0 lg:grid-cols-[0.9fr_1.1fr]">
+            <div className="flex flex-col justify-center bg-[#083b52] p-8 md:p-12">
+              <p className="text-xs font-bold uppercase tracking-[0.18em] text-[#65c2f5]">
+                Company Video
+              </p>
+
+              <h3 className="mt-5 font-display text-3xl font-semibold leading-tight text-white md:text-4xl">
+                A quick introduction to Liberty Health.
+              </h3>
+
+              <p className="mt-5 max-w-md text-base leading-8 text-white/80">
+                Add a brand, company, or product introduction video here. It is set to autoplay and loop to create a modern showcase section.
+              </p>
+            </div>
+
+            <div className="relative aspect-video overflow-hidden bg-[#d8f2fb]">
+              <video
+                className="h-full w-full object-cover"
+                src="/images/intro-vid-1.mov"
+                autoPlay
+                muted
+                loop
+                playsInline
+                preload="auto"
+              >
+                Your browser does not support the video tag.
+              </video>
+
+              <div className="pointer-events-none absolute inset-0 bg-gradient-to-t from-[#071c27]/25 via-transparent to-transparent" />
+            </div>
+          </div>
+        </div>
+
+        {/* =====================================================
             HISTORY / VISION / MISSION
             ===================================================== */}
 

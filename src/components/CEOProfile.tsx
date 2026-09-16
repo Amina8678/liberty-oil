@@ -47,7 +47,7 @@ export function CEOProfile() {
               </p>
 
               <h3 className="mt-4 font-display text-3xl font-semibold text-[#071c27]">
-                Mr. Christian Osei
+               Hafiz Choudhury
               </h3>
 
               <p className="mt-2 text-sm font-semibold uppercase tracking-[0.14em] text-[#083b52]">
@@ -92,7 +92,7 @@ export function CEOProfile() {
 
             <div className="mt-10 border-t border-[#dff3fb] pt-6">
               <p className="font-display text-xl font-semibold text-[#071c27]">
-                Mr. Christian Osei
+                Hafiz Choudhury
               </p>
 
               <p className="mt-1 text-sm uppercase tracking-[0.14em] text-[#083b52]/65">

@@ -31,7 +31,7 @@ export function Hero() {
                 <br />
 
                 <span className="text-[#09b1ec]">
-                 Mr. Christian Osei 
+                 Hafiz Choudhury 
                 </span>
               </h2>
 
