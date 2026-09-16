@@ -61,7 +61,7 @@ const managers = [
     region: "Ghana",
     name: "Seth Kwame Twum",
     title: "Director — Ghana",
-   // image: "/images/manager-ghana.jpg",
+   image: "/images/ghana.png",
     phone: "+233 59 247 1523",
     whatsapp: "+233 59 247 1523",
     address:
@@ -72,7 +72,7 @@ const managers = [
     region: "South Africa",
     name: "Mr Kovan Pillay",
     title: "Director — South Africa",
-    //image: "/images/manager-sa.png",
+    image: "/images/south-africa.png",
     phone: "+27 71 115 3889",
     whatsapp: "27711153889",
     address:

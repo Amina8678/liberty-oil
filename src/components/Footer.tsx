@@ -163,7 +163,7 @@ export function Footer() {
           </p>
 
           <p>
-            Ghana · United Kingdom
+            United Kingdom · Ghana · South Africa
           </p>
 
         </div>

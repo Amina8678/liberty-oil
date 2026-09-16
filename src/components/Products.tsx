@@ -78,7 +78,7 @@ export function Products() {
                   alt={product.name}
                   className="h-full w-full object-contain"
                 />
-              </div>
+              </div><br></br>
 
               <div className="p-7">
                 <p className="text-xs font-bold uppercase tracking-[0.16em] text-[#09b1ec]">

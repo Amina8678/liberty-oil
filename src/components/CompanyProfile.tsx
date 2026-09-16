@@ -67,7 +67,8 @@ export function CompanyProfile() {
               </h3>
 
               <p className="mt-5 max-w-md text-base leading-8 text-white/80">
-                Add a brand, company, or product introduction video here. It is set to autoplay and loop to create a modern showcase section.
+              Explore our company, our commitment to quality, and the journey behind the food products 
+              we bring to international markets.
               </p>
             </div>
 
