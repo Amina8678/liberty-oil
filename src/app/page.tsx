@@ -1,3 +1,6 @@
+"use client";
+
+import { useEffect } from "react";
 import { Header } from "@/components/Header";
 import { Hero } from "@/components/Hero";
 import { CEOProfile } from "@/components/CEOProfile";
@@ -13,43 +16,79 @@ import { Contact } from "@/components/Contact";
 import { Footer } from "@/components/Footer";
 
 export default function Home() {
+  useEffect(() => {
+    const elements = document.querySelectorAll(".reveal-on-scroll");
+
+    if (!elements.length) return;
+
+    const observer = new IntersectionObserver(
+      (entries) => {
+        entries.forEach((entry) => {
+          if (entry.isIntersecting) {
+            entry.target.classList.add("is-visible");
+            observer.unobserve(entry.target);
+          }
+        });
+      },
+      {
+        threshold: 0.12,
+        rootMargin: "0px 0px -40px 0px",
+      }
+    );
+
+    elements.forEach((element) => observer.observe(element));
+
+    return () => observer.disconnect();
+  }, []);
+
   return (
     <>
       <Header />
 
-      <main>
-        {/* Main company introduction */}
-        <Hero />
+      <main className="overflow-x-hidden">
+        <div className="reveal-on-scroll" data-direction="up">
+          <Hero />
+        </div>
 
-        {/* CEO profile comes first */}
-        <CEOProfile />
+        <div className="reveal-on-scroll" data-direction="left">
+          <CEOProfile />
+        </div>
 
-        {/* Three main company directors and regional leadership */}
-        <Directors />
+        <div className="reveal-on-scroll" data-direction="right">
+          <Directors />
+        </div>
 
-        {/* Company profile comes after the directors */}
-        <CompanyProfile />
+        <div className="reveal-on-scroll" data-direction="up">
+          <CompanyProfile />
+        </div>
 
-        {/* Company activities */}
-        <WhatWeDo />
+        <div className="reveal-on-scroll" data-direction="left">
+          <WhatWeDo />
+        </div>
 
-        {/* Production process */}
-        <Process />
+        <div className="reveal-on-scroll" data-direction="right">
+          <Process />
+        </div>
 
-        {/* Sustainability and solar-powered production */}
-        <Sustainability />
+        <div className="reveal-on-scroll" data-direction="up">
+          <Sustainability />
+        </div>
 
-        {/* Product portfolio */}
-        <Products />
+        <div className="reveal-on-scroll" data-direction="left">
+          <Products />
+        </div>
 
-        {/* Quality and certifications */}
-        <Quality />
+        <div className="reveal-on-scroll" data-direction="right">
+          <Quality />
+        </div>
 
-        {/* UK and Ghana locations */}
-        <Locations />
+        <div className="reveal-on-scroll" data-direction="up">
+          <Locations />
+        </div>
 
-        {/* Contact message form */}
-        <Contact />
+        <div className="reveal-on-scroll" data-direction="left">
+          <Contact />
+        </div>
       </main>
 
       <Footer />

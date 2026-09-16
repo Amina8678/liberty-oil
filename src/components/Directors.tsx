@@ -48,19 +48,20 @@ const directors = [
 const managers = [
     {
     region: "United Kingdom",
-    name: "UK Director",
+    name: "Hafiz Choudhury",
     title: "Director — United Kingdom",
-    image: "/images/manager-uk.jpg",
-    phone: "+44 1234 567890",
+    image: "/images/CEO.PNG",
+    phone: "+44 7837 867759",
     whatsapp: "441234567890",
     address: "United Kingdom",
   },
   // Ghana Director
   {
+    //seth picture
     region: "Ghana",
     name: "Seth Kwame Twum",
     title: "Director — Ghana",
-    image: "/images/manager-ghana.jpg",
+   // image: "/images/manager-ghana.jpg",
     phone: "+233 59 247 1523",
     whatsapp: "+233 59 247 1523",
     address:
@@ -71,7 +72,7 @@ const managers = [
     region: "South Africa",
     name: "Mr Kovan Pillay",
     title: "Director — South Africa",
-    image: "/images/manager-sa.png",
+    //image: "/images/manager-sa.png",
     phone: "+27 71 115 3889",
     whatsapp: "27711153889",
     address:
