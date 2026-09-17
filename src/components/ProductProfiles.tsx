@@ -63,6 +63,7 @@ const profiles: Profile[] = [
   {
     name: "Premium Hazelnuts",
     category: "Nuts & Healthy Snacks",
+    image: "/images/hazelnuts.png",
     highlights: [
       "Vitamin E",
       "Omega fatty acids",
@@ -75,6 +76,7 @@ const profiles: Profile[] = [
   {
     name: "Premium Walnuts",
     category: "Nuts & Healthy Snacks",
+    image: "/images/walnuts.png",
     highlights: [
       "Omega-3 fatty acids",
       "Antioxidants",
@@ -137,10 +139,10 @@ export function ProductProfiles() {
                 ) : (
                   <div className="flex h-full w-full flex-col items-center justify-center gap-2 rounded-[14px] bg-white text-center">
                     <span className="text-xs font-semibold uppercase tracking-[0.16em] text-[#083b52]/35">
-                      Product photo
+                      {product.category}
                     </span>
                     <span className="text-[11px] text-[#083b52]/30">
-                      Coming soon
+                      {product.name}
                     </span>
                   </div>
                 )}
