@@ -52,6 +52,22 @@ export function Process() {
               markedly higher concentration of phenolic compounds than other
               extraction methods.
             </p>
+
+            <div className="mt-8 overflow-hidden rounded-[22px] border border-white/10 bg-white/5">
+              <img
+                src="/images/eco-friendly-olive-oil-production.jpeg"
+                alt="Olive oil production facility powered by rooftop solar panels"
+                className="h-56 w-full object-cover"
+              />
+
+              <p
+                className="p-5 text-sm leading-7"
+                style={{ color: "#ffffff" }}
+              >
+                From careful harvesting to efficient production, each stage is
+                designed to protect quality while reducing unnecessary waste.
+              </p>
+            </div>
           </div>
 
           <div className="md:col-span-6 md:col-start-7 rule-dark">

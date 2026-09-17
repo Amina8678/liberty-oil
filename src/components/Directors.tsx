@@ -72,7 +72,7 @@ const managers = [
     region: "South Africa",
     name: "Mr Kovan Pillay",
     title: "Director — South Africa",
-    image: "/images/south-africa.png",
+    image: "/images/south-africa-waving-flag-realistic-transparent-background.png",
     phone: "+27 71 115 3889",
     whatsapp: "27711153889",
     address:

@@ -38,6 +38,33 @@ export function Sustainability() {
               the communities connected to our operations.
             </p>
 
+            <div className="mt-8 overflow-hidden rounded-[22px] border border-white/10 bg-white/5">
+              <img
+                src="/images/event-olive-oil-grove.jpeg"
+                alt="Olive grove supporting responsible olive oil production"
+                className="h-64 w-full object-cover"
+              />
+
+              <div className="p-7">
+                <p
+                  className="text-xs font-bold uppercase tracking-[0.16em]"
+                  style={{ color: "#65c2f5" }}
+                >
+                  Environmentally Friendly Production
+                </p>
+
+                <p
+                  className="mt-4 text-base leading-8"
+                  style={{ color: "#ffffff" }}
+                >
+                  Our factory is the sector&apos;s first environmentally friendly
+                  olive oil production facility. We take pride in contributing
+                  to the Turkish economy by supplying high-quality products to
+                  both domestic and international markets.
+                </p>
+              </div>
+            </div>
+
             <div className="mt-10 grid gap-px bg-white/10 md:grid-cols-3">
 
               {/* 01 */}

@@ -76,11 +76,8 @@ export function CEOProfile() {
             </blockquote>
 
             <p className="mt-8 text-lg leading-8 text-[#083b52]/75">
-              At Liberty Health Ltd, our focus is to create a strong and
-              dependable business built on quality products, professional
-              service, and trusted partnerships. We believe sustainable growth
-              comes from understanding our customers, supporting our partners,
-              and maintaining high standards throughout our operations.
+             Liberty Health Ltd is a farmers' enterprise with 100% Turkish capital, led by a woman entrepreneur.
+We source our olives from our own garden. The unique taste, smell, and aroma of Event Olive Oils come from oils extracted from the finest olives of the Aegean Region.
             </p>
 
             <p className="mt-6 text-lg leading-8 text-[#083b52]/75">

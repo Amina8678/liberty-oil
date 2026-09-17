@@ -4,6 +4,8 @@ const products = [
     category: "Flagship Product",
     description:
       "Premium cold-pressed olive oil with a strong Mediterranean heritage, designed for everyday cooking and the premium oil category.",
+    benefits:
+      "Contains monounsaturated fats and naturally occurring antioxidants for a nourishing choice in a balanced diet.",
     image: "/images/event-olive-oil-table.jpeg",
   },
   {
@@ -11,6 +13,8 @@ const products = [
     category: "Healthy Snacking",
     description:
       "Naturally sweet dried figs suitable for healthy snacking, family consumption, breakfast and desserts.",
+    benefits:
+      "A natural source of dietary fibre and minerals that supports balanced everyday nutrition.",
     image: "/images/dried-figs.jpg",
   },
   {
@@ -18,6 +22,8 @@ const products = [
     category: "Healthy Snacking",
     description:
       "Versatile dried apricots ideal for lunchboxes, healthy snacks, baking and everyday family consumption.",
+    benefits:
+      "Provides dietary fibre and naturally occurring nutrients in a convenient, naturally sweet snack.",
     image: "/images/dried-apricots.jpg",
   },
   {
@@ -25,6 +31,8 @@ const products = [
     category: "Healthy Snacking",
     description:
       "Convenient and naturally sweet raisins for snacking, breakfast, baking and desserts.",
+    benefits:
+      "Offers natural energy and dietary fibre for a practical addition to breakfast and snack choices.",
     image: "/images/raisins.jpg",
   },
   {
@@ -32,6 +40,8 @@ const products = [
     category: "Healthy Snacking",
     description:
       "Premium dried prunes suitable for healthy snacking, breakfast and use as a versatile food ingredient.",
+    benefits:
+      "A fibre-rich fruit that can support digestive wellness as part of a balanced diet.",
     image: "/images/prunes.jpg",
   },
   {
@@ -39,6 +49,8 @@ const products = [
     category: "Nuts & Healthy Snacks",
     description:
       "High-perceived-value Mediterranean snacks suited to convenience stores, checkout displays and health-food shelves.",
+    benefits:
+      "Provides plant-based protein, beneficial fats and important nutrients for satisfying everyday snacking.",
     image: "/images/almonds-pistachios.jpg",
   },
 ];
@@ -99,6 +111,18 @@ export function Products() {
                 <p className="mt-4 text-sm leading-7 text-[#083b52]/65">
                   {product.description}
                 </p>
+
+                {product.benefits && (
+                  <div className="mt-5 border-t border-[#083b52]/10 pt-5">
+                    <p className="text-[10px] font-bold uppercase tracking-[0.16em] text-[#09b1ec]">
+                      Health Benefits
+                    </p>
+
+                    <p className="mt-2 text-sm leading-7 text-[#083b52]/65">
+                      {product.benefits}
+                    </p>
+                  </div>
+                )}
               </div>
             </article>
           ))}
