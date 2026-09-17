@@ -9,10 +9,13 @@ import { CompanyProfile } from "@/components/CompanyProfile";
 import { WhatWeDo } from "@/components/WhatWeDo";
 import { Process } from "@/components/Process";
 import { Sustainability } from "@/components/Sustainability";
+import { WhyTurkey } from "@/components/WhyTurkey";
 import { Products } from "@/components/Products";
+import { ProductProfiles } from "@/components/ProductProfiles";
 import { Quality } from "@/components/Quality";
+import { ProductPackaging } from "@/components/ProductPackaging";
 import { Locations } from "@/components/Locations";
-import { Contact } from "@/components/Contact";
+// import { Contact } from "@/components/Contact";
 import { Footer } from "@/components/Footer";
 
 export default function Home() {
@@ -75,20 +78,32 @@ export default function Home() {
         </div>
 
         <div className="reveal-on-scroll" data-direction="left">
-          <Products />
+          <WhyTurkey />
         </div>
 
         <div className="reveal-on-scroll" data-direction="right">
+          <Products />
+        </div>
+
+        <div className="reveal-on-scroll" data-direction="up">
+          <ProductProfiles />
+        </div>
+
+        <div className="reveal-on-scroll" data-direction="left">
           <Quality />
+        </div>
+
+        <div className="reveal-on-scroll" data-direction="right">
+          <ProductPackaging />
         </div>
 
         <div className="reveal-on-scroll" data-direction="up">
           <Locations />
         </div>
 
-        <div className="reveal-on-scroll" data-direction="left">
+        {/* <div className="reveal-on-scroll" data-direction="left">
           <Contact />
-        </div>
+        </div> */}
       </main>
 
       <Footer />

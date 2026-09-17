@@ -64,6 +64,13 @@ export function Products() {
             naturally sweet dried fruits and convenient healthy snacks designed
             for modern retail environments.
           </p>
+
+          <a
+            href="#product-profiles"
+            className="mt-6 inline-flex items-center text-sm font-semibold text-[#09b1ec] transition-colors hover:text-[#078fca]"
+          >
+            View full product profiles ↓
+          </a>
         </div>
 
         <div className="mt-16 grid gap-8 md:grid-cols-2 lg:grid-cols-3">

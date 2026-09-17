@@ -94,6 +94,83 @@ export function Quality() {
 
         </div>
 
+        {/* Dried Fruits & Nuts: Sourcing, Processing & Quality Assurance */}
+        <div className="mt-20 border-t border-[#083b52]/10 pt-16 md:mt-28 md:pt-20">
+          <div className="max-w-2xl">
+            <span className="section-label">
+              Dried Fruits &amp; Nuts
+            </span>
+
+            <h3 className="mt-5 font-display text-3xl font-semibold leading-tight text-[#071c27] md:text-4xl">
+              Sourcing, processing and quality assurance.
+            </h3>
+
+            <p className="mt-6 text-base leading-8 text-muted">
+              Quality assurance sits at the centre of our dried fruit and
+              nut business, from selected growers through to hygienic
+              processing and final packaging.
+            </p>
+          </div>
+
+          <div className="mt-12 grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
+            <div className="rounded-[18px] border border-[#083b52]/10 bg-white p-7">
+              <p className="text-xs font-bold uppercase tracking-[0.15em] text-[#09b1ec]">
+                01
+              </p>
+              <h4 className="mt-4 font-display text-lg font-semibold text-[#071c27]">
+                Responsible Sourcing
+              </h4>
+              <p className="mt-3 text-sm leading-7 text-[#083b52]/65">
+                Products are sourced from carefully selected Turkish growers
+                and processors committed to quality and sustainable
+                production.
+              </p>
+            </div>
+
+            <div className="rounded-[18px] border border-[#083b52]/10 bg-white p-7">
+              <p className="text-xs font-bold uppercase tracking-[0.15em] text-[#09b1ec]">
+                02
+              </p>
+              <h4 className="mt-4 font-display text-lg font-semibold text-[#071c27]">
+                Hygienic Processing
+              </h4>
+              <p className="mt-3 text-sm leading-7 text-[#083b52]/65">
+                Sorting, inspection and hygienic processing preserve
+                freshness, food safety and nutritional integrity at every
+                stage.
+              </p>
+            </div>
+
+            <div className="rounded-[18px] border border-[#083b52]/10 bg-white p-7">
+              <p className="text-xs font-bold uppercase tracking-[0.15em] text-[#09b1ec]">
+                03
+              </p>
+              <h4 className="mt-4 font-display text-lg font-semibold text-[#071c27]">
+                Compliance &amp; Traceability
+              </h4>
+              <p className="mt-3 text-sm leading-7 text-[#083b52]/65">
+                We work to HACCP principles and ISO-aligned quality
+                management, with Halal compliance and traceability from
+                source to customer.
+              </p>
+            </div>
+
+            <div className="rounded-[18px] border border-[#083b52]/10 bg-white p-7">
+              <p className="text-xs font-bold uppercase tracking-[0.15em] text-[#09b1ec]">
+                04
+              </p>
+              <h4 className="mt-4 font-display text-lg font-semibold text-[#071c27]">
+                Continuous Monitoring
+              </h4>
+              <p className="mt-3 text-sm leading-7 text-[#083b52]/65">
+                Regular checks on appearance, moisture, cleanliness and
+                packaging integrity support consistent quality and export
+                compliance.
+              </p>
+            </div>
+          </div>
+        </div>
+
       </div>
     </section>
   );

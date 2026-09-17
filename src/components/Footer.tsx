@@ -81,6 +81,13 @@ export function Footer() {
                 Sustainability
               </a>
 
+              <a
+                href="#packaging"
+                className="transition-colors hover:text-[#65c2f5]"
+              >
+                Packaging
+              </a>
+
             </div>
 
           </div>
@@ -109,10 +116,10 @@ export function Footer() {
               </a>
 
               <a
-                href="#products"
+                href="#product-profiles"
                 className="transition-colors hover:text-[#65c2f5]"
               >
-                Mediterranean Foods
+                Dried Fruits &amp; Nuts
               </a>
 
             </div>

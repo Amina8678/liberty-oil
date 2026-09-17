@@ -8,6 +8,7 @@ const links = [
   { href: "#process", label: "Grove to Bottle" },
   { href: "#products", label: "Products" },
   { href: "#quality", label: "Quality" },
+  { href: "#packaging", label: "Packaging" },
   { href: "#locations", label: "Locations" },
 ];
 
