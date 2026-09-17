@@ -55,8 +55,8 @@ export function Process() {
 
             <div className="mt-8 overflow-hidden rounded-[22px] border border-white/10 bg-white/5">
               <img
-                src="/images/eco-friendly-olive-oil-production.jpeg"
-                alt="Olive oil production facility powered by rooftop solar panels"
+                src="/images/event-olive-oil-hand.jpeg"
+                alt="Hand-harvesting olives for cold-pressed olive oil production"
                 className="h-56 w-full object-cover"
               />
 

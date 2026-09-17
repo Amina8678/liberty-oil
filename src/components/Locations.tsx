@@ -27,7 +27,7 @@ export function Locations() {
         {/* Locations */}
         <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
           {/* United Kingdom */}
-          <div className="rounded-3xl border border-[#083b52]/10 bg-[#eef9fd] p-8 transition-shadow hover:shadow-lg md:p-10">
+          <div className="flex h-full flex-col rounded-3xl border border-[#083b52]/10 bg-[#eef9fd] p-8 transition-shadow hover:shadow-lg md:p-10">
             <div className="mb-6 flex h-14 w-14 items-center justify-center rounded-2xl bg-[#09b1ec]">
               <MapPin className="h-7 w-7 text-white" />
             </div>
@@ -48,18 +48,21 @@ export function Locations() {
               across the UK.
             </p>
 
-            <a
-              href="https://www.google.com/maps/search/?api=1&query=United+Kingdom"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="mt-6 inline-flex items-center rounded-full bg-[#083b52] px-6 py-3 text-sm font-semibold text-white transition hover:bg-[#09b1ec]"
-            >
-              View on Map
-            </a>
+            <div className="mt-auto pt-6">
+              <div className="overflow-hidden rounded-2xl border border-[#083b52]/10 bg-white">
+                <iframe
+                  title="Liberty Health Ltd location in the United Kingdom"
+                  src="https://www.google.com/maps?q=United+Kingdom&output=embed"
+                  className="h-56 w-full border-0"
+                  loading="lazy"
+                  referrerPolicy="no-referrer-when-downgrade"
+                />
+              </div>
+            </div>
           </div>
 
           {/* Ghana */}
-          <div className="rounded-3xl border border-[#083b52]/10 bg-[#eef9fd] p-8 transition-shadow hover:shadow-lg md:p-10">
+          <div className="flex h-full flex-col rounded-3xl border border-[#083b52]/10 bg-[#eef9fd] p-8 transition-shadow hover:shadow-lg md:p-10">
             <div className="mb-6 flex h-14 w-14 items-center justify-center rounded-2xl bg-[#09b1ec]">
               <MapPin className="h-7 w-7 text-white" />
             </div>
@@ -80,18 +83,21 @@ export function Locations() {
               Accra, Ghana.
             </p>
 
-            <a
-              href="https://www.google.com/maps/search/?api=1&query=18+Junction+Spintex+Road+Accra+Ghana"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="mt-6 inline-flex items-center rounded-full bg-[#083b52] px-6 py-3 text-sm font-semibold text-white transition hover:bg-[#09b1ec]"
-            >
-              View on Map
-            </a>
+            <div className="mt-auto pt-6">
+              <div className="overflow-hidden rounded-2xl border border-[#083b52]/10 bg-white">
+                <iframe
+                  title="Liberty Health Ltd location in Accra, Ghana"
+                  src="https://www.google.com/maps?q=18+Junction+Spintex+Road+Accra+Ghana&output=embed"
+                  className="h-56 w-full border-0"
+                  loading="lazy"
+                  referrerPolicy="no-referrer-when-downgrade"
+                />
+              </div>
+            </div>
           </div>
 
           {/* South Africa */}
-          <div className="rounded-3xl border border-[#083b52]/10 bg-[#eef9fd] p-8 transition-shadow hover:shadow-lg md:p-10">
+          <div className="flex h-full flex-col rounded-3xl border border-[#083b52]/10 bg-[#eef9fd] p-8 transition-shadow hover:shadow-lg md:p-10">
             <div className="mb-6 flex h-14 w-14 items-center justify-center rounded-2xl bg-[#09b1ec]">
               <MapPin className="h-7 w-7 text-white" />
             </div>
@@ -114,14 +120,17 @@ export function Locations() {
               South Africa.
             </p>
 
-            <a
-              href="https://www.google.com/maps/search/?api=1&query=Plot+127+Rietfontein+Hartbeespoort+North+West+Province+South+Africa"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="mt-6 inline-flex items-center rounded-full bg-[#083b52] px-6 py-3 text-sm font-semibold text-white transition hover:bg-[#09b1ec]"
-            >
-              View on Map
-            </a>
+            <div className="mt-auto pt-6">
+              <div className="overflow-hidden rounded-2xl border border-[#083b52]/10 bg-white">
+                <iframe
+                  title="Liberty Health Ltd location in Hartbeespoort, South Africa"
+                  src="https://www.google.com/maps?q=Plot+127+Rietfontein+Hartbeespoort+North+West+Province+South+Africa&output=embed"
+                  className="h-56 w-full border-0"
+                  loading="lazy"
+                  referrerPolicy="no-referrer-when-downgrade"
+                />
+              </div>
+            </div>
           </div>
         </div>
       </div>

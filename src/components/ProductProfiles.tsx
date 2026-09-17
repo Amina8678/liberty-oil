@@ -125,17 +125,17 @@ export function ProductProfiles() {
           {profiles.map((product) => (
             <article
               key={product.name}
-              className="product-card overflow-hidden rounded-[22px] border border-[#083b52]/10 bg-[#eef9fd]"
+              className="product-card overflow-hidden rounded-[22px] border border-white/10 bg-[#071c27]"
             >
               <div className="flex h-56 items-center justify-center bg-white p-6">
                 {product.image ? (
                   <img
                     src={product.image}
                     alt={product.name}
-                    className="h-full w-full object-contain"
+                    className="max-h-full max-w-full object-contain"
                   />
                 ) : (
-                  <div className="flex h-full w-full flex-col items-center justify-center gap-2 rounded-[14px] bg-[#eef9fd] text-center">
+                  <div className="flex h-full w-full flex-col items-center justify-center gap-2 rounded-[14px] bg-white text-center">
                     <span className="text-xs font-semibold uppercase tracking-[0.16em] text-[#083b52]/35">
                       Product photo
                     </span>
@@ -151,11 +151,11 @@ export function ProductProfiles() {
                   {product.category}
                 </p>
 
-                <h3 className="mt-4 font-display text-2xl font-semibold text-[#071c27]">
+                <h3 className="mt-4 font-display text-2xl font-semibold text-white">
                   {product.name}
                 </h3>
 
-                <ul className="mt-5 space-y-1.5 text-sm leading-6 text-[#083b52]/70">
+                <ul className="mt-5 space-y-1.5 text-sm leading-6 text-white/75">
                   {product.highlights.map((h) => (
                     <li key={h} className="flex gap-2">
                       <span className="mt-2 h-1 w-1 shrink-0 rounded-full bg-[#09b1ec]" />
@@ -164,19 +164,21 @@ export function ProductProfiles() {
                   ))}
                 </ul>
 
-                <p className="mt-5 text-sm leading-7 text-[#083b52]/65">
-                  <span className="font-semibold text-[#083b52]">
-                    Culinary uses —{" "}
-                  </span>
-                  {product.uses}
-                </p>
+                <div className="mt-5 border-t border-white/15 pt-5">
+                  <p className="text-sm leading-7 text-white/75">
+                    <span className="font-semibold text-white">
+                      Culinary uses —{" "}
+                    </span>
+                    {product.uses}
+                  </p>
 
-                <p className="mt-3 text-sm leading-7 text-[#083b52]/65">
-                  <span className="font-semibold text-[#083b52]">
-                    Quality —{" "}
-                  </span>
-                  {product.quality}
-                </p>
+                  <p className="mt-3 text-sm leading-7 text-white/75">
+                    <span className="font-semibold text-white">
+                      Quality —{" "}
+                    </span>
+                    {product.quality}
+                  </p>
+                </div>
               </div>
             </article>
           ))}

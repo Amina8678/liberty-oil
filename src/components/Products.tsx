@@ -89,36 +89,36 @@ export function Products() {
           {products.map((product) => (
             <article
               key={product.name}
-              className="overflow-hidden rounded-[22px] border border-[#083b52]/10 bg-[#eef9fd]"
+              className="overflow-hidden rounded-[22px] border border-white/10 bg-[#071c27]"
             >
               <div className="flex h-64 items-center justify-center bg-white p-6">
                 <img
                   src={product.image}
                   alt={product.name}
-                  className="h-full w-full object-contain"
+                  className="max-h-full max-w-full object-contain"
                 />
-              </div><br></br>
+              </div>
 
               <div className="p-7">
                 <p className="text-xs font-bold uppercase tracking-[0.16em] text-[#09b1ec]">
                   {product.category}
                 </p>
 
-                <h3 className="mt-4 font-display text-2xl font-semibold text-[#071c27]">
+                <h3 className="mt-4 font-display text-2xl font-semibold text-white">
                   {product.name}
                 </h3>
 
-                <p className="mt-4 text-sm leading-7 text-[#083b52]/65">
+                <p className="mt-4 text-sm leading-7 text-white/75">
                   {product.description}
                 </p>
 
                 {product.benefits && (
-                  <div className="mt-5 border-t border-[#083b52]/10 pt-5">
+                  <div className="mt-5 border-t border-white/15 pt-5">
                     <p className="text-[10px] font-bold uppercase tracking-[0.16em] text-[#09b1ec]">
                       Health Benefits
                     </p>
 
-                    <p className="mt-2 text-sm leading-7 text-[#083b52]/65">
+                    <p className="mt-2 text-sm leading-7 text-white/75">
                       {product.benefits}
                     </p>
                   </div>
