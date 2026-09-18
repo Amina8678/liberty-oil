@@ -2,7 +2,8 @@ const reasons = [
   {
     n: "01",
     title: "Optimal Growing Conditions",
-    body: "Turkey's geography, climate and fertile soils support premium dried fruit and nut production with exceptional flavour and nutrition.",
+    body: "Turkey's geography, climate and fertile soils support premium dried fruit and nut production with exceptional flavour and nutritional quality, while supporting consistent harvests that meet export standards."
+    ,
   },
   {
     n: "02",
@@ -12,7 +13,7 @@ const reasons = [
   {
     n: "03",
     title: "Sustainable Cultivation",
-    body: "Sustainable farming practices protect local ecosystems and maintain long-term productivity and product quality.",
+    body: "Sustainable farming practices protect local ecosystems and maintain long-term productivity and product excellence.",
   },
   {
     n: "04",

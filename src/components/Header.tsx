@@ -67,13 +67,6 @@ export function Header() {
               {link.label}
             </a>
           ))}
-
-          <a
-            href="#contact"
-            className="border border-[#083b52]/30 px-4 py-2 text-sm text-[#083b52] transition-colors hover:bg-[#083b52] hover:text-white"
-          >
-            Get in touch
-          </a>
         </nav>
 
         {/* Mobile Menu Button */}

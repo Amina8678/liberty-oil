@@ -5,6 +5,7 @@ type Profile = {
   highlights: string[];
   uses: string;
   quality: string;
+  
 };
 
 const profiles: Profile[] = [

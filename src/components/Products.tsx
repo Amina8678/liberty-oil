@@ -17,7 +17,7 @@ const products = [
   },
   {
     name: "Dried Figs",
-    category: "Healthy Snacking",
+    category: "Convenient Nutrition",
     description:
       "Naturally sweet dried figs suitable for healthy snacking, family consumption, breakfast and desserts.",
     benefits: [
@@ -32,7 +32,7 @@ const products = [
   },
   {
     name: "Dried Apricots",
-    category: "Healthy Snacking",
+    category: "Naturally Nutritious",
     description:
       "Versatile dried apricots ideal for lunchboxes, healthy snacks, baking and everyday family consumption.",
     benefits: [
@@ -46,7 +46,7 @@ const products = [
   },
   {
     name: "Raisins",
-    category: "Healthy Snacking",
+    category: "Everyday Nutrition",
     description:
       "Convenient and naturally sweet raisins for snacking, breakfast, baking and desserts.",
     benefits: [
@@ -60,7 +60,7 @@ const products = [
   },
   {
     name: "Prunes",
-    category: "Healthy Snacking",
+    category: "Fruit Snacking",
     description:
       "Premium dried prunes suitable for healthy snacking, breakfast and use as a versatile food ingredient.",
     benefits: [
@@ -101,7 +101,7 @@ export function Products() {
           </p>
 
           <h2 className="mt-5 font-display text-4xl font-semibold leading-tight tracking-tight text-[#071c27] md:text-5xl">
-            Quality products selected for broad consumer appeal.
+            Premium standard selected for broad consumer appeal.
           </h2>
 
           <p className="mt-7 text-lg leading-8 text-[#083b52]/70">

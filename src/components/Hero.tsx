@@ -164,7 +164,7 @@ export function Hero() {
             </p>
 
             <p className="mt-2 text-xs leading-6 text-white/55">
-              Quality products. Trusted relationships. Growing markets.
+              Premium standard. Trusted relationships. Growing markets.
             </p>
 
           </div>

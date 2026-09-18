@@ -76,8 +76,8 @@ export function CEOProfile() {
             </blockquote>
 
             <p className="mt-8 text-lg leading-8 text-[#083b52]/75">
-             Liberty Health Ltd is a farmers' enterprise with 100% Turkish capital, led by a woman entrepreneur.
-We source our olives from our own garden. The unique taste, smell, and aroma of Event Olive Oils come from oils extracted from the finest olives of the Aegean Region.
+              Our Turkish production partner is a farmer-led enterprise with 100% Turkish capital, 
+              led by a woman entrepreneur. Olives are sourced from its own groves in the Aegean region...
             </p>
 
             <p className="mt-6 text-lg leading-8 text-[#083b52]/75">

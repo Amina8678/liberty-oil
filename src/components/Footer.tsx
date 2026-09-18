@@ -30,7 +30,7 @@ export function Footer() {
             </div>
 
             <p className="mt-7 max-w-md text-sm leading-7 text-white/55">
-              Liberty Health Ltd is focused on connecting quality products,
+              Liberty Health Ltd is focused on connecting premium standard,
               trusted suppliers and growing markets across Ghana, the
               United Kingdom and beyond.
             </p>

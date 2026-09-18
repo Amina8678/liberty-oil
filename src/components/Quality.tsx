@@ -94,7 +94,7 @@ export function Quality() {
 
         </div>
 
-        {/* Dried Fruits & Nuts: Sourcing, Processing & Quality Assurance */}
+        {/* Dried Fruits & Nuts: Sourcing, Processing & Product integrity */}
         <div className="mt-20 border-t border-[#083b52]/10 pt-16 md:mt-28 md:pt-20">
           <div className="max-w-2xl">
             <span className="section-label">
@@ -102,11 +102,11 @@ export function Quality() {
             </span>
 
             <h3 className="mt-5 font-display text-3xl font-semibold leading-tight text-[#071c27] md:text-4xl">
-              Sourcing, processing and quality assurance.
+              Sourcing, processing and product integrity.
             </h3>
 
             <p className="mt-6 text-base leading-8 text-muted">
-              Quality assurance sits at the centre of our dried fruit and
+              Product integrity sits at the centre of our dried fruit and
               nut business, from selected growers through to hygienic
               processing and final packaging.
             </p>
@@ -149,9 +149,8 @@ export function Quality() {
                 Compliance &amp; Traceability
               </h4>
               <p className="mt-3 text-sm leading-7 text-[#083b52]/65">
-                We work to HACCP principles and ISO-aligned quality
-                management, with Halal compliance and traceability from
-                source to customer.
+                We work to HACCP principles and ISO 2000-aligned quality management
+                , with Halal compliance and traceability from source to customer.
               </p>
             </div>
 

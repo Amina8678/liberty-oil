@@ -47,10 +47,8 @@ export function Process() {
               className="mt-5 leading-relaxed max-w-sm"
               style={{ color: "#ffffff" }}
             >
-              Hand-harvested, then cold-pressed below 27°C — the temperature
-              that keeps aroma, nutrients and flavour intact, and yields a
-              markedly higher concentration of phenolic compounds than other
-              extraction methods.
+              Hand-harvested and extracted below 27°C to help preserve the oil`s 
+              natural aroma, flavour and quality characteristics.
             </p>
 
             <div className="mt-8 overflow-hidden rounded-[22px] border border-white/10 bg-white/5">

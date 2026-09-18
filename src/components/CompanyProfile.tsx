@@ -37,7 +37,7 @@ export function CompanyProfile() {
 
             <p className="mt-5 text-base leading-8 text-[#083b52]/65">
               Liberty Health&apos;s activities extend across sourcing,
-              production, quality assurance, packaging, distribution and
+              production, product integrity, packaging, distribution and
               market development. This allows the company to create value
               beyond individual products and build sustainable commercial
               relationships.
@@ -197,7 +197,7 @@ export function CompanyProfile() {
               nuts, and Mediterranean specialty foods is produced with a
               focus on natural quality. Where applicable, our products are{" "}
               <strong className="font-semibold text-white">
-                Halal certified
+                Halal-certified
               </strong>
               ,{" "}
               <strong className="font-semibold text-white">

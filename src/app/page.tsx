@@ -15,7 +15,7 @@ import { ProductProfiles } from "@/components/ProductProfiles";
 import { Quality } from "@/components/Quality";
 import { ProductPackaging } from "@/components/ProductPackaging";
 import { Locations } from "@/components/Locations";
-import { Contact } from "@/components/Contact";
+// import { Contact } from "@/components/Contact";
 import { Footer } from "@/components/Footer";
 
 export default function Home() {
@@ -101,9 +101,9 @@ export default function Home() {
           <Locations />
         </div>
 
-        <div className="reveal-on-scroll" data-direction="left">
+        {/* <div className="reveal-on-scroll" data-direction="left">
           <Contact />
-        </div>
+        </div> */}
       </main>
 
       <Footer />
