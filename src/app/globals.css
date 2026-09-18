@@ -69,6 +69,12 @@
   /* FONTS */
   --font-display-family: "Fraunces", ui-serif, Georgia, serif;
   --font-body-family: "Work Sans", ui-sans-serif, system-ui, sans-serif;
+
+  /* TYPE SCALE */
+  --type-body-size: 1rem;
+  --type-body-leading: 1.75;
+  --type-lead-size: clamp(1.125rem, 1.5vw, 1.35rem);
+  --type-lead-leading: 1.75;
 }
 
 /* =========================================================
@@ -118,7 +124,7 @@ html {
 body {
   margin: 0;
   padding: 0;
-  background: #ffffff;
+  background: var(--limestone);
   color: #071c27;
   font-family: var(--font-body-family);
   font-size: 16px;
@@ -145,7 +151,7 @@ h6 {
   color: #071c27;
   font-weight: 600;
   line-height: 1.12;
-  letter-spacing: -0.025em;
+  letter-spacing: 0;
 }
 
 h1 {
@@ -175,6 +181,17 @@ h6 {
 p {
   margin: 0 0 1rem;
   color: #071c27;
+}
+
+main p:not([class*="text-xs"]):not([class*="text-sm"]):not([class*="text-lg"]):not([class*="text-xl"]):not([class*="text-2xl"]) {
+  font-size: var(--type-body-size);
+  line-height: var(--type-body-leading);
+}
+
+main p[class*="text-lg"],
+main p[class*="text-xl"] {
+  font-size: var(--type-lead-size);
+  line-height: var(--type-lead-leading);
 }
 
 a {
@@ -1885,4 +1902,75 @@ main > section:first-child img {
     transition-duration: 0.01ms !important;
     scroll-behavior: auto !important;
   }
+}
+
+/* =========================================================
+   SECTION ATMOSPHERE
+   ========================================================= */
+
+main > .reveal-on-scroll > section {
+  position: relative;
+  isolation: isolate;
+}
+
+main > .reveal-on-scroll > section::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  pointer-events: none;
+  background:
+    radial-gradient(
+      circle at 8% 18%,
+      rgba(9, 177, 236, 0.08),
+      transparent 28%
+    ),
+    radial-gradient(
+      circle at 92% 82%,
+      rgba(101, 194, 245, 0.1),
+      transparent 30%
+    );
+}
+
+main > .reveal-on-scroll > section > * {
+  position: relative;
+  z-index: 1;
+}
+
+#top::before,
+#process::before,
+#sustainability::before,
+footer::before {
+  background:
+    radial-gradient(
+      circle at 82% 18%,
+      rgba(9, 177, 236, 0.2),
+      transparent 28%
+    ),
+    radial-gradient(
+      circle at 12% 86%,
+      rgba(101, 194, 245, 0.11),
+      transparent 30%
+    );
+}
+
+#about,
+#products,
+#product-profiles,
+#quality,
+#packaging,
+#locations {
+  background-image:
+    linear-gradient(rgba(255, 255, 255, 0.86), rgba(255, 255, 255, 0.86)),
+    radial-gradient(circle at 10% 15%, rgba(9, 177, 236, 0.1), transparent 32%),
+    radial-gradient(circle at 90% 78%, rgba(101, 194, 245, 0.12), transparent 30%);
+}
+
+#what-we-do,
+#why-turkey,
+#contact {
+  background-image:
+    linear-gradient(rgba(238, 249, 253, 0.88), rgba(238, 249, 253, 0.88)),
+    radial-gradient(circle at 85% 18%, rgba(9, 177, 236, 0.12), transparent 30%),
+    radial-gradient(circle at 12% 84%, rgba(101, 194, 245, 0.14), transparent 32%);
 }

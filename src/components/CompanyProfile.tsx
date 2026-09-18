@@ -155,18 +155,27 @@ export function CompanyProfile() {
             AFRICA MISSION STATEMENT
             ===================================================== */}
 
-        <div className="mt-24 grid gap-12 lg:grid-cols-[0.7fr_1.3fr] lg:gap-24">
+        <div className="relative isolate mt-24 overflow-hidden rounded-[28px] bg-[#071c27] p-8 md:p-12 lg:p-14">
+          <img
+            src="/images/Africa-Map.png"
+            alt="Illustrated map of Africa"
+            className="pointer-events-none absolute -right-24 top-1/2 w-[min(68vw,720px)] -translate-y-1/2 opacity-45"
+          />
+
+          <div className="pointer-events-none absolute inset-0 bg-gradient-to-br from-[#083b52]/90 via-[#071c27]/65 to-[#071c27]/35" />
+
+          <div className="relative z-10 grid gap-12 lg:grid-cols-[0.7fr_1.3fr] lg:gap-24">
           <div>
             <p className="text-xs font-bold uppercase tracking-[0.2em] text-[#09b1ec]">
               Africa Mission Statement
             </p>
 
-            <h2 className="mt-5 font-display text-3xl font-semibold leading-tight text-[#071c27] md:text-4xl">
+            <h2 className="mt-5 font-display text-3xl font-semibold leading-tight text-white md:text-4xl">
               Serving Africa with quality, nutrition and trust.
             </h2>
           </div>
 
-          <div className="max-w-3xl space-y-6 text-base leading-8 text-[#083b52]/75">
+          <div className="max-w-3xl space-y-6 text-base leading-8 text-white/80">
             <p>
               At Liberty Health Ltd, our mission is to provide premium
               Mediterranean food products that combine quality, nutrition,
@@ -187,11 +196,11 @@ export function CompanyProfile() {
               Our portfolio of Event Extra Virgin Olive Oil, dried fruits,
               nuts, and Mediterranean specialty foods is produced with a
               focus on natural quality. Where applicable, our products are{" "}
-              <strong className="font-semibold text-[#083b52]">
+              <strong className="font-semibold text-white">
                 Halal certified
               </strong>
               ,{" "}
-              <strong className="font-semibold text-[#083b52]">
+              <strong className="font-semibold text-white">
                 Non-GMO
               </strong>{" "}
               (Genetically Modified Organism) free, and carefully selected
@@ -206,6 +215,21 @@ export function CompanyProfile() {
               Africa&apos;s most trusted food and distribution partners,
               creating value for customers, businesses, and communities alike.
             </p>
+
+            <div className="flex flex-wrap items-center gap-5 border-t border-white/15 pt-6">
+              <img
+                src="/images/Halal-logo.png"
+                alt="Halal certified"
+                className="h-20 w-20 object-contain"
+              />
+
+              <img
+                src="/images/non-gmo-logo.png"
+                alt="Non-GMO certified"
+                className="h-20 w-20 object-contain"
+              />
+            </div>
+          </div>
           </div>
         </div>
 

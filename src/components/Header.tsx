@@ -4,8 +4,10 @@ import { useEffect, useState } from "react";
 import { Menu, X } from "lucide-react";
 
 const links = [
-  { href: "#ceo", label: "About" },
+  { href: "#about", label: "About" },
+  { href: "#what-we-do", label: "What We Do" },
   { href: "#process", label: "Grove to Bottle" },
+  { href: "#sustainability", label: "Sustainability" },
   { href: "#products", label: "Products" },
   { href: "#quality", label: "Quality" },
   { href: "#packaging", label: "Packaging" },

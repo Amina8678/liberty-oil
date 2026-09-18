@@ -52,7 +52,7 @@ const managers = [
     title: "Director — United Kingdom",
     image: "/images/CEO.PNG",
     phone: "+44 7837 867759",
-    whatsapp: "441234567890",
+    whatsapp: "447837867759",
     address: "United Kingdom",
   },
   // Ghana Director

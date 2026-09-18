@@ -4,8 +4,15 @@ const products = [
     category: "Flagship Product",
     description:
       "Premium cold-pressed olive oil with a strong Mediterranean heritage, designed for everyday cooking and the premium oil category.",
-    benefits:
-      "Contains monounsaturated fats and naturally occurring antioxidants for a nourishing choice in a balanced diet.",
+    benefits: [
+      "💗 Good for heart health by helping improve cholesterol levels.",
+      "🛡️ Rich in antioxidants that protect cells from damage.",
+      "🔥 Reduces inflammation in the body.",
+      "💧 May help control blood sugar and support diabetes prevention.",
+      "🧠 Supports brain health and may help reduce cognitive decline.",
+      "⚖️ Can aid weight management by helping you feel fuller.",
+      "🌱 Part of a healthy Mediterranean diet linked to longer life and lower risk of chronic diseases.",
+    ],
     image: "/images/event-olive-oil-table.jpeg",
   },
   {
@@ -13,8 +20,14 @@ const products = [
     category: "Healthy Snacking",
     description:
       "Naturally sweet dried figs suitable for healthy snacking, family consumption, breakfast and desserts.",
-    benefits:
-      "A natural source of dietary fibre and minerals that supports balanced everyday nutrition.",
+    benefits: [
+      "🌿 Good for digestion because they are rich in fibre and can help prevent constipation.",
+      "💗 Supports heart health by providing potassium and helping maintain healthy blood pressure.",
+      "🦴 Strengthens bones with minerals such as calcium and potassium.",
+      "💧 May help blood sugar control when eaten in moderation as part of a balanced diet.",
+      "🛡️ Rich in antioxidants that help protect cells from damage.",
+      "🧠 Provides important nutrients including vitamin B6, copper, magnesium, and potassium.",
+    ],
     image: "/images/dried-figs.jpg",
   },
   {
@@ -22,8 +35,13 @@ const products = [
     category: "Healthy Snacking",
     description:
       "Versatile dried apricots ideal for lunchboxes, healthy snacks, baking and everyday family consumption.",
-    benefits:
-      "Provides dietary fibre and naturally occurring nutrients in a convenient, naturally sweet snack.",
+    benefits: [
+      "👁️ Supports eye health with naturally occurring vitamin A.",
+      "🩸 Provides iron and potassium as part of a balanced diet.",
+      "🌿 Provides dietary fibre for everyday digestive wellness.",
+      "⚡ Natural carbohydrates provide convenient everyday energy.",
+      "🛡️ Contains antioxidants that help protect cells from damage.",
+    ],
     image: "/images/dried-apricots.jpg",
   },
   {
@@ -31,8 +49,13 @@ const products = [
     category: "Healthy Snacking",
     description:
       "Convenient and naturally sweet raisins for snacking, breakfast, baking and desserts.",
-    benefits:
-      "Offers natural energy and dietary fibre for a practical addition to breakfast and snack choices.",
+    benefits: [
+      "⚡ Provides natural energy in a convenient snack.",
+      "🌿 Contains dietary fibre to support digestive wellness.",
+      "🛡️ Provides antioxidants that help protect cells from damage.",
+      "💗 Contains minerals that support everyday heart health.",
+      "🍇 Naturally sweet with no need for added sugar.",
+    ],
     image: "/images/raisins.jpg",
   },
   {
@@ -40,8 +63,13 @@ const products = [
     category: "Healthy Snacking",
     description:
       "Premium dried prunes suitable for healthy snacking, breakfast and use as a versatile food ingredient.",
-    benefits:
-      "A fibre-rich fruit that can support digestive wellness as part of a balanced diet.",
+    benefits: [
+      "🌿 Rich in fibre and can support digestive wellness.",
+      "🦴 Provides vitamin K and minerals that support bone health.",
+      "🛡️ Contains antioxidants that help protect cells from damage.",
+      "💗 Provides naturally occurring nutrients for a balanced diet.",
+      "⚡ A naturally sweet source of convenient everyday energy.",
+    ],
     image: "/images/prunes.jpg",
   },
   {
@@ -49,8 +77,13 @@ const products = [
     category: "Nuts & Healthy Snacks",
     description:
       "High-perceived-value Mediterranean snacks suited to convenience stores, checkout displays and health-food shelves.",
-    benefits:
-      "Provides plant-based protein, beneficial fats and important nutrients for satisfying everyday snacking.",
+    benefits: [
+      "💪 Provides plant-based protein for satisfying everyday snacking.",
+      "💗 Contains beneficial fats that support heart-conscious eating.",
+      "🧠 Provides vitamin E, magnesium and other important nutrients.",
+      "🌿 Contains dietary fibre to support a balanced diet.",
+      "⚡ A nutrient-dense option for convenient everyday energy.",
+    ],
     image: "/images/almonds-pistachios.jpg",
   },
 ];
@@ -118,9 +151,22 @@ export function Products() {
                       Health Benefits
                     </p>
 
-                    <p className="mt-2 text-sm leading-7 text-white/75">
-                      {product.benefits}
-                    </p>
+                    {Array.isArray(product.benefits) ? (
+                      <ul className="mt-3 space-y-3 text-sm leading-6 text-white/80">
+                        {product.benefits.map((benefit) => (
+                          <li key={benefit} className="flex items-start gap-2">
+                            <span aria-hidden="true" className="shrink-0 text-base leading-6">
+                              {benefit.slice(0, 2)}
+                            </span>
+                            <span>{benefit.slice(2).trim()}</span>
+                          </li>
+                        ))}
+                      </ul>
+                    ) : (
+                      <p className="mt-2 text-sm leading-7 text-white/75">
+                        {product.benefits}
+                      </p>
+                    )}
                   </div>
                 )}
               </div>

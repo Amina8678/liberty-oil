@@ -23,21 +23,21 @@ export function WhatWeDo() {
         </div>
 
         <div className="mt-16 grid gap-6 lg:grid-cols-2">
-          <div className="rounded-[22px] bg-white p-8 md:p-10">
-            <p className="text-xs font-bold uppercase tracking-[0.16em] text-[#09b1ec]">
+          <div className="rounded-[22px] bg-[#071c27] p-8 md:p-10">
+            <p className="text-xs font-bold uppercase tracking-[0.16em] !text-white">
               Consumer Demand
             </p>
 
-            <h3 className="mt-5 font-display text-2xl font-semibold text-[#071c27]">
+            <h3 className="mt-5 font-display text-2xl font-semibold !text-white">
               What consumers are looking for
             </h3>
 
-            <ul className="mt-7 space-y-4 text-base leading-7 text-[#083b52]/70">
-              <li>Better nutritional choices</li>
-              <li>Convenient healthy products</li>
-              <li>Premium imported brands</li>
-              <li>Culturally and religiously aligned foods</li>
-              <li>Trusted product origins</li>
+            <ul className="mt-7 space-y-4 text-base leading-7 !text-white">
+              <li className="!text-white">Better nutritional choices</li>
+              <li className="!text-white">Convenient healthy products</li>
+              <li className="!text-white">Premium imported brands</li>
+              <li className="!text-white">Culturally and religiously aligned foods</li>
+              <li className="!text-white">Trusted product origins</li>
             </ul>
           </div>
 

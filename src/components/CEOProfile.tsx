@@ -55,8 +55,8 @@ export function CEOProfile() {
               </p>
 
               <p className="mt-6 text-base leading-8 text-[#083b52]/75">
-                As Chief Executive Officer of Liberty Health Ltd, Mr. Christian
-                Osei provides leadership and direction for the company’s
+                As Chief Executive Officer of Liberty Health Ltd, Hafiz
+                Choudhury provides leadership and direction for the company’s
                 development, business relationships, and long-term growth. His
                 approach is centred on integrity, quality, innovation, and
                 building a company that creates lasting value.
