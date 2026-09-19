@@ -26,13 +26,12 @@ export function Footer() {
                   Trading as Event
                 </p>
               </div>
-
             </div>
 
             <p className="mt-7 max-w-md text-sm leading-7 text-white/55">
-              Liberty Health Ltd is focused on connecting premium standard,
-              trusted suppliers and growing markets across Ghana, the
-              United Kingdom and beyond.
+              Liberty Health Ltd connects carefully selected products and
+              established suppliers across Ghana, the United Kingdom and South
+              Africa.
             </p>
 
             <a
@@ -61,31 +60,10 @@ export function Footer() {
               </a>
 
               <a
-                href="#what-we-do"
-                className="transition-colors hover:text-[#65c2f5]"
-              >
-                What We Do
-              </a>
-
-              <a
-                href="#quality"
-                className="transition-colors hover:text-[#65c2f5]"
-              >
-                Quality
-              </a>
-
-              <a
                 href="#sustainability"
                 className="transition-colors hover:text-[#65c2f5]"
               >
                 Sustainability
-              </a>
-
-              <a
-                href="#packaging"
-                className="transition-colors hover:text-[#65c2f5]"
-              >
-                Packaging
               </a>
 
             </div>
@@ -116,10 +94,10 @@ export function Footer() {
               </a>
 
               <a
-                href="#product-profiles"
+                href="#products"
                 className="transition-colors hover:text-[#65c2f5]"
               >
-                Dried Fruits &amp; Nuts
+                Mediterranean Foods
               </a>
 
             </div>
@@ -134,21 +112,6 @@ export function Footer() {
             </p>
 
             <div className="mt-5 space-y-3 text-sm text-white/60">
-
-              <a
-                href="mailto:info@eventolives.com"
-                className="block transition-colors hover:text-[#65c2f5]"
-              >
-                info@eventolives.com
-              </a>
-
-              <a
-                href="mailto:libertyhealthltd@gmail.com"
-                className="block transition-colors hover:text-[#65c2f5]"
-              >
-                libertyhealthltd@gmail.com
-              </a>
-
               <a
                 href="tel:+447837867759"
                 className="block transition-colors hover:text-[#65c2f5]"

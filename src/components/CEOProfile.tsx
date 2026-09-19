@@ -8,26 +8,20 @@ export function CEOProfile() {
           </p>
 
           <h2 className="mt-5 max-w-4xl font-display text-4xl font-semibold leading-tight tracking-tight text-[#071c27] md:text-5xl">
-            Leadership That Drives Purpose, Growth and Excellence
+            Leadership with clarity and accountability.
           </h2>
 
           <div className="mt-8 max-w-3xl border-l-2 border-[#09b1ec] pl-6">
             <p className="text-xl leading-9 text-[#083b52] md:text-2xl">
-              Meet our Chief Executive Officer, a visionary leader committed
-              to driving excellence, innovation, and sustainable growth at
-              Liberty Health Ltd. With a strong focus on strategic leadership,
-              operational efficiency, and client satisfaction, our CEO
-              continues to guide the organization toward achieving its mission
-              and delivering meaningful value to the communities and markets we
-              serve.
+              Hafiz Choudhury leads Liberty Health Ltd&apos;s commercial direction,
+              market development and responsible growth across the United
+              Kingdom, Africa and its Turkish production connections.
             </p>
           </div>
 
           <p className="mt-7 max-w-3xl text-base leading-8 text-[#083b52]/70 md:text-lg">
-            Through dedication, integrity, and a forward-thinking approach,
-            our CEO inspires our team to uphold the highest standards of
-            professionalism, strengthen trusted partnerships, and create a
-            lasting impact across the food and agricultural value chain.
+            His role is to set clear priorities, support strong execution and
+            ensure the company continues to serve its markets with integrity.
           </p>
         </div>
 
@@ -55,11 +49,8 @@ export function CEOProfile() {
               </p>
 
               <p className="mt-6 text-base leading-8 text-[#083b52]/75">
-                As Chief Executive Officer of Liberty Health Ltd, Hafiz
-                Choudhury provides leadership and direction for the company’s
-                development, business relationships, and long-term growth. His
-                approach is centred on integrity, quality, innovation, and
-                building a company that creates lasting value.
+                Hafiz brings a practical, future-focused approach to building
+                Liberty Health&apos;s presence in international food markets.
               </p>
             </div>
           </div>
@@ -70,21 +61,20 @@ export function CEOProfile() {
             </p>
 
             <blockquote className="mt-6 border-l-2 border-[#09b1ec] pl-6 font-display text-3xl leading-tight text-[#083b52] md:text-4xl">
-              “Our ambition is to build a company recognised for quality,
-              trust, responsible growth, and meaningful relationships across
-              every market we serve.”
+              “Our ambition is to build a dependable company that creates
+              meaningful value in every market we serve.”
             </blockquote>
 
             <p className="mt-8 text-lg leading-8 text-[#083b52]/75">
-              Our Turkish production partner is a farmer-led enterprise with 100% Turkish capital, 
-              led by a woman entrepreneur. Olives are sourced from its own groves in the Aegean region...
+              Our Turkish production partner is a farmer-led enterprise with
+              100% Turkish capital, led by a woman entrepreneur. Olives are
+              sourced from its own olive groves in Turkey&apos;s Aegean region.
             </p>
 
             <p className="mt-6 text-lg leading-8 text-[#083b52]/75">
-              Our focus is not limited to commercial success. We are committed
-              to responsible business practices, continuous improvement, and
-              creating opportunities that benefit the communities and markets
-              connected to our work.
+              We are committed to responsible business practices and continuous
+              improvement, creating opportunities that benefit the communities
+              and markets connected to our work.
             </p>
 
             <div className="mt-10 border-t border-[#dff3fb] pt-6">

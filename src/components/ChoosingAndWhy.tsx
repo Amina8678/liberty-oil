@@ -13,7 +13,7 @@ const reasons = [
   "Consistent, premium quality across every batch",
   "Competitive pricing for bulk, retail and private-label orders",
   "Timely delivery and reliable logistics",
-  "Long-term, trust-based partnerships",
+  "Enduring, strategic partnerships",
   "Global food safety standards and full certification",
   "Sustainable, ethical sourcing from a solar-powered facility",
 ];

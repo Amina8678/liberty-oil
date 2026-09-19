@@ -24,15 +24,14 @@ export function CompanyProfile() {
 
           <div className="max-w-3xl">
             <p className="text-xl leading-9 text-[#083b52] md:text-2xl">
-              Liberty Health Ltd is a UK-based company established in 2020,
-              focused on quality, responsible sourcing, trusted partnerships
-              and the development of food products for international markets.
+              Our Turkish production partner is a farmer-led enterprise with 100% Turkish capital,
+               led by a woman entrepreneur. Olives are sourced from its own groves in the Aegean region.
             </p>
 
             <p className="mt-7 text-base leading-8 text-[#083b52]/65">
-              The company brings together producers, suppliers, customers
-              and commercial partners through a business model built around
-              reliability and long-term relationships.
+              The company connects producers, suppliers and customers through
+              a business model built around reliable sourcing and dependable
+              market support.
             </p>
 
             <p className="mt-5 text-base leading-8 text-[#083b52]/65">
@@ -45,7 +44,7 @@ export function CompanyProfile() {
 
             <p className="mt-5 text-base leading-8 text-[#083b52]/65">
               Today, the company&apos;s portfolio includes olive oils, dried
-              fruits, nuts and raisins, with Event serving as its flagship
+              fruits and nuts, with Event serving as its flagship
               olive oil brand.
             </p>
           </div>
@@ -67,7 +66,7 @@ export function CompanyProfile() {
               </h3>
 
               <p className="mt-5 max-w-md text-base leading-8 text-white/80">
-              Explore our company, our commitment to quality, and the journey behind the food products 
+              Explore our company, our commitment to excellence, and the journey behind the food products
               we bring to international markets.
               </p>
             </div>
@@ -122,13 +121,13 @@ export function CompanyProfile() {
             </p>
 
             <h3 className="mt-5 font-display text-2xl font-semibold text-white">
-              Taking quality to global markets.
+              Taking excellence to global markets.
             </h3>
 
             <p className="mt-5 text-sm leading-7 text-white/80">
-              To bring exceptional Turkish olive oil and quality food
+              To bring exceptional Turkish olive oil and carefully selected food
               products to international markets while creating lasting
-              value for customers, partners and local communities.
+              value for customers, local communities and distribution markets.
             </p>
           </div>
 
@@ -140,13 +139,13 @@ export function CompanyProfile() {
             </p>
 
             <h3 className="mt-5 font-display text-2xl font-semibold text-white">
-              Quality with purpose.
+              Excellence with purpose.
             </h3>
 
             <p className="mt-5 text-sm leading-7 text-white/80">
-              To source quality produce, combine traditional knowledge
+              To source carefully selected produce, combine traditional knowledge
               with modern techniques and develop reliable products and
-              partnerships for generations to come.
+              supply programmes for generations to come.
             </p>
           </div>
         </div>
@@ -171,31 +170,31 @@ export function CompanyProfile() {
             </p>
 
             <h2 className="mt-5 font-display text-3xl font-semibold leading-tight text-white md:text-4xl">
-              Serving Africa with quality, nutrition and trust.
+              Serving Africa with quality, nutrition and confidence.
             </h2>
           </div>
 
           <div className="max-w-3xl space-y-6 text-base leading-8 text-white/80">
             <p>
               At Liberty Health Ltd, our mission is to provide premium
-              Mediterranean food products that combine quality, nutrition,
-              authenticity, and trust while serving the diverse cultures,
+              Mediterranean food products that combine nutrition, authenticity,
+              and confidence while serving the diverse cultures,
               traditions, and faiths of Africa.
             </p>
 
             <p>
               Across Ghana, South Africa, and the wider African continent,
               we are committed to delivering products that meet the highest
-              standards of quality, safety, and integrity. Through
-              responsible sourcing, ethical partnerships, and sustainable
-              business practices, we connect trusted producers with growing
+              standards of safety, integrity, and consistency. Through
+              responsible sourcing, ethical collaboration, and sustainable
+              business practices, we connect established producers with growing
               markets and help consumers make healthier food choices.
             </p>
 
             <p>
               Our portfolio of Event Extra Virgin Olive Oil, dried fruits,
               nuts, and Mediterranean specialty foods is produced with a
-              focus on natural quality. Where applicable, our products are{" "}
+              focus on natural standards. Where applicable, our products are{" "}
               <strong className="font-semibold text-white">
                 Halal-certified
               </strong>
@@ -203,16 +202,15 @@ export function CompanyProfile() {
               <strong className="font-semibold text-white">
                 Non-GMO
               </strong>{" "}
-              (Genetically Modified Organism) free, and carefully selected
-              to meet the needs of culturally and religiously diverse
-              communities.
+              and carefully selected to meet the needs of culturally and
+              religiously diverse communities.
             </p>
 
             <p>
-              We believe that long-term success is built on trust, respect,
+              We believe that enduring success is built on respect,
               and inclusion. By combining global expertise with local market
               understanding, Liberty Health strives to become one of
-              Africa&apos;s most trusted food and distribution partners,
+              Africa&apos;s most respected food and distribution companies,
               creating value for customers, businesses, and communities alike.
             </p>
 
@@ -251,17 +249,18 @@ export function CompanyProfile() {
 
             <div>
               <blockquote className="border-l-2 border-[#09b1ec] pl-6 font-display text-2xl leading-relaxed text-[#083b52] md:text-3xl">
-                “From the Mediterranean to Africa, Liberty Health delivers
-                premium Halal-certified, Non-GMO foods that respect cultural
-                diversity, promote healthier lifestyles, and create trusted
-                partnerships for future generations.”
+                “From the Mediterranean to Africa, Liberty Health offers a
+                range of premium foods, including Halal-certified and Non-GMO
+                products where applicable, respecting cultural diversity,
+                promoting healthier lifestyles, and supporting future
+                generations.”
               </blockquote>
 
               <p className="mt-8 text-base leading-8 text-[#083b52]/70">
                 Our commitment to sustainability is reflected in the way we
-                source products, build partnerships, respect cultural
+                source products, support market access, respect cultural
                 diversity, and support healthier lifestyles. We aim to create
-                long-term value for customers, businesses, producers, and
+                lasting value for customers, businesses, producers, and
                 communities across Africa.
               </p>
             </div>
@@ -291,11 +290,11 @@ export function CompanyProfile() {
 
               <div className="border-t border-[#083b52]/15 pt-6">
                 <h4 className="font-display text-xl font-semibold text-[#071c27]">
-                  Quality
+                  Product Excellence
                 </h4>
 
                 <p className="mt-3 text-sm leading-7 text-[#083b52]/60">
-                  We place quality and consistency at the centre of our
+                  We place product excellence and consistency at the centre of our
                   products and operations.
                 </p>
               </div>
@@ -308,8 +307,8 @@ export function CompanyProfile() {
                 </h4>
 
                 <p className="mt-3 text-sm leading-7 text-[#083b52]/60">
-                  We build relationships based on reliability, transparency
-                  and long-term commitment.
+                  We operate with reliability, transparency and lasting
+                  commitment.
                 </p>
               </div>
 
@@ -335,7 +334,7 @@ export function CompanyProfile() {
 
                 <p className="mt-3 text-sm leading-7 text-[#083b52]/60">
                   We continue to develop our markets, portfolio and
-                  partnerships with a long-term perspective.
+                  market programmes with a future-focused perspective.
                 </p>
               </div>
             </div>

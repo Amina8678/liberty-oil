@@ -57,9 +57,11 @@ export function Sustainability() {
                   className="mt-4 text-base leading-8"
                   style={{ color: "#ffffff" }}
                 >
-                  Our production facility incorporates environmentally responsible olive-oil production practices 
-                  designed to improve efficiency and reduce waste. We take pride in contributing to the Turkish economy 
-                  by supplying high-premium standard to both domestic and international markets.
+                  Our production facility incorporates environmentally responsible
+                  olive-oil production practices designed to improve efficiency
+                  and reduce waste. We take pride in contributing to the Turkish
+                  economy by supplying high-quality products to both domestic and
+                  international markets.
                 </p>
               </div>
             </div>
@@ -111,7 +113,7 @@ export function Sustainability() {
                   className="mt-3 text-sm leading-7"
                   style={{ color: "#ffffff" }}
                 >
-                  Maintaining quality and consistency throughout our
+                  Maintaining consistent standards throughout our
                   product portfolio.
                 </p>
               </div>
@@ -129,14 +131,14 @@ export function Sustainability() {
                   className="mt-4 font-display text-xl"
                   style={{ color: "#ffffff" }}
                 >
-                  Long-Term Value
+                  Lasting Value
                 </h3>
 
                 <p
                   className="mt-3 text-sm leading-7"
                   style={{ color: "#ffffff" }}
                 >
-                  Developing relationships and markets with a long-term
+                  Developing markets and partnerships with a future-focused
                   perspective.
                 </p>
               </div>

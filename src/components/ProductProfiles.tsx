@@ -5,13 +5,14 @@ type Profile = {
   highlights: string[];
   uses: string;
   quality: string;
+  detailLabel: string;
   
 };
 
 const profiles: Profile[] = [
   {
     name: "Premium Turkish Dried Figs",
-    category: "Healthy Snacking",
+    category: "Naturally Nutritious",
     image: "/images/dried-figs.jpg",
     highlights: [
       "Dietary fibre, calcium and potassium",
@@ -21,32 +22,35 @@ const profiles: Profile[] = [
     uses: "Breakfast bowls, snack mixes, baked goods, smoothies and cheese platters.",
     quality:
       "Selected for appearance, texture and consistency to meet demand for natural, nutrient-dense snacks.",
+    detailLabel: "Carefully selected",
   },
   {
     name: "Premium Turkish Dried Apricots",
-    category: "Healthy Snacking",
+    category: "Everyday Nutrition",
     image: "/images/dried-apricots.jpg",
     highlights: [
       "Vitamin A, iron and potassium",
       "Dietary fibre",
-      "Natural carbohydrates for quick energy",
+      "Contains naturally occurring carbohydrates",
     ],
-    uses: "Snacking, breakfast cereals, baking and premium food service.",
+    uses: "Snacking, breakfast cereals, baking and food service.",
     quality:
-      "Sourced from trusted Turkish suppliers for vibrant colour, texture and consistent appeal.",
+      "Sourced from established Turkish suppliers for vibrant colour, texture and consistent appeal.",
+    detailLabel: "Carefully sourced",
   },
   {
     name: "Turkish Raisins",
-    category: "Healthy Snacking",
+    category: "Fruit Snacking",
     image: "/images/raisins.jpg",
     highlights: [
       "Antioxidants and dietary fibre",
       "Minerals",
-      "Naturally sweet, convenient energy",
+      "Naturally sweet and convenient for everyday snacking",
     ],
     uses: "Cereals, baked goods and savoury recipes.",
     quality:
-      "Selected for quality and consistency to meet demand for natural, clean-label ingredients.",
+      "Sourced from established Turkish suppliers for vibrant colour, texture and consistent appeal.",
+    detailLabel: "Rigorous specifications",
   },
   {
     name: "Premium Almonds",
@@ -59,7 +63,8 @@ const profiles: Profile[] = [
     ],
     uses: "Snacks, dairy alternatives and baked goods.",
     quality:
-      "Selected against strict standards for freshness and appearance, meeting growing demand for plant-based foods.",
+      "Selected to rigorous specifications for natural, clean-label ingredients.",
+    detailLabel: "Premium standards",
   },
   {
     name: "Premium Hazelnuts",
@@ -70,9 +75,10 @@ const profiles: Profile[] = [
       "Omega fatty acids",
       "Antioxidants",
     ],
-    uses: "Confectionery, chocolate, bakery, cereals and premium snacks.",
+    uses: "Confectionery, chocolate, bakery, cereals and speciality snacks.",
     quality:
-      "Turkish origin — one of the world's leading hazelnut-growing regions — sourced for appearance, freshness and consistency.",
+      "Sourced to rigorous specifications for consistent appearance, freshness and flavour.",
+    detailLabel: "Consistent standards",
   },
   {
     name: "Premium Walnuts",
@@ -84,7 +90,8 @@ const profiles: Profile[] = [
     ],
     uses: "Snacks, baking, breakfast, salads and everyday recipes.",
     quality:
-      "Sourced to strict quality standards for consistent appearance, freshness and flavour.",
+      "Selected against strict criteria for superior appearance and consistency.",
+    detailLabel: "Product integrity",
   },
   {
     name: "Premium Pistachios",
@@ -98,6 +105,7 @@ const profiles: Profile[] = [
     uses: "Desserts, baking, confectionery, savoury dishes and snacks.",
     quality:
       "Selected against strict criteria for superior appearance and consistency.",
+    detailLabel: "Product excellence",
   },
 ];
 
@@ -114,7 +122,7 @@ export function ProductProfiles() {
           </p>
 
           <h2 className="mt-5 font-display text-4xl font-semibold leading-tight tracking-tight text-[#071c27] md:text-5xl">
-            Seven products. One standard of quality.
+            Seven products. One standard of excellence.
           </h2>
 
           <p className="mt-7 text-lg leading-8 text-[#083b52]/70">
@@ -177,7 +185,7 @@ export function ProductProfiles() {
 
                   <p className="mt-3 text-sm leading-7 text-white/75">
                     <span className="font-semibold text-white">
-                      Quality —{" "}
+                        {product.detailLabel} —{" "}
                     </span>
                     {product.quality}
                   </p>

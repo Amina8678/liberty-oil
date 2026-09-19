@@ -14,11 +14,11 @@ export function Quality() {
             </span>
 
             <h2 className="mt-5 max-w-xl text-4xl md:text-5xl">
-              Quality you can see. Taste you can trust.
+              Product excellence you can see. Taste you can savour.
             </h2>
 
             <p className="mt-7 max-w-xl text-lg leading-8 text-muted">
-              We believe premium olive oil begins with the quality of
+              We believe premium olive oil begins with the character of
               the olives and continues through every stage of
               production, handling and packaging.
             </p>
@@ -37,7 +37,7 @@ export function Quality() {
 
                   <p className="mt-1 text-sm leading-6 text-muted">
                     We focus on carefully selected olives as the
-                    starting point for quality oil.
+                    starting point for exceptional oil.
                   </p>
                 </div>
               </div>
@@ -122,7 +122,7 @@ export function Quality() {
               </h4>
               <p className="mt-3 text-sm leading-7 text-[#083b52]/65">
                 Products are sourced from carefully selected Turkish growers
-                and processors committed to quality and sustainable
+                and processors committed to consistent standards and sustainable
                 production.
               </p>
             </div>
@@ -149,8 +149,9 @@ export function Quality() {
                 Compliance &amp; Traceability
               </h4>
               <p className="mt-3 text-sm leading-7 text-[#083b52]/65">
-                We work to HACCP principles and ISO 2000-aligned quality management
-                , with Halal compliance and traceability from source to customer.
+                We work to HACCP principles and ISO 2000-aligned management
+                systems, with Halal-certified products where applicable and
+                traceability from source to customer.
               </p>
             </div>
 
@@ -163,7 +164,7 @@ export function Quality() {
               </h4>
               <p className="mt-3 text-sm leading-7 text-[#083b52]/65">
                 Regular checks on appearance, moisture, cleanliness and
-                packaging integrity support consistent quality and export
+                packaging integrity support consistent product standards and export
                 compliance.
               </p>
             </div>

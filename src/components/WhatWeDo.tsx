@@ -16,8 +16,8 @@ export function WhatWeDo() {
 
           <p className="mt-7 text-lg leading-8 text-[#083b52]/70 md:text-xl">
             Liberty Health Ltd is building a premium, health-focused food
-            portfolio that combines Mediterranean heritage, trusted product
-            origins, quality ingredients and convenient formats for modern
+            portfolio that combines Mediterranean heritage, established product
+            origins, carefully selected ingredients and convenient formats for modern
             consumers.
           </p>
         </div>
@@ -37,7 +37,7 @@ export function WhatWeDo() {
               <li className="!text-white">Convenient healthy products</li>
               <li className="!text-white">Premium imported brands</li>
               <li className="!text-white">Culturally and religiously aligned foods</li>
-              <li className="!text-white">Trusted product origins</li>
+              <li className="!text-white">Established product origins</li>
             </ul>
           </div>
 
@@ -47,13 +47,13 @@ export function WhatWeDo() {
             </p>
 
             <h3 className="mt-5 font-display text-2xl font-semibold text-white">
-              A trusted premium portfolio
+              An established portfolio
             </h3>
 
             <ul className="mt-7 space-y-4 text-base leading-7 text-white/80">
-              <li>Premium imported products</li>
-              <li>Halal-certified products</li>
-              <li>Non-GMO products</li>
+                  <li>Imported products</li>
+              <li>Halal-certified </li>
+              <li>Non-GMO </li>
               <li>Health-focused food range</li>
               <li>Reliable supply and partnership support</li>
             </ul>
@@ -81,9 +81,9 @@ export function WhatWeDo() {
                 <ul className="mt-5 space-y-3 text-sm leading-7 text-[#083b52]/65">
                   <li>Growing health awareness</li>
                   <li>Urbanisation and rising disposable incomes</li>
-                  <li>Increasing demand for premium and authentic foods</li>
+                  <li>Increasing demand for distinctive and authentic foods</li>
                   <li>Expansion of convenience retail</li>
-                  <li>Strong opportunity for trusted Halal products</li>
+                  <li>Strong opportunity for Halal-certified products where applicable</li>
                 </ul>
               </div>
 
@@ -97,7 +97,7 @@ export function WhatWeDo() {
                   <li>Premium Mediterranean heritage</li>
                   <li>Strong shelf appeal</li>
                   <li>Retail-friendly formats</li>
-                  <li>Long-term supply and marketing support</li>
+                  <li>Sustainable supply and marketing support</li>
                 </ul>
               </div>
             </div>

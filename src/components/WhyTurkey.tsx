@@ -2,8 +2,7 @@ const reasons = [
   {
     n: "01",
     title: "Optimal Growing Conditions",
-    body: "Turkey's geography, climate and fertile soils support premium dried fruit and nut production with exceptional flavour and nutritional quality, while supporting consistent harvests that meet export standards."
-    ,
+    body: "Turkey's geography, climate and fertile soils support premium dried fruit and nut production with exceptional flavour and nutritional value, while supporting consistent harvests that meet export standards.",
   },
   {
     n: "02",
@@ -13,12 +12,12 @@ const reasons = [
   {
     n: "03",
     title: "Sustainable Cultivation",
-    body: "Sustainable farming practices protect local ecosystems and maintain long-term productivity and product excellence.",
+    body: "Sustainable farming practices protect local ecosystems and maintain enduring productivity and product integrity.",
   },
   {
     n: "04",
-    title: "Quality & Reliability for Buyers",
-    body: "Turkish dried fruit and nut products offer global buyers quality, safety, traceability and value through trusted partnerships.",
+    title: "Product Excellence & Reliability for Buyers",
+    body: "Turkish dried fruit and nut products offer global buyers safety, traceability and value through established supply partnerships.",
   },
 ];
 
@@ -40,7 +39,7 @@ export function WhyTurkey() {
 
           <p className="mt-7 text-lg leading-8 text-[#083b52]/70">
             Turkey is globally recognised as a leading producer of dried
-            fruits and nuts. Liberty Health partners with trusted Turkish
+            fruits and nuts. Liberty Health partners with established Turkish
             growers and processors to bring that heritage to international
             markets.
           </p>

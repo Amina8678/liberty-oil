@@ -22,7 +22,7 @@ const steps = [
   {
     n: "05",
     title: "Storage & filtration",
-    body: "Oil is classified by acidity and stored in chromium-nickel tanks blanketed with nitrogen, in a climate-controlled room held between 15–25°C.",
+    body: "Oil is classified by acidity and stored in food-grade stainless-steel tanks blanketed with nitrogen, in a climate-controlled room held between 15–25°C.",
   },
 ];
 
@@ -48,7 +48,7 @@ export function Process() {
               style={{ color: "#ffffff" }}
             >
               Hand-harvested and extracted below 27°C to help preserve the oil`s 
-              natural aroma, flavour and quality characteristics.
+              natural aroma and flavour characteristics.
             </p>
 
             <div className="mt-8 overflow-hidden rounded-[22px] border border-white/10 bg-white/5">
@@ -63,7 +63,7 @@ export function Process() {
                 style={{ color: "#ffffff" }}
               >
                 From careful harvesting to efficient production, each stage is
-                designed to protect quality while reducing unnecessary waste.
+                designed to protect product integrity while reducing unnecessary waste.
               </p>
             </div>
           </div>

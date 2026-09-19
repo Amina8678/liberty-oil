@@ -15,7 +15,7 @@ export function ProductPackaging() {
           </h2>
 
           <p className="mt-7 text-lg leading-8 text-[#083b52]/70">
-            Packaging is designed to protect freshness, maintain quality and
+            Packaging is designed to protect freshness, preserve product integrity and
             support efficient transportation — from small consumer packs to
             large bulk sizes for distributors, food processors and
             industrial users.

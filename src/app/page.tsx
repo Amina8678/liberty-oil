@@ -11,7 +11,6 @@ import { Process } from "@/components/Process";
 import { Sustainability } from "@/components/Sustainability";
 import { WhyTurkey } from "@/components/WhyTurkey";
 import { Products } from "@/components/Products";
-import { ProductProfiles } from "@/components/ProductProfiles";
 import { Quality } from "@/components/Quality";
 import { ProductPackaging } from "@/components/ProductPackaging";
 import { Locations } from "@/components/Locations";
@@ -83,10 +82,6 @@ export default function Home() {
 
         <div className="reveal-on-scroll" data-direction="right">
           <Products />
-        </div>
-
-        <div className="reveal-on-scroll" data-direction="up">
-          <ProductProfiles />
         </div>
 
         <div className="reveal-on-scroll" data-direction="left">

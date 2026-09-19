@@ -37,19 +37,18 @@ export function Hero() {
 
 
               {/* COMPANY INTRODUCTION */}
-              <p></p>
               <p className="mt-8 max-w-2xl text-lg leading-8 text-white/75 md:text-xl">
-                At Liberty Health Ltd, our mission is to deliver premium Mediterranean 
-                food products that combine quality, nutrition, authenticity, and trust. 
+                At Liberty Health Ltd, our mission is to deliver premium Mediterranean
+                food products that combine nutrition, authenticity, and integrity.
                 We are committed to serving Africa’s diverse communities through safe, 
                 responsibly sourced products that promote healthier food choices.
-              </p><br></br>
+              </p>
 
 
               {/* SECONDARY DESCRIPTION */}
               <p className="mt-5 max-w-xl text-sm leading-7 text-white/50">
-               As CEO, I am dedicated to building a trusted and sustainable food and 
-               distribution company that connects quality producers with African markets, 
+               As CEO, I am dedicated to building a respected and sustainable food and
+               distribution company that connects established producers with African markets,
                creates lasting value, and upholds the highest standards of integrity and excellence.
               </p>
 
@@ -110,7 +109,7 @@ export function Hero() {
                   </p>
 
                   <p className="mt-1 text-xs leading-5 text-white/45">
-                    West Africa
+                    African Markets
                   </p>
 
                 </div>
@@ -164,7 +163,7 @@ export function Hero() {
             </p>
 
             <p className="mt-2 text-xs leading-6 text-white/55">
-              Premium standard. Trusted relationships. Growing markets.
+              Carefully selected products. Established suppliers. Growing markets.
             </p>
 
           </div>
