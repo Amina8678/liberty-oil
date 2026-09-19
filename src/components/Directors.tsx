@@ -9,18 +9,18 @@ import {
 const managers = [
     {
     region: "United Kingdom",
-    name: "Hafiz Choudhury",
+    name: "Mr Hafiz Choudhury",
     title: "CEO & Director — United Kingdom",
     image: "/images/CEO.PNG",
     phone: "+44 7837 867759",
     whatsapp: "447837867759",
-    address: "United Kingdom",
+    address: " United Kingdom ",
   },
   // Ghana Director
   {
     //seth picture
     region: "Ghana",
-    name: "Seth Kwame Twum",
+    name: "Mr Seth Kwame Twum",
     title: "Director — Ghana",
    image: "/images/ghana.png",
     phone: "+233 59 247 1523",

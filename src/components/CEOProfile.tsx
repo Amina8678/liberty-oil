@@ -13,7 +13,7 @@ export function CEOProfile() {
 
           <div className="mt-8 max-w-3xl border-l-2 border-[#09b1ec] pl-6">
             <p className="text-xl leading-9 text-[#083b52] md:text-2xl">
-              Hafiz Choudhury leads Liberty Health Ltd&apos;s commercial direction,
+              Mr Hafiz Choudhury leads Liberty Health Ltd&apos;s commercial direction,
               market development and responsible growth across the United
               Kingdom, Africa and its Turkish production connections.
             </p>
@@ -41,7 +41,7 @@ export function CEOProfile() {
               </p>
 
               <h3 className="mt-4 font-display text-3xl font-semibold text-[#071c27]">
-               Hafiz Choudhury
+              Mr Hafiz Choudhury
               </h3>
 
               <p className="mt-2 text-sm font-semibold uppercase tracking-[0.14em] text-[#083b52]">
