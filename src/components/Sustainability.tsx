@@ -34,7 +34,7 @@ export function Sustainability() {
               style={{ color: "#ffffff" }}
             >
               We believe responsible business is about making decisions
-              that create lasting value for our customers, partners and
+              that create customer benefits, partners and
               the communities connected to our operations.
             </p>
 
@@ -61,7 +61,7 @@ export function Sustainability() {
                   olive-oil production practices designed to improve efficiency
                   and reduce waste. We take pride in contributing to the Turkish
                   economy by supplying high-quality products to both domestic and
-                  international markets.
+                  cross-border markets.
                 </p>
               </div>
             </div>
@@ -138,7 +138,7 @@ export function Sustainability() {
                   className="mt-3 text-sm leading-7"
                   style={{ color: "#ffffff" }}
                 >
-                  Developing markets and partnerships with a future-focused
+                  Developing business landscape and partnerships with a future-focused
                   perspective.
                 </p>
               </div>

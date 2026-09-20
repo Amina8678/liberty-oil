@@ -15,10 +15,8 @@ export function WhatWeDo() {
           </h2>
 
           <p className="mt-7 text-lg leading-8 text-[#083b52]/70 md:text-xl">
-            Liberty Health Ltd is building a premium, health-focused food
-            portfolio that combines Mediterranean heritage, established product
-            origins, carefully selected ingredients and convenient formats for modern
-            consumers.
+            Liberty Health Ltd is building a premium, health-focused food portfolio that combines Mediterranean heritage, 
+            established product origins, trusted ingredients, and convenient formats for modern consumers.
           </p>
         </div>
 
@@ -75,7 +73,7 @@ export function WhatWeDo() {
             <div className="grid gap-8 sm:grid-cols-2">
               <div>
                 <h4 className="font-display text-xl font-semibold text-[#071c27]">
-                  Market Trends
+                  Target audience
                 </h4>
 
                 <ul className="mt-5 space-y-3 text-sm leading-7 text-[#083b52]/65">
@@ -97,7 +95,7 @@ export function WhatWeDo() {
                   <li>Premium Mediterranean heritage</li>
                   <li>Strong shelf appeal</li>
                   <li>Retail-friendly formats</li>
-                  <li>Sustainable supply and marketing support</li>
+                  <li>Sustainable supply and customer support</li>
                 </ul>
               </div>
             </div>

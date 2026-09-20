@@ -14,7 +14,7 @@ export function Quality() {
             </span>
 
             <h2 className="mt-5 max-w-xl text-4xl md:text-5xl">
-              Product excellence you can see. Taste you can savour.
+              Product achievement you can see. Taste you can savour.
             </h2>
 
             <p className="mt-7 max-w-xl text-lg leading-8 text-muted">
@@ -36,8 +36,8 @@ export function Quality() {
                   </h3>
 
                   <p className="mt-1 text-sm leading-6 text-muted">
-                    We focus on carefully selected olives as the
-                    starting point for exceptional oil.
+                    We focus on high-quality as the starting point for exceptional oil.
+
                   </p>
                 </div>
               </div>
@@ -66,7 +66,7 @@ export function Quality() {
 
                 <div>
                   <h3 className="text-xl">
-                    Careful Packaging
+                    Trusted Packaging
                   </h3>
 
                   <p className="mt-1 text-sm leading-6 text-muted">
@@ -102,11 +102,11 @@ export function Quality() {
             </span>
 
             <h3 className="mt-5 font-display text-3xl font-semibold leading-tight text-[#071c27] md:text-4xl">
-              Sourcing, processing and product integrity.
+              Sourcing, processing and product freshness.
             </h3>
 
             <p className="mt-6 text-base leading-8 text-muted">
-              Product integrity sits at the centre of our dried fruit and
+              Product standard sits at the centre of our dried fruit and
               nut business, from selected growers through to hygienic
               processing and final packaging.
             </p>
@@ -121,9 +121,8 @@ export function Quality() {
                 Responsible Sourcing
               </h4>
               <p className="mt-3 text-sm leading-7 text-[#083b52]/65">
-                Products are sourced from carefully selected Turkish growers
-                and processors committed to consistent standards and sustainable
-                production.
+               Products are sourced from trusted Turkish growers and processors committed to 
+               consistent standards and sustainable production.
               </p>
             </div>
 
@@ -136,7 +135,7 @@ export function Quality() {
               </h4>
               <p className="mt-3 text-sm leading-7 text-[#083b52]/65">
                 Sorting, inspection and hygienic processing preserve
-                freshness, food safety and nutritional integrity at every
+                freshness, food safety and nutritional commitment at every
                 stage.
               </p>
             </div>
@@ -149,7 +148,7 @@ export function Quality() {
                 Compliance &amp; Traceability
               </h4>
               <p className="mt-3 text-sm leading-7 text-[#083b52]/65">
-                We work to HACCP principles and ISO 2000-aligned management
+                We work to HACCP principles and ISO 22000-aligned management
                 systems, with Halal-certified products where applicable and
                 traceability from source to customer.
               </p>
@@ -164,7 +163,7 @@ export function Quality() {
               </h4>
               <p className="mt-3 text-sm leading-7 text-[#083b52]/65">
                 Regular checks on appearance, moisture, cleanliness and
-                packaging integrity support consistent product standards and export
+                packaging accountability support consistent product standards and export
                 compliance.
               </p>
             </div>

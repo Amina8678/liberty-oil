@@ -62,8 +62,8 @@ export function Process() {
                 className="p-5 text-sm leading-7"
                 style={{ color: "#ffffff" }}
               >
-                From careful harvesting to efficient production, each stage is
-                designed to protect product integrity while reducing unnecessary waste.
+                From expert harvesting to efficient production, each stage is designed to protect product 
+                trust while reducing unnecessary waste.
               </p>
             </div>
           </div>

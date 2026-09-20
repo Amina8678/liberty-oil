@@ -24,20 +24,21 @@ export function CompanyProfile() {
 
           <div className="max-w-3xl">
             <p className="text-xl leading-9 text-[#083b52] md:text-2xl">
-              Our Turkish production partner is a farmer-led enterprise with 100% Turkish capital,
-               led by a woman entrepreneur. Olives are sourced from its own groves in the Aegean region.
+              Our Premium Turkish Manufacturing Partner is a 100% Turkish-owned, farmer-led enterprise led by an experienced 
+              woman entrepreneur. The company sources its olives directly from its own groves in Turkey’s renowned Aegean region, 
+              ensuring quality, authenticity, and expert oversight from cultivation to production.
             </p>
 
             <p className="mt-7 text-base leading-8 text-[#083b52]/65">
               The company connects producers, suppliers and customers through
               a business model built around reliable sourcing and dependable
-              market support.
+              trade support.
             </p>
 
             <p className="mt-5 text-base leading-8 text-[#083b52]/65">
               Liberty Health&apos;s activities extend across sourcing,
-              production, product integrity, packaging, distribution and
-              market development. This allows the company to create value
+              production, product quality, packaging, distribution and
+              trade development. This allows the company to create benefit
               beyond individual products and build sustainable commercial
               relationships.
             </p>
@@ -66,8 +67,8 @@ export function CompanyProfile() {
               </h3>
 
               <p className="mt-5 max-w-md text-base leading-8 text-white/80">
-              Explore our company, our commitment to excellence, and the journey behind the food products
-              we bring to international markets.
+              Explore our company, our commitment to achievement, and the journey behind the food products
+              we bring to global distribution network.
               </p>
             </div>
 
@@ -102,14 +103,14 @@ export function CompanyProfile() {
             </p>
 
             <h3 className="mt-5 font-display text-2xl font-semibold text-[#071c27]">
-              From family enterprise to international business.
+              From family enterprise to overseas business.
             </h3>
 
             <p className="mt-5 text-sm leading-7 text-[#083b52]/65">
               Liberty Health&apos;s story is connected to generations of
               experience in olive production and the Akhisar region of
               Turkey. This heritage has developed into a business with
-              an international outlook.
+              an overseas outlook.
             </p>
           </div>
 
@@ -121,13 +122,12 @@ export function CompanyProfile() {
             </p>
 
             <h3 className="mt-5 font-display text-2xl font-semibold text-white">
-              Taking excellence to global markets.
+              Taking quality to global sector.
             </h3>
 
             <p className="mt-5 text-sm leading-7 text-white/80">
-              To bring exceptional Turkish olive oil and carefully selected food
-              products to international markets while creating lasting
-              value for customers, local communities and distribution markets.
+              To bring exceptional Turkish olive oil and premium food products to export 
+              business enviroment while creating long-term benefit  for customers, local communities, and distribution network.
             </p>
           </div>
 
@@ -139,13 +139,13 @@ export function CompanyProfile() {
             </p>
 
             <h3 className="mt-5 font-display text-2xl font-semibold text-white">
-              Excellence with purpose.
+              Premium quality with purpose.
             </h3>
 
             <p className="mt-5 text-sm leading-7 text-white/80">
-              To source carefully selected produce, combine traditional knowledge
-              with modern techniques and develop reliable products and
-              supply programmes for generations to come.
+              To source hand-picked produce, combine traditional knowledge with modern 
+              techniques, and develop trusted products and reliable supply programmes for 
+              generations to come.
             </p>
           </div>
         </div>
@@ -185,10 +185,10 @@ export function CompanyProfile() {
             <p>
               Across Ghana, South Africa, and the wider African continent,
               we are committed to delivering products that meet the highest
-              standards of safety, integrity, and consistency. Through
+              standards of safety, reliable, and consistency. Through
               responsible sourcing, ethical collaboration, and sustainable
               business practices, we connect established producers with growing
-              markets and help consumers make healthier food choices.
+              regions and help consumers make healthier food choices.
             </p>
 
             <p>
@@ -202,16 +202,16 @@ export function CompanyProfile() {
               <strong className="font-semibold text-white">
                 Non-GMO
               </strong>{" "}
-              and carefully selected to meet the needs of culturally and
-              religiously diverse communities.
+              and premium, thoughtfully selected products designed to meet the needs of 
+              culturally and religiously diverse communities.
             </p>
 
             <p>
-              We believe that enduring success is built on respect,
-              and inclusion. By combining global expertise with local market
+              We believe that enduring success is built on respect
+              and inclusion. By combining global expertise with local marketplace
               understanding, Liberty Health strives to become one of
               Africa&apos;s most respected food and distribution companies,
-              creating value for customers, businesses, and communities alike.
+              creating advantage for customers, businesses, and communities alike.
             </p>
 
             <div className="flex flex-wrap items-center gap-5 border-t border-white/15 pt-6">
@@ -243,7 +243,7 @@ export function CompanyProfile() {
               </p>
 
               <h2 className="mt-5 font-display text-3xl font-semibold leading-tight text-[#071c27] md:text-4xl">
-                Responsible growth for future generations.
+                Responsible & Growth for future generations.
               </h2>
             </div>
 
@@ -258,7 +258,7 @@ export function CompanyProfile() {
 
               <p className="mt-8 text-base leading-8 text-[#083b52]/70">
                 Our commitment to sustainability is reflected in the way we
-                source products, support market access, respect cultural
+                source products, support trade access, respect cultural
                 diversity, and support healthier lifestyles. We aim to create
                 lasting value for customers, businesses, producers, and
                 communities across Africa.
@@ -294,7 +294,7 @@ export function CompanyProfile() {
                 </h4>
 
                 <p className="mt-3 text-sm leading-7 text-[#083b52]/60">
-                  We place product excellence and consistency at the centre of our
+                  We place product high standards and consistency at the centre of our
                   products and operations.
                 </p>
               </div>
@@ -333,8 +333,8 @@ export function CompanyProfile() {
                 </h4>
 
                 <p className="mt-3 text-sm leading-7 text-[#083b52]/60">
-                  We continue to develop our markets, portfolio and
-                  market programmes with a future-focused perspective.
+                  We continue to develop our distribution network, portfolio and
+                  business programmes with a future-focused perspective.
                 </p>
               </div>
             </div>

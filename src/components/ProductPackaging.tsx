@@ -15,7 +15,7 @@ export function ProductPackaging() {
           </h2>
 
           <p className="mt-7 text-lg leading-8 text-[#083b52]/70">
-            Packaging is designed to protect freshness, preserve product integrity and
+            Packaging is designed to protect freshness, preserve product authenticity and
             support efficient transportation — from small consumer packs to
             large bulk sizes for distributors, food processors and
             industrial users.
@@ -63,14 +63,14 @@ export function ProductPackaging() {
             </p>
 
             <h3 className="mt-5 font-display text-2xl font-semibold text-white">
-              Bring products to market under your own brand.
+              Bring products to region under your own brand.
             </h3>
 
             <ul className="mt-7 space-y-4 text-base leading-7 text-white/80">
               <li>Own-brand packaging and labelling</li>
               <li>OEM manufacturing</li>
               <li>Bulk supply programmes</li>
-              <li>International export support</li>
+              <li>Global export support</li>
               <li>Tailored collaboration on packaging and product solutions</li>
             </ul>
           </div>

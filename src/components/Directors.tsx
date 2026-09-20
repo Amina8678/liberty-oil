@@ -62,18 +62,18 @@ export function Directors() {
               <h2 className="mt-5 font-display text-4xl font-semibold leading-tight tracking-tight text-[#071c27] md:text-5xl">
                 Local leadership,
                 <br />
-                international reach.
+                Global reach.
               </h2>
             </div>
 
             <div className="max-w-3xl">
               <p className="text-xl leading-9 text-[#083b52] md:text-2xl">
                 Liberty Health&apos;s regional directors provide a direct point of
-                contact for the markets we serve.
+                contact for the industry we serve.
               </p>
 
               <p className="mt-6 text-base leading-8 text-[#083b52]/65">
-                They coordinate local market activity and support Liberty
+                They coordinate local trade activity and support Liberty
                 Health&apos;s wider operations across the United Kingdom, Ghana,
                 South Africa and Turkey.
               </p>

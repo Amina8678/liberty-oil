@@ -22,7 +22,7 @@ const profiles: Profile[] = [
     uses: "Breakfast bowls, snack mixes, baked goods, smoothies and cheese platters.",
     quality:
       "Selected for appearance, texture and consistency to meet demand for natural, nutrient-dense snacks.",
-    detailLabel: "Carefully selected",
+    detailLabel: "Premium Selection",
   },
   {
     name: "Premium Turkish Dried Apricots",
@@ -36,7 +36,7 @@ const profiles: Profile[] = [
     uses: "Snacking, breakfast cereals, baking and food service.",
     quality:
       "Sourced from established Turkish suppliers for vibrant colour, texture and consistent appeal.",
-    detailLabel: "Carefully sourced",
+    detailLabel: "Premium sourced",
   },
   {
     name: "Turkish Raisins",
@@ -91,7 +91,7 @@ const profiles: Profile[] = [
     uses: "Snacks, baking, breakfast, salads and everyday recipes.",
     quality:
       "Selected against strict criteria for superior appearance and consistency.",
-    detailLabel: "Product integrity",
+    detailLabel: "Product quality",
   },
   {
     name: "Premium Pistachios",
@@ -105,7 +105,7 @@ const profiles: Profile[] = [
     uses: "Desserts, baking, confectionery, savoury dishes and snacks.",
     quality:
       "Selected against strict criteria for superior appearance and consistency.",
-    detailLabel: "Product excellence",
+    detailLabel: "Product mastery",
   },
 ];
 
@@ -122,7 +122,7 @@ export function ProductProfiles() {
           </p>
 
           <h2 className="mt-5 font-display text-4xl font-semibold leading-tight tracking-tight text-[#071c27] md:text-5xl">
-            Seven products. One standard of excellence.
+            Seven products. One standard of distinction.
           </h2>
 
           <p className="mt-7 text-lg leading-8 text-[#083b52]/70">

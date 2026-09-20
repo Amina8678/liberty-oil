@@ -14,14 +14,14 @@ export function CEOProfile() {
           <div className="mt-8 max-w-3xl border-l-2 border-[#09b1ec] pl-6">
             <p className="text-xl leading-9 text-[#083b52] md:text-2xl">
               Mr Hafiz Choudhury leads Liberty Health Ltd&apos;s commercial direction,
-              market development and responsible growth across the United
+              industry development and responsible growth across the United
               Kingdom, Africa and its Turkish production connections.
             </p>
           </div>
 
           <p className="mt-7 max-w-3xl text-base leading-8 text-[#083b52]/70 md:text-lg">
             His role is to set clear priorities, support strong execution and
-            ensure the company continues to serve its markets with integrity.
+            ensure the company continues to serve its region with trust.
           </p>
         </div>
 
@@ -62,19 +62,18 @@ export function CEOProfile() {
 
             <blockquote className="mt-6 border-l-2 border-[#09b1ec] pl-6 font-display text-3xl leading-tight text-[#083b52] md:text-4xl">
               “Our ambition is to build a dependable company that creates
-              meaningful value in every market we serve.”
+              meaningful Impact in every marketplace we serve.”
             </blockquote>
 
             <p className="mt-8 text-lg leading-8 text-[#083b52]/75">
-              Our Turkish production partner is a farmer-led enterprise with
-              100% Turkish capital, led by a woman entrepreneur. Olives are
-              sourced from its own olive groves in Turkey&apos;s Aegean region.
+              Our Turkish Manufacturing Partner is a 100% Turkish-owned, farmer-led enterprise led by a woman entrepreneur, 
+              sourcing olives from its own groves in Turkey’s Aegean region.
             </p>
 
             <p className="mt-6 text-lg leading-8 text-[#083b52]/75">
               We are committed to responsible business practices and continuous
               improvement, creating opportunities that benefit the communities
-              and markets connected to our work.
+              and region connected to our work.
             </p>
 
             <div className="mt-10 border-t border-[#dff3fb] pt-6">

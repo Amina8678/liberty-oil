@@ -19,7 +19,7 @@ export function Locations() {
 
           <p className="mx-auto mt-4 max-w-2xl text-base leading-7 text-[#083b52]/70">
            Liberty Health Ltd operates across the United Kingdom, Ghana and South Africa,
-            connecting customers and partners with quality products and services."
+            connecting customers and partners with quality products and services.
           </p>
         </div>
 
