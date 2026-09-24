@@ -4,7 +4,6 @@ export function Quality() {
   return (
     <section id="quality" className="bg-limestone py-20 md:py-28">
       <div className="container-x">
-
         <div className="grid items-center gap-14 lg:grid-cols-2 lg:gap-20">
 
           {/* Content */}
@@ -37,7 +36,6 @@ export function Quality() {
 
                   <p className="mt-1 text-sm leading-6 text-muted">
                     We focus on high-quality as the starting point for exceptional oil.
-
                   </p>
                 </div>
               </div>
@@ -94,8 +92,10 @@ export function Quality() {
 
         </div>
 
-        {/* Dried Fruits & Nuts: Sourcing, Processing & Product integrity */}
+
+        {/* Dried Fruits & Nuts: Sourcing, Processing & Product Integrity */}
         <div className="mt-20 border-t border-[#083b52]/10 pt-16 md:mt-28 md:pt-20">
+
           <div className="max-w-2xl">
             <span className="section-label">
               Dried Fruits &amp; Nuts
@@ -112,41 +112,68 @@ export function Quality() {
             </p>
           </div>
 
-          <div className="mt-12 grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
-            <div className="rounded-[18px] border border-[#083b52]/10 bg-white p-7">
+
+          {/* LANDSCAPE IMAGE */}
+
+          <div className="relative mt-12 h-[450px] w-full overflow-hidden rounded-t-[18px]">
+            <Image
+              src="/images/sourcing.png"
+              alt="Responsible sourcing of dried fruits and nuts"
+              fill
+              className="object-cover"
+              sizes="100vw"
+            />
+          </div>
+
+
+          {/* FOUR CARDS - NO SPACE BETWEEN IMAGE AND CARDS */}
+
+          <div className="mt-0 grid gap-0 sm:grid-cols-2 lg:grid-cols-4">
+
+            {/* 01 - Responsible Sourcing */}
+            <div className="rounded-b-[18px] border border-[#083b52]/10 bg-white p-7">
               <p className="text-xs font-bold uppercase tracking-[0.15em] text-[#09b1ec]">
                 01
               </p>
+
               <h4 className="mt-4 font-display text-lg font-semibold text-[#071c27]">
                 Responsible Sourcing
               </h4>
+
               <p className="mt-3 text-sm leading-7 text-[#083b52]/65">
-               Products are sourced from trusted Turkish growers and processors committed to 
-               consistent standards and sustainable production.
+                Products are sourced from trusted Turkish growers and processors
+                committed to consistent standards and sustainable production.
               </p>
             </div>
 
-            <div className="rounded-[18px] border border-[#083b52]/10 bg-white p-7">
+
+            {/* 02 - Hygienic Processing */}
+            <div className="rounded-b-[18px] border border-[#083b52]/10 bg-white p-7">
               <p className="text-xs font-bold uppercase tracking-[0.15em] text-[#09b1ec]">
                 02
               </p>
+
               <h4 className="mt-4 font-display text-lg font-semibold text-[#071c27]">
                 Hygienic Processing
               </h4>
+
               <p className="mt-3 text-sm leading-7 text-[#083b52]/65">
-                Sorting, inspection and hygienic processing preserve
-                freshness, food safety and nutritional commitment at every
-                stage.
+                Sorting, inspection and hygienic processing preserve freshness,
+                food safety and nutritional quality at every stage.
               </p>
             </div>
 
-            <div className="rounded-[18px] border border-[#083b52]/10 bg-white p-7">
+
+            {/* 03 - Compliance & Traceability */}
+            <div className="rounded-b-[18px] border border-[#083b52]/10 bg-white p-7">
               <p className="text-xs font-bold uppercase tracking-[0.15em] text-[#09b1ec]">
                 03
               </p>
+
               <h4 className="mt-4 font-display text-lg font-semibold text-[#071c27]">
                 Compliance &amp; Traceability
               </h4>
+
               <p className="mt-3 text-sm leading-7 text-[#083b52]/65">
                 We work to HACCP principles and ISO 22000-aligned management
                 systems, with Halal-certified products where applicable and
@@ -154,22 +181,26 @@ export function Quality() {
               </p>
             </div>
 
-            <div className="rounded-[18px] border border-[#083b52]/10 bg-white p-7">
+
+            {/* 04 - Continuous Monitoring */}
+            <div className="rounded-b-[18px] border border-[#083b52]/10 bg-white p-7">
               <p className="text-xs font-bold uppercase tracking-[0.15em] text-[#09b1ec]">
                 04
               </p>
+
               <h4 className="mt-4 font-display text-lg font-semibold text-[#071c27]">
                 Continuous Monitoring
               </h4>
+
               <p className="mt-3 text-sm leading-7 text-[#083b52]/65">
-                Regular checks on appearance, moisture, cleanliness and
-                packaging accountability support consistent product standards and export
-                compliance.
+                Regular checks on appearance, moisture, cleanliness and packaging
+                support consistent product standards and export compliance.
               </p>
             </div>
-          </div>
-        </div>
 
+          </div>
+
+        </div>
       </div>
     </section>
   );

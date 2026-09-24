@@ -40,7 +40,7 @@ export function Locations() {
             </h3>
 
             <p className="mt-4 text-base leading-7 text-[#083b52]/75">
-              United Kingdom
+              101 Waddo Road, London, CR0 4JH, United Kingdom
               <br />
               Serving customers and partners
               <br />
@@ -50,8 +50,8 @@ export function Locations() {
             <div className="mt-auto pt-6">
               <div className="overflow-hidden rounded-2xl border border-[#083b52]/10 bg-white">
                 <iframe
-                  title="Liberty Health Ltd location in the United Kingdom"
-                  src="https://www.google.com/maps?q=United+Kingdom&output=embed"
+                  title="101 Waddo Road, London, CR0 4JH, United Kingdom"
+                  src="https://www.google.com/maps?q=101+Waddo+Road,+London,+CR0+4JH,+United+Kingdom&output=embed"
                   className="h-56 w-full border-0"
                   loading="lazy"
                   referrerPolicy="no-referrer-when-downgrade"
