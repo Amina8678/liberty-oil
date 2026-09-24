@@ -39,7 +39,7 @@ export function ProductPackaging() {
 
             <div className="relative h-[280px] w-full bg-[#eef9fd]">
               <Image
-                src="/images/lady-bottle.png"
+                src="/images/bottle-size.png"
                 alt="Consumer and bulk packaging formats"
                 fill
                 className="object-contain"

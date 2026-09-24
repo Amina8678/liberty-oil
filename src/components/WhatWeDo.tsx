@@ -1,3 +1,4 @@
+import Image from "next/image";
 export function WhatWeDo() {
   return (
     <section
@@ -22,7 +23,16 @@ export function WhatWeDo() {
 
         <div className="mt-16 grid gap-6 lg:grid-cols-2">
           <div className="rounded-[22px] bg-[#071c27] p-8 md:p-10">
-            <p className="text-xs font-bold uppercase tracking-[0.16em] !text-white">
+            <div className="relative h-[280px] w-full bg-[#eef9fd]">
+              <Image
+                            src="/images/lady-bottle.png"
+                            alt="Consumer and bulk packaging formats"
+                            fill
+                            className="object-contain"
+                            sizes="(max-width: 1024px) 100vw, 50vw"
+              />
+            </div>
+            <p className="text-xl font-bold uppercase tracking-[0.16em] !text-white">
               Consumer Demand
             </p>
 
@@ -40,7 +50,16 @@ export function WhatWeDo() {
           </div>
 
           <div className="rounded-[22px] bg-white p-8 md:p-10">
-            <p className="text-xs font-bold uppercase tracking-[0.16em] text-[#65c2f5]">
+            <div className="relative h-[280px] w-full bg-[#eef9fd]">
+              <Image
+                            src="/images/liberty-portfolio.png"
+                            alt="Consumer and bulk packaging formats"
+                            fill
+                            className="object-contain"
+                            sizes="(max-width: 1024px) 100vw, 50vw"
+              />
+            </div>
+            <p className="text-xl font-bold uppercase tracking-[0.16em] text-[#65c2f5]">
               Liberty Health Offer
             </p>
 
