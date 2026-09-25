@@ -111,7 +111,7 @@ export function Footer() {
 
             <div className="mt-5 space-y-3 text-sm text-white/60">
               <a
-                href="tel:+447837867759"
+                href="mailto:info@eventolives.com"
                 className="block transition-colors hover:text-[#65c2f5]"
               >
                 info@eventolives.com
