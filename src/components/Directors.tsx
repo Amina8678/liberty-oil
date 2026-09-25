@@ -14,7 +14,7 @@ const managers = [
     image: "/images/CEO.PNG",
     phone: "+44 7837 867759",
     whatsapp: "447837867759",
-    address: " 101 Waddo Road, London, CR0 4JH, United Kingdom",
+    address: " 101 Waddon Road, London, United Kingdom",
   },
   // Ghana Director
   {

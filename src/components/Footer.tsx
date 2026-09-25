@@ -114,6 +114,16 @@ export function Footer() {
                 href="tel:+447837867759"
                 className="block transition-colors hover:text-[#65c2f5]"
               >
+                info@eventolives.com
+              </a>
+
+            </div>
+
+            <div className="mt-5 space-y-3 text-sm text-white/60">
+              <a
+                href="tel:+447837867759"
+                className="block transition-colors hover:text-[#65c2f5]"
+              >
                 +44 7837 867759
               </a>
 
