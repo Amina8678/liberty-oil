@@ -33,7 +33,7 @@ export function Footer() {
             </p>
 
             <a
-              href="#contact"
+              href="mailto:info@eventolives.com"
               className="mt-7 inline-flex border border-[#65c2f5] px-6 py-3 text-sm font-semibold text-white transition-colors hover:bg-[#09b1ec] hover:border-[#09b1ec]"
             >
               Contact Us
@@ -41,11 +41,11 @@ export function Footer() {
 
           </div>
 
-          {/* COMPANY LINKS */}
-          <div className="md:col-span-2 md:col-start-7">
+          {/* SITE NAVIGATION */}
+          <nav aria-label="Footer navigation" className="md:col-span-2 md:col-start-7">
 
             <p className="text-xs font-semibold uppercase tracking-[0.16em] text-white/40">
-              Company
+              Explore
             </p>
 
             <div className="mt-5 flex flex-col gap-3 text-sm text-white/60">
@@ -58,49 +58,41 @@ export function Footer() {
               </a>
 
               <a
-                href="#sustainability"
+                href="#what-we-do"
                 className="transition-colors hover:text-[#65c2f5]"
               >
+                What We Do
+              </a>
+
+              <a href="#process" className="transition-colors hover:text-[#65c2f5]">
+                Grove to Bottle
+              </a>
+
+              <a href="#sustainability" className="transition-colors hover:text-[#65c2f5]">
                 Sustainability
               </a>
 
             </div>
 
-          </div>
+          </nav>
 
-          {/* PORTFOLIO */}
-          <div className="md:col-span-2">
+          {/* MORE SECTIONS */}
+          <nav aria-label="More site sections" className="md:col-span-2">
 
             <p className="text-xs font-semibold uppercase tracking-[0.16em] text-white/40">
-              Portfolio
+              Discover
             </p>
 
             <div className="mt-5 flex flex-col gap-3 text-sm text-white/60">
 
-              <a
-                href="#products"
-                className="transition-colors hover:text-[#65c2f5]"
-              >
-                Event
-              </a>
-
-              <a
-                href="#products"
-                className="transition-colors hover:text-[#65c2f5]"
-              >
-                Olive Oil
-              </a>
-
-              <a
-                href="#products"
-                className="transition-colors hover:text-[#65c2f5]"
-              >
-                Mediterranean Foods
-              </a>
+              <a href="#products" className="transition-colors hover:text-[#65c2f5]">Products</a>
+              <a href="#quality" className="transition-colors hover:text-[#65c2f5]">Quality</a>
+              <a href="#packaging" className="transition-colors hover:text-[#65c2f5]">Packaging</a>
+              <a href="#locations" className="transition-colors hover:text-[#65c2f5]">Locations</a>
 
             </div>
 
-          </div>
+          </nav>
 
           {/* CONTACT */}
           <div className="md:col-span-3">
